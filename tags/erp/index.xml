@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>erp on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/erp/</link>
+    <link>http://tsky.cc/tags/erp/</link>
     <description>Recent content in erp on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 19 Mar 2012 09:32:31 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/erp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/erp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用友PDM与ERP对接时物料命名规则注意点</title>
-      <link>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</link>
+      <link>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</link>
       <pubDate>Mon, 19 Mar 2012 09:32:31 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</guid>
+      <guid>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</guid>
       <description>用友PDM系统相对于ERP来说，其强大的物料信息还是很好用的，尤其是其附加属性的个数是没有上线的，相比用友的20左右的自定义项来说强大多了。</description>
     </item>
     
     <item>
       <title>用友U890、金蝶K3打印凭证格式设置</title>
-      <link>http://fightx.github.io/post/uf-u890-kingdee-k3-print-certificate-format.html</link>
+      <link>http://tsky.cc/post/uf-u890-kingdee-k3-print-certificate-format.html</link>
       <pubDate>Fri, 23 Sep 2011 12:16:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/uf-u890-kingdee-k3-print-certificate-format.html</guid>
+      <guid>http://tsky.cc/post/uf-u890-kingdee-k3-print-certificate-format.html</guid>
       <description>公司财务一直都是用金蝶K3的财务模块，最近公司全面启用了用友ERPU890，财务的金蝶K3也正在朝用友U890过渡，于是接到要求：让用友现有</description>
     </item>
     
     <item>
       <title>化工行业用友ERPU890操作流程及详细的操作步骤</title>
-      <link>http://fightx.github.io/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</link>
+      <link>http://tsky.cc/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</link>
       <pubDate>Sat, 16 Apr 2011 02:10:01 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</guid>
+      <guid>http://tsky.cc/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</guid>
       <description>化工行业用友ERPU890操作流程及详细的操作步骤： &amp;nbsp; 模块 系统名称 系统步骤 工作任务 操作部门 操作员 测试结果 测试员 备注 基础设置 存货档案 增加、修改</description>
     </item>
     
     <item>
       <title>用友,ERP,数据库,数据库表名参照表</title>
-      <link>http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</link>
+      <link>http://tsky.cc/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</link>
       <pubDate>Wed, 30 Mar 2011 08:29:22 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</guid>
+      <guid>http://tsky.cc/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</guid>
       <description>1 Accessaries 成套件表 2 AccInformation 帐套参数表3 AdjustPVouch&amp;nbsp;4 AdjustPVouchs&amp;nbsp;5 Ap_AlarmSet 单位报警分类设置表6 Ap_BillAge 帐龄区间表7 Ap_Cancel 核销情况表8 Ap_CancelNo 生成自动序号9 Ap_CloseBill 收付款结算表10 Ap_CtrlCode 控制科目设置表11 Ap_Detail 应</description>
     </item>
     
     <item>
       <title>用友ERPu890基础数据录入技巧excel篇</title>
-      <link>http://fightx.github.io/post/erpu890-based-data-entry-skills-excel-articles.html</link>
+      <link>http://tsky.cc/post/erpu890-based-data-entry-skills-excel-articles.html</link>
       <pubDate>Fri, 25 Feb 2011 14:27:09 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/erpu890-based-data-entry-skills-excel-articles.html</guid>
+      <guid>http://tsky.cc/post/erpu890-based-data-entry-skills-excel-articles.html</guid>
       <description>我们在进行基础数据准备的时候，利用的用友公司提供的基础数据静态模板，然后再把静态数据模板里面的东西通过用友U8实施与维护工具，进行导入到用友</description>
     </item>
     
     <item>
       <title>用友客户端局域网超简单安装教程</title>
-      <link>http://fightx.github.io/post/erp-setup-lite.html</link>
+      <link>http://tsky.cc/post/erp-setup-lite.html</link>
       <pubDate>Tue, 11 Jan 2011 14:51:30 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/erp-setup-lite.html</guid>
+      <guid>http://tsky.cc/post/erp-setup-lite.html</guid>
       <description>上篇发表的用友ERP客户端局域网安装教程详解，感觉很复杂，有的细节说的不是很清楚，没有太多电脑操作经验的人看了都会有很多问题，于是重新整理改</description>
     </item>
     
     <item>
       <title>用友客户端局域网安装教程详解</title>
-      <link>http://fightx.github.io/post/erp-client-setup.html</link>
+      <link>http://tsky.cc/post/erp-client-setup.html</link>
       <pubDate>Mon, 10 Jan 2011 13:21:50 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/erp-client-setup.html</guid>
+      <guid>http://tsky.cc/post/erp-client-setup.html</guid>
       <description>Word中，很多路径已经做好超链接，直接Ctrl+鼠标左键，就可以快速打开，快速安装。 1.在地址栏中输入\ibmdb 回车，如图1 注意：安装软</description>
     </item>
     
     <item>
       <title>用友ERP U890&#43;SQL Server 2005安装全过程及注意事项</title>
-      <link>http://fightx.github.io/post/ufida-erp-u890-setup.html</link>
+      <link>http://tsky.cc/post/ufida-erp-u890-setup.html</link>
       <pubDate>Wed, 22 Dec 2010 13:49:35 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/ufida-erp-u890-setup.html</guid>
+      <guid>http://tsky.cc/post/ufida-erp-u890-setup.html</guid>
       <description>安装步骤很简单： 1.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;修改计算机名称，最好是英文和数字的组成，不含有&amp;</description>
     </item>
     

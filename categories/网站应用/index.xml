@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站应用 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</link>
+    <link>http://tsky.cc/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</link>
     <description>Recent content in 网站应用 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 08 Sep 2011 07:04:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>XiaoHan主题修改,符合SEO规则的HTML</title>
-      <link>http://fightx.github.io/post/change-xiaohan-theme-for-seo.html</link>
+      <link>http://tsky.cc/post/change-xiaohan-theme-for-seo.html</link>
       <pubDate>Thu, 08 Sep 2011 07:04:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/change-xiaohan-theme-for-seo.html</guid>
+      <guid>http://tsky.cc/post/change-xiaohan-theme-for-seo.html</guid>
       <description>最近在美化萧涵的主题时，无意中发现文章页面中的h1标签不符合SEO规则的HTML代码。 首先我们看下，什么是符合SEO规则的HTML代码，下面</description>
     </item>
     
     <item>
       <title>域名选择,域名注册,域名更换技巧</title>
-      <link>http://fightx.github.io/post/domain-name-was-officially-opened-tsky-cc.html</link>
+      <link>http://tsky.cc/post/domain-name-was-officially-opened-tsky-cc.html</link>
       <pubDate>Wed, 31 Aug 2011 15:45:30 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/domain-name-was-officially-opened-tsky-cc.html</guid>
+      <guid>http://tsky.cc/post/domain-name-was-officially-opened-tsky-cc.html</guid>
       <description>秦天seo之前为了省钱一直用韩国的免费域名tsky.co.cc，谁知免费的东西好景果然不长，一开始baidu和google都收录博文，谁知b</description>
     </item>
     
     <item>
       <title>Htaccess文件用法集锦</title>
-      <link>http://fightx.github.io/post/htaccess-files-usage-highlights.html</link>
+      <link>http://tsky.cc/post/htaccess-files-usage-highlights.html</link>
       <pubDate>Sun, 05 Dec 2010 05:30:50 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/htaccess-files-usage-highlights.html</guid>
+      <guid>http://tsky.cc/post/htaccess-files-usage-highlights.html</guid>
       <description>1.时区设置 有些时候，当你在PHP里使用date或mktime函数时，由于时区的不同，它会显示出一些很奇怪的信息。下面是解决这个问题的方法之</description>
     </item>
     
     <item>
       <title>14个可以节省你时间的CSS工具</title>
-      <link>http://fightx.github.io/post/14-can-save-you-time-css-tools.html</link>
+      <link>http://tsky.cc/post/14-can-save-you-time-css-tools.html</link>
       <pubDate>Thu, 25 Nov 2010 23:27:08 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/14-can-save-you-time-css-tools.html</guid>
+      <guid>http://tsky.cc/post/14-can-save-you-time-css-tools.html</guid>
       <description>作为一个网站设计/开发人员，你必须不断寻找方法来减少设计/开发过程中所花费的时间。这对于提高你的工作效率并最大化你的利润是非常重要的。下面介</description>
     </item>
     
     <item>
       <title>网站设计必备的10款CSS在线生成器</title>
-      <link>http://fightx.github.io/post/10-essential-web-design-online-css-generator.html</link>
+      <link>http://tsky.cc/post/10-essential-web-design-online-css-generator.html</link>
       <pubDate>Thu, 25 Nov 2010 23:15:52 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/10-essential-web-design-online-css-generator.html</guid>
+      <guid>http://tsky.cc/post/10-essential-web-design-online-css-generator.html</guid>
       <description>网站设计必备的10款CSS在线生成器 以下推荐的10款CSS在线生成器，可以帮助你简单快速地生成基于CSS的网页元素。 1、CSS Button and Text Field Gen</description>
     </item>
     

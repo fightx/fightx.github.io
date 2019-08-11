@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HP1020 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/hp1020/</link>
+    <link>http://tsky.cc/tags/hp1020/</link>
     <description>Recent content in HP1020 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 20 Oct 2011 12:52:10 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/hp1020/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/hp1020/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HP1020plus网络打印机WIN7下不能打印解决方法</title>
-      <link>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</link>
+      <link>http://tsky.cc/post/win7-hp1020plus-can-not-print.html</link>
       <pubDate>Thu, 20 Oct 2011 12:52:10 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</guid>
+      <guid>http://tsky.cc/post/win7-hp1020plus-can-not-print.html</guid>
       <description>今天秦天SEO在使用HP LaserJet 1020 Plus进行网络打印时，打印机没有任何反应，连任何错误提示都没有。检查打印线连接没有问题，重启了网络打印机问题依</description>
     </item>
     

@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tsky`s Blog on Tsky`s Blog</title>
-    <link>http://fightx.github.io/</link>
+    <link>http://tsky.cc/</link>
     <description>Recent content in Tsky`s Blog on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://fightx.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tsky.cc/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://fightx.github.io/privacy-policy/</link>
+      <link>http://tsky.cc/privacy-policy/</link>
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/privacy-policy/</guid>
+      <guid>http://tsky.cc/privacy-policy/</guid>
       <description>
 
 &lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;
@@ -149,7 +149,7 @@
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;� 2011 - 2018 &lt;a href=&#34;https://liuzhichao.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;???&lt;/a&gt; | &lt;a href=&#34;http://www.miibeian.gov.cn/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;?ICP?17163442?&lt;/a&gt; | &lt;a href=&#34;http://fightx.github.io/privacy/&#34;&gt;Privacy&lt;/a&gt; | Powered by &lt;a href=&#34;https://gohugo.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/liuzc/leaveit&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;LeaveIt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;� 2011 - 2018 &lt;a href=&#34;https://liuzhichao.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;???&lt;/a&gt; | &lt;a href=&#34;http://www.miibeian.gov.cn/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;?ICP?17163442?&lt;/a&gt; | &lt;a href=&#34;http://tsky.cc/privacy/&#34;&gt;Privacy&lt;/a&gt; | Powered by &lt;a href=&#34;https://gohugo.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/liuzc/leaveit&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;LeaveIt&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga(&amp;lsquo;create&amp;rsquo;,&amp;lsquo;UA-19053680-8&amp;rsquo;,&amp;lsquo;auto&amp;rsquo;);ga(&amp;lsquo;send&amp;rsquo;,&amp;lsquo;pageview&amp;rsquo;);}var _hmt=_hmt||[];(function(){var hm=document.createElement(&amp;ldquo;script&amp;rdquo;);hm.src=&amp;ldquo;&lt;a href=&#34;https://hm.baidu.com/hm.js?5f147509e3027eb452cd0b2cfcf952b5&amp;quot;;var&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://hm.baidu.com/hm.js?5f147509e3027eb452cd0b2cfcf952b5&amp;quot;;var&lt;/a&gt; s=document.getElementsByTagName(&amp;ldquo;script&amp;rdquo;)[0];s.parentNode.insertBefore(hm,s);})();## ??&lt;/p&gt;
 
@@ -163,10 +163,10 @@
     
     <item>
       <title>About</title>
-      <link>http://fightx.github.io/about/</link>
+      <link>http://tsky.cc/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/about/</guid>
+      <guid>http://tsky.cc/about/</guid>
       <description>
 
 &lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;
@@ -188,10 +188,10 @@
     
     <item>
       <title>金蝶随手记，多平台专业记账软件</title>
-      <link>http://fightx.github.io/post/from-accounting-software-to-understand-the-financial.html</link>
+      <link>http://tsky.cc/post/from-accounting-software-to-understand-the-financial.html</link>
       <pubDate>Mon, 14 Jan 2013 03:32:35 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/from-accounting-software-to-understand-the-financial.html</guid>
+      <guid>http://tsky.cc/post/from-accounting-software-to-understand-the-financial.html</guid>
       <description>
 
 &lt;p&gt;由于自己职业的原因，对财务还是比较敢兴趣，找到一个支持权责发生制的好的记账软件，是自己明确迫切的需求。安卓市场、豌豆夹搜索了一下，试用了几个软件后，最终选择了今天的主角“随手记”。为什么说随手记可以满足自己的需求，看了这篇文章后，我相信很多有记账习惯的朋友也会喜欢上他。&lt;/p&gt;
@@ -272,10 +272,10 @@
     
     <item>
       <title>VMware服务启用和停止批处理</title>
-      <link>http://fightx.github.io/post/vmware-services-bat-disabled-and-stop.html</link>
+      <link>http://tsky.cc/post/vmware-services-bat-disabled-and-stop.html</link>
       <pubDate>Thu, 14 Jun 2012 06:15:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/vmware-services-bat-disabled-and-stop.html</guid>
+      <guid>http://tsky.cc/post/vmware-services-bat-disabled-and-stop.html</guid>
       <description>
 
 &lt;p&gt;最近秦天SEO一直忙着工作，同时一些心得都是记录在有道云笔记里面，所以一段时间都没有更新博客。今天抽空写些东西，算做分享吧。最近更新了虚拟机到最近的安装版VMware8.03（之前一直用的是绿色版），由于服务开机启动，导致开机速度变慢，占用了系统很多资源。对于ERP服务启动占用资源情况，秦天SEO之前也做过类似的批处理，参考并整理了VMware的服务启动与停止命令。&lt;/p&gt;
@@ -346,10 +346,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>用友PDM与ERP对接时物料命名规则注意点</title>
-      <link>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</link>
+      <link>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</link>
       <pubDate>Mon, 19 Mar 2012 09:32:31 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</guid>
+      <guid>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</guid>
       <description>
 
 &lt;p&gt;用友PDM系统相对于ERP来说，其强大的物料信息还是很好用的，尤其是其附加属性的个数是没有上线的，相比用友的20左右的自定义项来说强大多了。可是如果要考虑到二者的对接，势必要权衡一下。那么如何科学的对物料进行命名呢？&lt;/p&gt;
@@ -384,10 +384,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>用友PDM关于java多版本共存的解决方法</title>
-      <link>http://fightx.github.io/post/uf-pdm-solution-on-java-multi-version-co-exist.html</link>
+      <link>http://tsky.cc/post/uf-pdm-solution-on-java-multi-version-co-exist.html</link>
       <pubDate>Fri, 16 Mar 2012 09:33:44 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/uf-pdm-solution-on-java-multi-version-co-exist.html</guid>
+      <guid>http://tsky.cc/post/uf-pdm-solution-on-java-multi-version-co-exist.html</guid>
       <description>
 
 &lt;p&gt;用友pdm是在java5.0的环境下开发了，所以在高版本的环境下（如java6.0）是无法运行的。而很多电子行业，使用的新版本设计软件、开发软件自带java6.0，所以导致存在java5.0的同时存在java6.0，而用友pdm对java多版本共存很敏感，以至于客户端无法调用java5.0来启动pdm。&lt;/p&gt;
@@ -430,10 +430,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>Windows8快捷键汇总</title>
-      <link>http://fightx.github.io/post/windows-8-winkey.html</link>
+      <link>http://tsky.cc/post/windows-8-winkey.html</link>
       <pubDate>Sat, 03 Mar 2012 11:11:28 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/windows-8-winkey.html</guid>
+      <guid>http://tsky.cc/post/windows-8-winkey.html</guid>
       <description>
 
 &lt;p&gt;Windows 8消费者预览版出来很久了，秦天SEO一直到周末才有空把它安装上，安装win8方法和安装win7几乎一样，用的是PE里面的win$man安装工具，实现了win7和win8双系统共存。网上也有其他相关教程，关于安装双系统的问题，这里就不多说了，有问题欢迎留言探讨。下面是在cnbeta上面看到了Windows 8消费者预览版Winkey快捷键汇总，和我之前看到的相比比较全面，这里就留存备忘吧！&lt;/p&gt;
@@ -564,10 +564,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>百度文库文档免费下载几法</title>
-      <link>http://fightx.github.io/post/baidu-wenku-free-download.html</link>
+      <link>http://tsky.cc/post/baidu-wenku-free-download.html</link>
       <pubDate>Sun, 19 Feb 2012 14:04:45 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/baidu-wenku-free-download.html</guid>
+      <guid>http://tsky.cc/post/baidu-wenku-free-download.html</guid>
       <description>
 
 &lt;p&gt;百度文库还是很强大的，里面众多的资源可以共享给网友查看学习，对于伪原创也是很有帮助的，可每当秦天SEO想下载下来学习使用的时候才发现自己的财富值不够，不能下载。所谓上有政策，下有对策！秦天SEO给大家支几招！&lt;/p&gt;
@@ -596,10 +596,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>网络打印机无法打印提示已达到计算机连接数最大值</title>
-      <link>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</link>
+      <link>http://tsky.cc/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</link>
       <pubDate>Thu, 12 Jan 2012 11:13:08 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</guid>
+      <guid>http://tsky.cc/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</guid>
       <description>
 
 &lt;p&gt;上篇秦天SEO介绍了，由于网络访问需要密码，而导致的网络打印机无法打印的问题。今天秦天SEO再给大家带来一种会导致网络打印机无法打印的问题：&lt;strong&gt;“无法打印提示已达到计算机连接数最大值”&lt;/strong&gt;&lt;/p&gt;
@@ -662,10 +662,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>网络访问需要密码导致网络打印机无法打印</title>
-      <link>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</link>
+      <link>http://tsky.cc/post/network-printer-can-not-print-for-require-password.html</link>
       <pubDate>Mon, 09 Jan 2012 09:35:41 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</guid>
+      <guid>http://tsky.cc/post/network-printer-can-not-print-for-require-password.html</guid>
       <description>
 
 &lt;p&gt;新年刚到，最近秦天SEO比较忙，前几天忙着ERP年结和年会的事宜。今天就抽空更新下博客，这次遇到的也是网络打印机无法打印的问题，问题应该说比较特殊，也有一些共同点。下面就直接进入主题：&lt;/p&gt;
@@ -702,10 +702,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>win7升级谷歌浏览器后出现0xc00000a5的解决方法</title>
-      <link>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</link>
+      <link>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</link>
       <pubDate>Wed, 14 Dec 2011 07:05:01 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</guid>
+      <guid>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</guid>
       <description>
 
 &lt;p&gt;今天秦天SEO打开谷歌浏览器（GOOGLE CHROME），提示有最新的稳定版Stable16.0.912.63下载，于是就更新了浏览器，等更新完成打开谷歌浏览器,结果提示google chrome 已停止工作，于是想到是win7兼容性的问题，将兼容性设置为xp sp3，结果问题依旧，彻底删除原有文件后，可以打开浏览器，却出现了应用程序无法正常启动0xc00000a5的错误。如下图所示：&lt;/p&gt;
@@ -742,10 +742,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>企业局域网如何设置共享文件夹:进阶篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan-3.html</link>
       <pubDate>Thu, 08 Dec 2011 01:59:42 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan-3.html</guid>
       <description>
 
 &lt;p&gt;一口气发布了&lt;a href=&#34;http://tsky.cc/post/shared-folder-for-enterprise-lan.html&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;企业局域网如何设置共享文件夹&lt;/a&gt;、&lt;a href=&#34;http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;企业局域网如何设置共享文件夹:访问篇&lt;/a&gt;，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶篇吧，涉及到共享权限、NTFS权限、磁盘配额等专业知识，最后也以图文形式给大家展示了常见共享问题的处理方法。写完这篇，接下来会给大家带来企业局域网如何共享打印机，尽请期待。&lt;/p&gt;
@@ -907,10 +907,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>企业局域网如何设置共享文件夹:访问管理篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html</link>
       <pubDate>Thu, 08 Dec 2011 01:20:59 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html</guid>
       <description>
 
 &lt;p&gt;上篇&lt;a href=&#34;http://tsky.cc/post/shared-folder-for-enterprise-lan.html&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;企业局域网如何设置共享文件夹&lt;/a&gt;里面讲解了设置共享文件夹的几种方法,这次秦天SEO接着上篇，这次给大家带来访问共享资源的几种方法，如何管理共享。&lt;/p&gt;
@@ -1005,10 +1005,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>企业局域网如何设置共享文件夹:设置篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan.html</link>
       <pubDate>Wed, 07 Dec 2011 09:12:27 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan.html</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;企业共享文件夹和共享网络打印机案例：&lt;/strong&gt;一中小企业办公区域有22台办公计算机，由于企业需求提高办公效率，要求能在自己的办公局域网内共享文件、共享打印机和传真。&lt;/p&gt;
@@ -1187,10 +1187,10 @@ pause&lt;/pre&gt;
     
     <item>
       <title>最近会发几篇文件共享和打印机共享的文章</title>
-      <link>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</link>
+      <link>http://tsky.cc/post/file-sharing-and-printer-sharing-articles.html</link>
       <pubDate>Tue, 06 Dec 2011 14:45:28 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</guid>
+      <guid>http://tsky.cc/post/file-sharing-and-printer-sharing-articles.html</guid>
       <description>
 
 &lt;p&gt;最近有点忙，抽空把自己的一些资料整理了下，发现在大学时候写了一些文章（值得怀念啊），有几篇还是不错（^_^自我满足）。其中有一长篇通过一小型企业案例详细讲解了网络共享的一些基本知识，局域网共享文件夹的小技巧，如何设置网络共享，访问网络共享的几种方法，及访问网络共享常见问题及注意事项。&lt;/p&gt;

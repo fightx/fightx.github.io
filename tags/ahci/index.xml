@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AHCI on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/ahci/</link>
+    <link>http://tsky.cc/tags/ahci/</link>
     <description>Recent content in AHCI on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 18 Oct 2011 11:14:41 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/ahci/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/ahci/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ghost win7开启硬盘AHCI模式方法</title>
-      <link>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</link>
+      <link>http://tsky.cc/post/ghost-win7-open-disk-ahci-method.html</link>
       <pubDate>Tue, 18 Oct 2011 11:14:41 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</guid>
+      <guid>http://tsky.cc/post/ghost-win7-open-disk-ahci-method.html</guid>
       <description>关于win7下如何开启硬盘AHCI，网上教程很多，有Intel主板如何开启硬盘AHCI方法，也有AMD主板如何开启硬盘AHCI方法，这些方法</description>
     </item>
     

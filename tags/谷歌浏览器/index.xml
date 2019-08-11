@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>谷歌浏览器 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+    <link>http://tsky.cc/tags/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
     <description>Recent content in 谷歌浏览器 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 14 Dec 2011 07:05:01 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>win7升级谷歌浏览器后出现0xc00000a5的解决方法</title>
-      <link>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</link>
+      <link>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</link>
       <pubDate>Wed, 14 Dec 2011 07:05:01 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</guid>
+      <guid>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</guid>
       <description>今天秦天SEO打开谷歌浏览器（GOOGLE CHROME），提示有最新的稳定版Stable16.0.912.63下载，于是就更新了浏览器，等更</description>
     </item>
     

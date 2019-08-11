@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>安全删除硬件 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E7%A1%AC%E4%BB%B6/</link>
+    <link>http://tsky.cc/tags/%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E7%A1%AC%E4%BB%B6/</link>
     <description>Recent content in 安全删除硬件 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 16 Oct 2011 13:39:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>安全删除硬件图标里面无法显示U盘设备</title>
-      <link>http://fightx.github.io/post/safely-remove-hardware-no-upan.html</link>
+      <link>http://tsky.cc/post/safely-remove-hardware-no-upan.html</link>
       <pubDate>Sun, 16 Oct 2011 13:39:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/safely-remove-hardware-no-upan.html</guid>
+      <guid>http://tsky.cc/post/safely-remove-hardware-no-upan.html</guid>
       <description>安全删除硬件图标，可以很方便的删除usb设备，可是秦天SEO最近发现，右下角绿色的安全删除硬件图标里面无法显示插入到电脑里面的U盘，但是其他</description>
     </item>
     

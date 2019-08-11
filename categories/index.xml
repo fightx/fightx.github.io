@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tsky`s Blog</title>
-    <link>http://fightx.github.io/categories/</link>
+    <link>http://tsky.cc/categories/</link>
     <description>Recent content in Categories on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 14 Jan 2013 03:32:35 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>佳软推荐</title>
-      <link>http://fightx.github.io/categories/%E4%BD%B3%E8%BD%AF%E6%8E%A8%E8%8D%90/</link>
+      <link>http://tsky.cc/categories/%E4%BD%B3%E8%BD%AF%E6%8E%A8%E8%8D%90/</link>
       <pubDate>Mon, 14 Jan 2013 03:32:35 +0000</pubDate>
       
-      <guid>http://fightx.github.io/categories/%E4%BD%B3%E8%BD%AF%E6%8E%A8%E8%8D%90/</guid>
+      <guid>http://tsky.cc/categories/%E4%BD%B3%E8%BD%AF%E6%8E%A8%E8%8D%90/</guid>
       <description></description>
     </item>
     
     <item>
       <title>操作系统</title>
-      <link>http://fightx.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <link>http://tsky.cc/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Thu, 14 Jun 2012 06:15:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>http://tsky.cc/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络维护</title>
-      <link>http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</link>
+      <link>http://tsky.cc/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</link>
       <pubDate>Mon, 19 Mar 2012 09:32:31 +0000</pubDate>
       
-      <guid>http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</guid>
+      <guid>http://tsky.cc/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索引擎</title>
-      <link>http://fightx.github.io/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</link>
+      <link>http://tsky.cc/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</link>
       <pubDate>Sun, 19 Feb 2012 14:04:45 +0000</pubDate>
       
-      <guid>http://fightx.github.io/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</guid>
+      <guid>http://tsky.cc/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站应用</title>
-      <link>http://fightx.github.io/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</link>
+      <link>http://tsky.cc/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</link>
       <pubDate>Thu, 08 Sep 2011 07:04:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</guid>
+      <guid>http://tsky.cc/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PR on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/pr/</link>
+    <link>http://tsky.cc/tags/pr/</link>
     <description>Recent content in PR on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 08 Nov 2011 06:25:44 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/pr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/pr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>纪念秦天SEO博客PR=3</title>
-      <link>http://fightx.github.io/post/tskycc-blog-pr-3.html</link>
+      <link>http://tsky.cc/post/tskycc-blog-pr-3.html</link>
       <pubDate>Tue, 08 Nov 2011 06:25:44 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/tskycc-blog-pr-3.html</guid>
+      <guid>http://tsky.cc/post/tskycc-blog-pr-3.html</guid>
       <description>秦天SEO最近一直忙于优化博客主题，从zww和willin大师那边学到了很多东西。发现willin大师的博客：kan.willin.org最</description>
     </item>
     

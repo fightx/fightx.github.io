@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网络维护 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</link>
+    <link>http://tsky.cc/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/</link>
     <description>Recent content in 网络维护 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 19 Mar 2012 09:32:31 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用友PDM与ERP对接时物料命名规则注意点</title>
-      <link>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</link>
+      <link>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</link>
       <pubDate>Mon, 19 Mar 2012 09:32:31 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/about-ufida-pdm-erp-materials-naming.html</guid>
+      <guid>http://tsky.cc/post/about-ufida-pdm-erp-materials-naming.html</guid>
       <description>用友PDM系统相对于ERP来说，其强大的物料信息还是很好用的，尤其是其附加属性的个数是没有上线的，相比用友的20左右的自定义项来说强大多了。</description>
     </item>
     
     <item>
       <title>用友PDM关于java多版本共存的解决方法</title>
-      <link>http://fightx.github.io/post/uf-pdm-solution-on-java-multi-version-co-exist.html</link>
+      <link>http://tsky.cc/post/uf-pdm-solution-on-java-multi-version-co-exist.html</link>
       <pubDate>Fri, 16 Mar 2012 09:33:44 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/uf-pdm-solution-on-java-multi-version-co-exist.html</guid>
+      <guid>http://tsky.cc/post/uf-pdm-solution-on-java-multi-version-co-exist.html</guid>
       <description>用友pdm是在java5.0的环境下开发了，所以在高版本的环境下（如java6.0）是无法运行的。而很多电子行业，使用的新版本设计软件、开发</description>
     </item>
     
     <item>
       <title>网络打印机无法打印提示已达到计算机连接数最大值</title>
-      <link>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</link>
+      <link>http://tsky.cc/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</link>
       <pubDate>Thu, 12 Jan 2012 11:13:08 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</guid>
+      <guid>http://tsky.cc/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</guid>
       <description>上篇秦天SEO介绍了，由于网络访问需要密码，而导致的网络打印机无法打印的问题。今天秦天SEO再给大家带来一种会导致网络打印机无法打印的问题：</description>
     </item>
     
     <item>
       <title>网络访问需要密码导致网络打印机无法打印</title>
-      <link>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</link>
+      <link>http://tsky.cc/post/network-printer-can-not-print-for-require-password.html</link>
       <pubDate>Mon, 09 Jan 2012 09:35:41 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</guid>
+      <guid>http://tsky.cc/post/network-printer-can-not-print-for-require-password.html</guid>
       <description>新年刚到，最近秦天SEO比较忙，前几天忙着ERP年结和年会的事宜。今天就抽空更新下博客，这次遇到的也是网络打印机无法打印的问题，问题应该说比</description>
     </item>
     
     <item>
       <title>win7升级谷歌浏览器后出现0xc00000a5的解决方法</title>
-      <link>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</link>
+      <link>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</link>
       <pubDate>Wed, 14 Dec 2011 07:05:01 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</guid>
+      <guid>http://tsky.cc/post/win7-google-chrome-0xc00000a5.html</guid>
       <description>今天秦天SEO打开谷歌浏览器（GOOGLE CHROME），提示有最新的稳定版Stable16.0.912.63下载，于是就更新了浏览器，等更</description>
     </item>
     
     <item>
       <title>企业局域网如何设置共享文件夹:进阶篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan-3.html</link>
       <pubDate>Thu, 08 Dec 2011 01:59:42 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan-3.html</guid>
       <description>一口气发布了企业局域网如何设置共享文件夹、企业局域网如何设置共享文件夹:访问篇，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶</description>
     </item>
     
     <item>
       <title>企业局域网如何设置共享文件夹:访问管理篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html</link>
       <pubDate>Thu, 08 Dec 2011 01:20:59 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html</guid>
       <description>上篇企业局域网如何设置共享文件夹里面讲解了设置共享文件夹的几种方法,这次秦天SEO接着上篇，这次给大家带来访问共享资源的几种方法，如何管理共</description>
     </item>
     
     <item>
       <title>企业局域网如何设置共享文件夹:设置篇</title>
-      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</link>
+      <link>http://tsky.cc/post/shared-folder-for-enterprise-lan.html</link>
       <pubDate>Wed, 07 Dec 2011 09:12:27 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</guid>
+      <guid>http://tsky.cc/post/shared-folder-for-enterprise-lan.html</guid>
       <description>企业共享文件夹和共享网络打印机案例：一中小企业办公区域有22台办公计算机，由于企业需求提高办公效率，要求能在自己的办公局域网内共享文件、共享</description>
     </item>
     
     <item>
       <title>最近会发几篇文件共享和打印机共享的文章</title>
-      <link>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</link>
+      <link>http://tsky.cc/post/file-sharing-and-printer-sharing-articles.html</link>
       <pubDate>Tue, 06 Dec 2011 14:45:28 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</guid>
+      <guid>http://tsky.cc/post/file-sharing-and-printer-sharing-articles.html</guid>
       <description>最近有点忙，抽空把自己的一些资料整理了下，发现在大学时候写了一些文章（值得怀念啊），有几篇还是不错（^_^自我满足）。其中有一长篇通过一小型</description>
     </item>
     
     <item>
       <title>Workstation服务无法启动错误代码2250导致的网络打印机无法打印</title>
-      <link>http://fightx.github.io/post/error-code-2250-unable-to-open-workstation-service.html</link>
+      <link>http://tsky.cc/post/error-code-2250-unable-to-open-workstation-service.html</link>
       <pubDate>Fri, 02 Dec 2011 08:15:14 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/error-code-2250-unable-to-open-workstation-service.html</guid>
+      <guid>http://tsky.cc/post/error-code-2250-unable-to-open-workstation-service.html</guid>
       <description>今天秦天SEO又遇到一件关于网络打印机无法打印的case，按照网络共享问题知识大全里面的方法尝试后，还是没有解决问题，最终发现是Workst</description>
     </item>
     
     <item>
       <title>Win7驱动兼容问题导致网络打印机无法打印</title>
-      <link>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</link>
+      <link>http://tsky.cc/post/network-printer-not-print-for-win7-driver-compatibility.html</link>
       <pubDate>Wed, 30 Nov 2011 15:03:22 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</guid>
+      <guid>http://tsky.cc/post/network-printer-not-print-for-win7-driver-compatibility.html</guid>
       <description>关于网络打印机无法打印的问题，秦天SEO已经介绍了几篇，其中有权限问题、主机名解析问题、打印服务问题、ip地址冲突问题，这些问题隐藏性比较强</description>
     </item>
     
     <item>
       <title>周末换新电脑了，顺便推荐下3000元组装电脑配置单</title>
-      <link>http://fightx.github.io/post/diy-new-pc-for-3000.html</link>
+      <link>http://tsky.cc/post/diy-new-pc-for-3000.html</link>
       <pubDate>Mon, 21 Nov 2011 08:52:39 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/diy-new-pc-for-3000.html</guid>
+      <guid>http://tsky.cc/post/diy-new-pc-for-3000.html</guid>
       <description>哈哈，这个周末秦天SEO把自己珍藏版的I5-2300盒装的CPU给换了，用换下来的钱组装了一台2000多的主机,回家安装好win7后，开机神</description>
     </item>
     
     <item>
       <title>Xampp缺少Zend Optimizer(Zend Guard Loader)解决方法</title>
-      <link>http://fightx.github.io/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</link>
+      <link>http://tsky.cc/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</link>
       <pubDate>Wed, 16 Nov 2011 12:41:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</guid>
+      <guid>http://tsky.cc/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</guid>
       <description>最近秦天SEO准备搞个类似远程监控的视频服务器，以便于出差在外，随时查看视频服务器上面拍摄的视频。在尝试了几个视频点播系统后，好不容易找到一</description>
     </item>
     
     <item>
       <title>Win7网络共享设置及登录失败：禁用当前用户解决方法</title>
-      <link>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</link>
+      <link>http://tsky.cc/post/win7-network-share-disable-user-logon.html</link>
       <pubDate>Thu, 10 Nov 2011 12:37:11 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</guid>
+      <guid>http://tsky.cc/post/win7-network-share-disable-user-logon.html</guid>
       <description>今天秦天SEO发现一台安装Win7的电脑，无法查找和添加网络打印机，手动输入打印机服务器的主机名和IP地址，提示登录失败：禁用当前的用户。而</description>
     </item>
     
     <item>
       <title>D-link的DIR-615路由器经常掉线解决方法合集</title>
-      <link>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</link>
+      <link>http://tsky.cc/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</link>
       <pubDate>Tue, 01 Nov 2011 01:10:59 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</guid>
+      <guid>http://tsky.cc/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</guid>
       <description>D-link的DIR-615路由器性价比比较高的，而且一直以来都比较看好dlink，没想到这次买的D-link的DIR-615总是无故的掉线</description>
     </item>
     
     <item>
       <title>电脑开机卡在BIOS界面解决方法合集</title>
-      <link>http://fightx.github.io/post/pc-boot-at-the-bios.html</link>
+      <link>http://tsky.cc/post/pc-boot-at-the-bios.html</link>
       <pubDate>Fri, 28 Oct 2011 11:04:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/pc-boot-at-the-bios.html</guid>
+      <guid>http://tsky.cc/post/pc-boot-at-the-bios.html</guid>
       <description>今天秦天SEO又遇到一台戴尔笔记本电脑，开机启动的时卡在BIOS界面的Case，经检测发现导致开机无法启动卡在BIOS界面，是由于主板电池没</description>
     </item>
     
     <item>
       <title>HP1522MFP网络打印机无法打印解决方法</title>
-      <link>http://fightx.github.io/post/hp1522mfp-shared-printer-can-not-print-solutions.html</link>
+      <link>http://tsky.cc/post/hp1522mfp-shared-printer-can-not-print-solutions.html</link>
       <pubDate>Mon, 24 Oct 2011 03:36:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/hp1522mfp-shared-printer-can-not-print-solutions.html</guid>
+      <guid>http://tsky.cc/post/hp1522mfp-shared-printer-can-not-print-solutions.html</guid>
       <description>秦天SEO写了几篇关于打印机无法打印的问题，HP3020网络打印机无法打印解决方法、HP1020plus网络打印机WIN7下无法打印解决方法</description>
     </item>
     
     <item>
       <title>打印机硒鼓组成及作用&amp;常见打印问题汇总（图文教程）</title>
-      <link>http://fightx.github.io/post/opc-function-printing-problems.html</link>
+      <link>http://tsky.cc/post/opc-function-printing-problems.html</link>
       <pubDate>Fri, 21 Oct 2011 08:45:10 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/opc-function-printing-problems.html</guid>
+      <guid>http://tsky.cc/post/opc-function-printing-problems.html</guid>
       <description>如今打印机的硒鼓主要分为两种：一种是鼓粉分离式，另一种一种是鼓粉一体式。而惠普打印机的硒鼓，大都是采用用鼓粉一体式的结构，例如Q2612A硒</description>
     </item>
     
     <item>
       <title>HP1020plus网络打印机WIN7下不能打印解决方法</title>
-      <link>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</link>
+      <link>http://tsky.cc/post/win7-hp1020plus-can-not-print.html</link>
       <pubDate>Thu, 20 Oct 2011 12:52:10 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</guid>
+      <guid>http://tsky.cc/post/win7-hp1020plus-can-not-print.html</guid>
       <description>今天秦天SEO在使用HP LaserJet 1020 Plus进行网络打印时，打印机没有任何反应，连任何错误提示都没有。检查打印线连接没有问题，重启了网络打印机问题依</description>
     </item>
     
     <item>
       <title>HP3020网络打印机不能打印解决方法</title>
-      <link>http://fightx.github.io/post/hp3020-can-not-print.html</link>
+      <link>http://tsky.cc/post/hp3020-can-not-print.html</link>
       <pubDate>Thu, 20 Oct 2011 07:36:13 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/hp3020-can-not-print.html</guid>
+      <guid>http://tsky.cc/post/hp3020-can-not-print.html</guid>
       <description>上篇HP1020plus网络打印机WIN7下不能打印解决方法，秦天SEO介绍了由于Print Spooler打印服务导致的无法打印，今天秦天S</description>
     </item>
     

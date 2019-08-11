@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>蓝屏 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E8%93%9D%E5%B1%8F/</link>
+    <link>http://tsky.cc/tags/%E8%93%9D%E5%B1%8F/</link>
     <description>Recent content in 蓝屏 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 27 Dec 2010 08:59:25 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E8%93%9D%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E8%93%9D%E5%B1%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OX000000F4蓝屏代码及硬盘ghost速度慢的解决思路及出现的误区(续）</title>
-      <link>http://fightx.github.io/post/f4-bsod-2.html</link>
+      <link>http://tsky.cc/post/f4-bsod-2.html</link>
       <pubDate>Mon, 27 Dec 2010 08:59:25 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/f4-bsod-2.html</guid>
+      <guid>http://tsky.cc/post/f4-bsod-2.html</guid>
       <description>写了上篇《OX000000F4蓝屏及硬盘ghost速度慢的解决方法误区》后，以为可以到此结束，没想到讨厌的OX000000F4蓝屏代码问题又</description>
     </item>
     
     <item>
       <title>OX000000F4蓝屏代码及硬盘ghost速度慢的解决思路及出现的误区</title>
-      <link>http://fightx.github.io/post/f4-bsod.html</link>
+      <link>http://tsky.cc/post/f4-bsod.html</link>
       <pubDate>Fri, 24 Dec 2010 10:32:21 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/f4-bsod.html</guid>
+      <guid>http://tsky.cc/post/f4-bsod.html</guid>
       <description>STOP:OX000000F4 蓝屏代码提示：内存存取错误 其他网友解决方法： 那个数字是内存地址,你可以尝试一下,把内存抽下来再安上去,我的电脑以前也出现过此问题,后来换了</description>
     </item>
     

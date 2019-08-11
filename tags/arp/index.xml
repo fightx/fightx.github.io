@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ARP on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/arp/</link>
+    <link>http://tsky.cc/tags/arp/</link>
     <description>Recent content in ARP on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 14 Mar 2011 10:22:12 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/arp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/arp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>灵异的断网的事件（路由器？ARP？病毒？）</title>
-      <link>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus.html</link>
+      <link>http://tsky.cc/post/supernatural-events-off-network-router-arp-virus.html</link>
       <pubDate>Mon, 14 Mar 2011 10:22:12 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus.html</guid>
+      <guid>http://tsky.cc/post/supernatural-events-off-network-router-arp-virus.html</guid>
       <description>周末终于结束，周一刚过来就被告知整个宿舍楼层出现了大规模的断网事件，莫非又有人私接路由器？带着疑问，展开调查，经过不懈的努力！终于发现了问题</description>
     </item>
     
     <item>
       <title>H3C ER3100路由器由于FAST路由器的ARP欺骗导致的断网的处理方法</title>
-      <link>http://fightx.github.io/post/h3c-er3100-fast-router.html</link>
+      <link>http://tsky.cc/post/h3c-er3100-fast-router.html</link>
       <pubDate>Thu, 16 Dec 2010 21:22:28 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/h3c-er3100-fast-router.html</guid>
+      <guid>http://tsky.cc/post/h3c-er3100-fast-router.html</guid>
       <description>华为H3C ER3100企业级路由器，最近老是出现断网现象，查看日志发现是ARP冲突，以为是其中某台电脑引起的，结果不是自己想的那么简单。 注：</description>
     </item>
     

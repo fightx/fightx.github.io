@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>H3C on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/h3c/</link>
+    <link>http://tsky.cc/tags/h3c/</link>
     <description>Recent content in H3C on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 01 Feb 2011 03:59:19 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/h3c/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/h3c/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>华为H3C ER3100路由器限速方法合集（流量 连接数 P2P端口 网址过滤）</title>
-      <link>http://fightx.github.io/post/huawei-h3c-er3100-router-speed-method-set.html</link>
+      <link>http://tsky.cc/post/huawei-h3c-er3100-router-speed-method-set.html</link>
       <pubDate>Tue, 01 Feb 2011 03:59:19 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/huawei-h3c-er3100-router-speed-method-set.html</guid>
+      <guid>http://tsky.cc/post/huawei-h3c-er3100-router-speed-method-set.html</guid>
       <description>做网络维护的，头疼之一的莫非是P2P软件，严重拖慢网速。下面我将针对华为H3C ER3100路由器，来说明如何通过路由器进行限速，进行网络优化</description>
     </item>
     

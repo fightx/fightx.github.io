@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>交换机 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/</link>
+    <link>http://tsky.cc/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/</link>
     <description>Recent content in 交换机 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Sep 2011 03:44:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>远程访问导致远程主机的串口不能使用</title>
-      <link>http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</link>
+      <link>http://tsky.cc/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</link>
       <pubDate>Wed, 07 Sep 2011 03:44:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</guid>
+      <guid>http://tsky.cc/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</guid>
       <description>关于服务器的问题比较多，大多数百度一下，google知道。可有些比较特殊的问题，例如今天秦天SEO给大家带来的案例，就是百度，google，</description>
     </item>
     
     <item>
       <title>灵异的断网的事件（路由器？ARP？病毒？）（二）</title>
-      <link>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html</link>
+      <link>http://tsky.cc/post/supernatural-events-off-network-router-arp-virus-b.html</link>
       <pubDate>Mon, 29 Aug 2011 02:05:33 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html</guid>
+      <guid>http://tsky.cc/post/supernatural-events-off-network-router-arp-virus-b.html</guid>
       <description>一阵天雷下，几处网络断，天灾？人祸？ 其中不能上网的情况如下：可以获取路由器ip地址，无法ping通路由器网关，可以ping通所在交换机的IP</description>
     </item>
     

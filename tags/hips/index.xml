@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hips on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/hips/</link>
+    <link>http://tsky.cc/tags/hips/</link>
     <description>Recent content in hips on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 19 Mar 2011 12:10:51 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/hips/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/hips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>安全行业的趋势：杀毒软件永久免费</title>
-      <link>http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html</link>
+      <link>http://tsky.cc/post/security-industry-trends-the-permanent-free-antivirus-software.html</link>
       <pubDate>Sat, 19 Mar 2011 12:10:51 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html</guid>
+      <guid>http://tsky.cc/post/security-industry-trends-the-permanent-free-antivirus-software.html</guid>
       <description>瑞星免费是在自己预料之中，对于瑞星自己从未真正用过，感觉很垃圾，如果你还没有考虑到合适的杀毒软件，不妨去试试小红伞、ESET NOD32、金山</description>
     </item>
     

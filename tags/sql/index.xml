@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sql on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/sql/</link>
+    <link>http://tsky.cc/tags/sql/</link>
     <description>Recent content in sql on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 01 Apr 2011 01:36:42 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SQL模糊查询及通配符使用方法合集</title>
-      <link>http://fightx.github.io/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html</link>
+      <link>http://tsky.cc/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html</link>
       <pubDate>Fri, 01 Apr 2011 01:36:42 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html</guid>
+      <guid>http://tsky.cc/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html</guid>
       <description>SQL模糊查询的语法:SELECT 字段 FROM 表 WHERE 某字段 Like 条件 其中关于条件，SQL提供了四种匹配模式： 一、%：表示任意0个或多个字符。可匹配任意类</description>
     </item>
     
     <item>
       <title>用友ERP U890&#43;SQL Server 2005安装全过程及注意事项</title>
-      <link>http://fightx.github.io/post/ufida-erp-u890-setup.html</link>
+      <link>http://tsky.cc/post/ufida-erp-u890-setup.html</link>
       <pubDate>Wed, 22 Dec 2010 13:49:35 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/ufida-erp-u890-setup.html</guid>
+      <guid>http://tsky.cc/post/ufida-erp-u890-setup.html</guid>
       <description>安装步骤很简单： 1.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;修改计算机名称，最好是英文和数字的组成，不含有&amp;</description>
     </item>
     

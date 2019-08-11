@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>电脑无法开机 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E7%94%B5%E8%84%91%E6%97%A0%E6%B3%95%E5%BC%80%E6%9C%BA/</link>
+    <link>http://tsky.cc/tags/%E7%94%B5%E8%84%91%E6%97%A0%E6%B3%95%E5%BC%80%E6%9C%BA/</link>
     <description>Recent content in 电脑无法开机 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 28 Oct 2011 11:04:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E7%94%B5%E8%84%91%E6%97%A0%E6%B3%95%E5%BC%80%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E7%94%B5%E8%84%91%E6%97%A0%E6%B3%95%E5%BC%80%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>电脑开机卡在BIOS界面解决方法合集</title>
-      <link>http://fightx.github.io/post/pc-boot-at-the-bios.html</link>
+      <link>http://tsky.cc/post/pc-boot-at-the-bios.html</link>
       <pubDate>Fri, 28 Oct 2011 11:04:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/pc-boot-at-the-bios.html</guid>
+      <guid>http://tsky.cc/post/pc-boot-at-the-bios.html</guid>
       <description>今天秦天SEO又遇到一台戴尔笔记本电脑，开机启动的时卡在BIOS界面的Case，经检测发现导致开机无法启动卡在BIOS界面，是由于主板电池没</description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E7%BD%91%E7%AB%99/</link>
+    <link>http://tsky.cc/tags/%E7%BD%91%E7%AB%99/</link>
     <description>Recent content in 网站 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 25 Nov 2010 23:27:08 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>14个可以节省你时间的CSS工具</title>
-      <link>http://fightx.github.io/post/14-can-save-you-time-css-tools.html</link>
+      <link>http://tsky.cc/post/14-can-save-you-time-css-tools.html</link>
       <pubDate>Thu, 25 Nov 2010 23:27:08 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/14-can-save-you-time-css-tools.html</guid>
+      <guid>http://tsky.cc/post/14-can-save-you-time-css-tools.html</guid>
       <description>作为一个网站设计/开发人员，你必须不断寻找方法来减少设计/开发过程中所花费的时间。这对于提高你的工作效率并最大化你的利润是非常重要的。下面介</description>
     </item>
     
     <item>
       <title>网站设计必备的10款CSS在线生成器</title>
-      <link>http://fightx.github.io/post/10-essential-web-design-online-css-generator.html</link>
+      <link>http://tsky.cc/post/10-essential-web-design-online-css-generator.html</link>
       <pubDate>Thu, 25 Nov 2010 23:15:52 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/10-essential-web-design-online-css-generator.html</guid>
+      <guid>http://tsky.cc/post/10-essential-web-design-online-css-generator.html</guid>
       <description>网站设计必备的10款CSS在线生成器 以下推荐的10款CSS在线生成器，可以帮助你简单快速地生成基于CSS的网页元素。 1、CSS Button and Text Field Gen</description>
     </item>
     

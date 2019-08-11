@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>串口 on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/%E4%B8%B2%E5%8F%A3/</link>
+    <link>http://tsky.cc/tags/%E4%B8%B2%E5%8F%A3/</link>
     <description>Recent content in 串口 on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Sep 2011 03:44:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/%E4%B8%B2%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/%E4%B8%B2%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>远程访问导致远程主机的串口不能使用</title>
-      <link>http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</link>
+      <link>http://tsky.cc/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</link>
       <pubDate>Wed, 07 Sep 2011 03:44:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</guid>
+      <guid>http://tsky.cc/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</guid>
       <description>关于服务器的问题比较多，大多数百度一下，google知道。可有些比较特殊的问题，例如今天秦天SEO给大家带来的案例，就是百度，google，</description>
     </item>
     
     <item>
       <title>SKYPOS机485转RS232数据线及RJ45线制作方法</title>
-      <link>http://fightx.github.io/post/485-to-rs232.html</link>
+      <link>http://tsky.cc/post/485-to-rs232.html</link>
       <pubDate>Wed, 09 Feb 2011 09:36:40 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/485-to-rs232.html</guid>
+      <guid>http://tsky.cc/post/485-to-rs232.html</guid>
       <description>在学校里面我们应该都见过POS机，感应卡放在上面&amp;ldquo;滴&amp;rdquo;一下就可以消费了，很方便。对于使用POS机的学校，企业而言，其</description>
     </item>
     

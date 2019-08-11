@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>htaccess on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/htaccess/</link>
+    <link>http://tsky.cc/tags/htaccess/</link>
     <description>Recent content in htaccess on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 05 Dec 2010 05:30:50 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/htaccess/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/htaccess/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Htaccess文件用法集锦</title>
-      <link>http://fightx.github.io/post/htaccess-files-usage-highlights.html</link>
+      <link>http://tsky.cc/post/htaccess-files-usage-highlights.html</link>
       <pubDate>Sun, 05 Dec 2010 05:30:50 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/htaccess-files-usage-highlights.html</guid>
+      <guid>http://tsky.cc/post/htaccess-files-usage-highlights.html</guid>
       <description>1.时区设置 有些时候，当你在PHP里使用date或mktime函数时，由于时区的不同，它会显示出一些很奇怪的信息。下面是解决这个问题的方法之</description>
     </item>
     

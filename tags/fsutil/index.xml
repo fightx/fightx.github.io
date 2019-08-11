@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fsutil on Tsky`s Blog</title>
-    <link>http://fightx.github.io/tags/fsutil/</link>
+    <link>http://tsky.cc/tags/fsutil/</link>
     <description>Recent content in fsutil on Tsky`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 19 Oct 2011 12:47:00 +0000</lastBuildDate>
     
-	<atom:link href="http://fightx.github.io/tags/fsutil/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tsky.cc/tags/fsutil/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>快速创建任意大小文件的方法</title>
-      <link>http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html</link>
+      <link>http://tsky.cc/post/fsutil-rapid-creating-any-size-file.html</link>
       <pubDate>Wed, 19 Oct 2011 12:47:00 +0000</pubDate>
       
-      <guid>http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html</guid>
+      <guid>http://tsky.cc/post/fsutil-rapid-creating-any-size-file.html</guid>
       <description>有的时候秦天SEO要测试U盘速度，手头又没有什么大文件，如何凭空的创建出4G的、6G、10G、100G、1TB的文件？难道在记事本里面打字、</description>
     </item>
     
