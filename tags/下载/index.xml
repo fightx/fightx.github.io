@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>下载 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E4%B8%8B%E8%BD%BD/</link>
+    <description>Recent content in 下载 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 19 Feb 2012 14:04:45 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E4%B8%8B%E8%BD%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>百度文库文档免费下载几法</title>
+      <link>http://fightx.github.io/post/baidu-wenku-free-download.html</link>
+      <pubDate>Sun, 19 Feb 2012 14:04:45 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/baidu-wenku-free-download.html</guid>
+      <description>百度文库还是很强大的，里面众多的资源可以共享给网友查看学习，对于伪原创也是很有帮助的，可每当秦天SEO想下载下来学习使用的时候才发现自己的财</description>
+    </item>
+    
+    <item>
+      <title>DLL动态链接库下载大全</title>
+      <link>http://fightx.github.io/post/dll-download.html</link>
+      <pubDate>Fri, 10 Dec 2010 13:57:39 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/dll-download.html</guid>
+      <description>&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;关于DLL动态链接库应该知道吧，不知道的可以看这里：http://support.microsoft.com/kb/815</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>路由器 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</link>
+    <description>Recent content in 路由器 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Nov 2011 01:10:59 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D-link的DIR-615路由器经常掉线解决方法合集</title>
+      <link>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</link>
+      <pubDate>Tue, 01 Nov 2011 01:10:59 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</guid>
+      <description>D-link的DIR-615路由器性价比比较高的，而且一直以来都比较看好dlink，没想到这次买的D-link的DIR-615总是无故的掉线</description>
+    </item>
+    
+    <item>
+      <title>灵异的断网的事件（路由器？ARP？病毒？）（二）</title>
+      <link>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html</link>
+      <pubDate>Mon, 29 Aug 2011 02:05:33 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html</guid>
+      <description>一阵天雷下，几处网络断，天灾？人祸？ 其中不能上网的情况如下：可以获取路由器ip地址，无法ping通路由器网关，可以ping通所在交换机的IP</description>
+    </item>
+    
+    <item>
+      <title>灵异的断网的事件（路由器？ARP？病毒？）</title>
+      <link>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus.html</link>
+      <pubDate>Mon, 14 Mar 2011 10:22:12 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus.html</guid>
+      <description>周末终于结束，周一刚过来就被告知整个宿舍楼层出现了大规模的断网事件，莫非又有人私接路由器？带着疑问，展开调查，经过不懈的努力！终于发现了问题</description>
+    </item>
+    
+    <item>
+      <title>华为H3C ER3100路由器限速方法合集（流量 连接数 P2P端口 网址过滤）</title>
+      <link>http://fightx.github.io/post/huawei-h3c-er3100-router-speed-method-set.html</link>
+      <pubDate>Tue, 01 Feb 2011 03:59:19 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/huawei-h3c-er3100-router-speed-method-set.html</guid>
+      <description>做网络维护的，头疼之一的莫非是P2P软件，严重拖慢网速。下面我将针对华为H3C ER3100路由器，来说明如何通过路由器进行限速，进行网络优化</description>
+    </item>
+    
+    <item>
+      <title>H3C ER3100路由器由于FAST路由器的ARP欺骗导致的断网的处理方法</title>
+      <link>http://fightx.github.io/post/h3c-er3100-fast-router.html</link>
+      <pubDate>Thu, 16 Dec 2010 21:22:28 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/h3c-er3100-fast-router.html</guid>
+      <description>华为H3C ER3100企业级路由器，最近老是出现断网现象，查看日志发现是ARP冲突，以为是其中某台电脑引起的，结果不是自己想的那么简单。 注：</description>
+    </item>
+    
+  </channel>
+</rss>

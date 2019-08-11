@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Jan 2011 14:51:30 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用友客户端局域网超简单安装教程</title>
+      <link>http://fightx.github.io/post/erp-setup-lite.html</link>
+      <pubDate>Tue, 11 Jan 2011 14:51:30 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/erp-setup-lite.html</guid>
+      <description>上篇发表的用友ERP客户端局域网安装教程详解，感觉很复杂，有的细节说的不是很清楚，没有太多电脑操作经验的人看了都会有很多问题，于是重新整理改</description>
+    </item>
+    
+    <item>
+      <title>用友客户端局域网安装教程详解</title>
+      <link>http://fightx.github.io/post/erp-client-setup.html</link>
+      <pubDate>Mon, 10 Jan 2011 13:21:50 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/erp-client-setup.html</guid>
+      <description>Word中，很多路径已经做好超链接，直接Ctrl+鼠标左键，就可以快速打开，快速安装。 1.在地址栏中输入\ibmdb 回车，如图1 注意：安装软</description>
+    </item>
+    
+  </channel>
+</rss>

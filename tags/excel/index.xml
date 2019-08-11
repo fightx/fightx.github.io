@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excel on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/excel/</link>
+    <description>Recent content in excel on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 17 Feb 2011 08:26:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>文员必备的excel操作技巧实例解说</title>
+      <link>http://fightx.github.io/post/agent-must-excel-skills-examples-illustrate.html</link>
+      <pubDate>Thu, 17 Feb 2011 08:26:51 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/agent-must-excel-skills-examples-illustrate.html</guid>
+      <description>&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; 今天帮忙将一些正式人员的工资卡号，添加到人员花名册中，因为花名册中有临时工，试用期的员工，一个个添加进去，即费时又费力，说不定一不小心</description>
+    </item>
+    
+  </channel>
+</rss>

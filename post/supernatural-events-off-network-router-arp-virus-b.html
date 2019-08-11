@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/win7-xp-how-to-build-a-wireless-ap.html" />
+  <link rel="next" href="http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           灵异的断网的事件（路由器？ARP？病毒？）（二） | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="灵异的断网的事件（路由器？ARP？病毒？）（二） | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "灵异的断网的事件（路由器？ARP？病毒？）（二）",
+    "headline" : "灵异的断网的事件（路由器？ARP？病毒？）（二）",
+    "description" : "一阵天雷下，几处网络断，天灾？人祸？ 其中不能上网的情况如下：可以获取路由器ip地址，无法ping通路由器网关，可以ping通所在交换机的IP",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2011",
+    "datePublished": "2011-08-29 02:05:33 \x2b0000 \x2b0000",
+    "dateModified" : "2011-08-29 02:05:33 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/supernatural-events-off-network-router-arp-virus-b.html",
+    "wordCount" : "4544",
+    "keywords" : [ "交换机","路由器", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">灵异的断网的事件（路由器？ARP？病毒？）（二）</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2011-08-29 itemprop="datePublished">2011-08-29</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/"> 网络维护 </a>
+                        
+                </span>
+                <span class="post-word-count">, 4544 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>一阵天雷下，几处网络断，天灾？人祸？</p>
+
+<p>其中不能上网的情况如下：可以获取路由器ip地址，无法ping通路由器网关，可以ping通所在交换机的IP地址，既内网可以上。</p>
+
+<p>在可以上的机器上面，登陆路由器，重启路由器，发现可以上网。以为问题就此解决。谁知，不久后，可以上网的电脑不能上网，不可以上网的又可以上网，网络极不稳定。</p>
+
+<p>翌日，想起昨日的天雷，莫非是雷击？于是乎，逐个排除法。</p>
+
+<p>首先了解网络的布局，网络由路由器和2个交换机组成。</p>
+
+<p>1、从路由器开始测起，用电脑接路由器的lan接口，每个接口都可以上网，说明路由器工作正常。</p>
+
+<p>2、关闭其中一个交换机，拔出另一个交换机上的网线，打开笔记本，同时循环ping 百度和网关，一个个试，发现一些端口有无法ping通，于是标记无法ping通的端口为坏端口，以此类推，找出所有问题端口</p>
+
+<p>最终发现交换机1有问题，于是关闭交换机1，交换机2可以正常上网。</p>
+
+<p>通过这个方法似乎找出了问题所在，但仅仅就这么简单？当然不是。</p>
+
+<p>在 只接入交换机1中无问题端口情况下，网络依然不可以上，甚至交换机2号中得也不可以。出现了和之前一样的问题，可以获取ip地址，可以访问内网，就是无法访问外网。于是认为是交换机1的问题，买了新的交换机后，还是发现网络一会儿能上，一会又断了。莫非交换机2也有问题，因为之前交换机2单独上的时候能上，所以没有对交换机2测试。但是从单独开交换机2，说明交换机2是好的。</p>
+
+<p>百思不得其解，于是将路由器恢复了出厂设置。问题解决了！（为什么接路由器的lan接口可以上网，接了交换机后不能上网）</p>
+
+<p>将大部分问题解决后，于是解决个别问题，发现车间另一处有交换机3，不接交换机能上，接了交换机不能上，具体现象是：能获取ip地址，无法ping通网关，无法上内网。逐个检查交换机发现交换机无问题，那就说明是其中某个端口的接线导致的，最终发现了一个单模快速以太网转换机有问题，关闭这个电源问题一切ok，一开始就出现问题。换了后好了，换会后好了会，又出现问题，重新换了后，换回原来的没问题，看来光纤线路，对接触要求比较严格。（知识需要学习，光纤接触的还是比较少的）</p>
+
+<p>终于问题似乎都解决了。。。</p>
+
+<p>总结：</p>
+
+<p>能获取ip地址，ping不同网关，多数与路由器有关，如arp病毒，路由器本身问题，（路由器的问题，有时候恢复出厂设置看看，说不定有意外的收获），交换机中有的端口可以ping通，有的ping不同，已经确定是交换机1的端口出现了损坏，但是交换机3中得问题就不是路由器的问题，就好比<a href="http://hi.baidu.com/fightx/blog/item/3277c21753609d1dc83d6d00.html" target="_blank">《灵异的断网的事件（路由器？ARP？病毒？）》</a>中描述的。多总结，本人技术有限，请多指教。。。</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; font-size: 12pt; ">下面引用下华为官方的解决建议：</span>
+</p>
+
+<p style="line-height: normal; ">
+  <a style="color: rgb(102, 102, 102); font-size: 12px; text-decoration: none; line-height: 20px; font-family: Tahoma; "><span style="line-height: normal; ">1.3&nbsp;<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">路由器运行一段时间后，局域网出现</span><span style="line-height: normal; ">PC</span></a><span style="line-height: normal; font-family: 黑体; ">掉线、无法访问</span><span style="line-height: normal; ">internet</span><span style="line-height: normal; font-family: 黑体; ">的现象</span><span style="line-height: normal; ">1.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">受到</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 黑体; ">攻击或者</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 黑体; ">欺骗导致（此类情况最普遍）</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">现象：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(1)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">掉线的</span><span style="line-height: normal; ">PC Ping</span><span style="line-height: normal; font-family: 宋体; ">不</span><span style="line-height: normal; font-family: 宋体; ">通网关地址；</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(2)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">掉线的</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">能</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通网关地址，但是有丢包；</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(3)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">掉线</span><span style="line-height: normal; ">PC ping</span><span style="line-height: normal; font-family: 宋体; ">不通网关，</span><span style="line-height: normal; ">Ping</span><span style="line-height: normal; font-family: 宋体; ">主交换机下的其他</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">或者服务器能通。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">如果全网掉线的</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">无法</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通网关，无法登入网关，需要先拔掉所有</span><span style="line-height: normal; ">WAN</span><span style="line-height: normal; font-family: 宋体; ">口所接的网线，即对应的上行链路，再尝试</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">网关或者登录网关，以此来确定是内网问题还是外网攻击问题引起。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">如果此时能</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通网关，那么很有可能是外网攻击导致，请确认设备相关防攻击功能是否开启，</span><span style="line-height: normal; ">WAN</span><span style="line-height: normal; font-family: 宋体; ">口运营商测网关</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 宋体; ">是否已经静态绑定，并联系运营商协助解决。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">如果此时掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">依然无法</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通网关，则可能为内网问题，请参考以下步骤：</span>
+</p>
+
+<p style="line-height: normal; ">
+  &nbsp;
+</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="line-height: normal; table-layout: auto; border-bottom-style: none; border-right-style: none; width: 448.4pt; border-collapse: collapse; border-top-style: none; margin-left: 36.85pt; border-left-style: none; " width="598">
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">步骤</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">图示</span>
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">在掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">上通过</span><b style="line-height: normal; "><span style="line-height: normal; ">arp -a</span></b><span style="line-height: normal; font-family: 宋体; ">查看学习到的网关的</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 宋体; ">表项是否正确（</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">为网关地址对应的</span><span style="line-height: normal; ">MAC</span><span style="line-height: normal; font-family: 宋体; ">是否为路由器</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">口对应的</span><span style="line-height: normal; ">MAC</span><span style="line-height: normal; font-family: 宋体; ">）。如果不正确请使用</span><b style="line-height: normal; "><span style="line-height: normal; ">arp &nbsp;-s</span></b><span style="line-height: normal; font-family: 宋体; ">来重新绑定，如右图所示。</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">查看（</span><span style="line-height: normal; ">arp &nbsp;&ndash;a</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">）：</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">绑定（</span><span style="line-height: normal; ">arp &nbsp;&ndash;s &nbsp;</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">路由器的</span><span style="line-height: normal; ">IP<span style="line-height: normal; ">&nbsp;</span></span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">地址</span><span style="line-height: normal; ">&nbsp;</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">路由器</span><span style="line-height: normal; ">MAC</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">地址）：</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">请将管理计算机直接接在路由器的某个</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">口，暂时拔掉其他端口上的线路，通过管理计算机登录路由器的</span><span style="line-height: normal; ">Web</span><span style="line-height: normal; font-family: 宋体; ">管理界面</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">页面向导：安全专区&rarr;</span><span style="line-height: normal; ">ARP</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">安全&rarr;</span><span style="line-height: normal; ">ARP</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">绑定</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">请对局域网内的所有</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">进行</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 宋体; ">静态绑定。如果之前已经绑定过的，则通过关键字（如掉线主机的</span><span style="line-height: normal; ">MAC</span><span style="line-height: normal; font-family: 宋体; ">）过滤查询功能，检查路由器的</span><span style="line-height: normal; ">ARP</span><span style="line-height: normal; font-family: 宋体; ">静态绑定表中是否存在掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">。若没有，则添加</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">&nbsp;</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">2.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">病毒等大流量攻击导致</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  &nbsp;
+</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="line-height: normal; table-layout: auto; border-bottom-style: none; border-right-style: none; width: 448.4pt; border-collapse: collapse; border-top-style: none; margin-left: 36.85pt; border-left-style: none; " width="598">
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">步骤</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">图示</span>
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">请将管理计算机直接接在路由器的某个</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">口，暂时拔掉其他端口上的线路，通过管理计算机登录路由器的</span><span style="line-height: normal; ">Web</span><span style="line-height: normal; font-family: 宋体; ">管理界面</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">页面向导：</span><span style="line-height: normal; ">QoS</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">设置&rarr;流量管理&rarr;</span><span style="line-height: normal; ">IP</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">流量限制</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">查看是否在路由器上启用了</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">流量限制。不同应用场合下的推荐设置及描述请参见下表不同应用场合</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">页面向导：</span></b><b style="line-height: normal; "><span style="line-height: normal; ">QoS</span></b><b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">设置&rarr;连接限制&rarr;网络连接限数</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">查看是否在路由器上启用了网络连接数限制。典型值为每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">分配</span><span style="line-height: normal; ">300-500</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">&nbsp;</span>
+</p>
+
+<p style="line-height: normal; ">
+  &nbsp;
+</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="line-height: normal; table-layout: auto; border-bottom-style: none; border-right-style: none; width: 448.4pt; border-collapse: collapse; border-top-style: none; margin-left: 36.85pt; border-left-style: none; " width="598">
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">应用场合</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">描述</span>
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">网吧</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">建议您开启&ldquo;弹性带宽&rdquo;特性（选中&ldquo;允许每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">通道借用空闲的带宽&rdquo;单选框），即当在线用户未占用完有效带宽时，系统会为每个在线用户自动分配空闲带宽，其实际流量可以超过限速值，使带宽得以充分利用</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">另外，空闲带宽的自动分配有如下两种处理方式：</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: Wingdings; font-size: 6.5pt; ">l<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">当局域网内所有用户的</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">流量上限值设置为一致时，系统会为每位在线用户平均分配空闲带宽</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: Wingdings; font-size: 6.5pt; ">l<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">当局域网内所有用户的</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">流量上限值设置为不一致时，系统会根据所设定的用户上限值按比率来分配空闲带宽</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">带宽推荐值：</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">以出口带宽</span><span style="line-height: normal; ">30M</span><span style="line-height: normal; font-family: 宋体; ">，且统一限速为例，建议将&ldquo;每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">上行流量上限&rdquo;设置为</span><span style="line-height: normal; ">500Kbps</span><span style="line-height: normal; font-family: 宋体; ">，&ldquo;每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">下行流量上限&rdquo;设置为</span><span style="line-height: normal; ">800Kbps</span><span style="line-height: normal; font-family: 宋体; ">。详细的带宽计算方法参考本文&ldquo;</span><u style="line-height: normal; "><span style="line-height: normal; color: blue; "><a href="http://www.h3c.com.cn/Service/Document_Center/IP_Network_Product/Routers/ER/ER5200/Maintenance/Maintenance_Manual/H3C_ER_%28V1.01%29/#_Ref289867784" style="color: blue; font-size: 12px; text-decoration: none; line-height: 20px; font-family: Tahoma; ">2.8&nbsp;<span style="line-height: normal; ">&nbsp;</span></a><a href="http://www.h3c.com.cn/Service/Document_Center/IP_Network_Product/Routers/ER/ER5200/Maintenance/Maintenance_Manual/H3C_ER_%28V1.01%29/#_Ref289867788" style="color: blue; font-size: 12px; text-decoration: none; line-height: 20px; font-family: Tahoma; "><span style="line-height: normal; font-family: 宋体; "><span style="line-height: normal; ">如何选择较适合自己网络的</span></span>QoS<span style="line-height: normal; font-family: 宋体; "><span style="line-height: normal; ">和网络连接数设置？</span></span></a></span></u><span style="line-height: normal; font-family: 宋体; ">&rdquo;</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">说明：</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: Wingdings; font-size: 6.5pt; ">l<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 楷体_GB2312; ">弹性带宽，业界普遍采用是基于统计的方法实现的：使用带宽统计，当总带宽达到一定总带宽的上限时，重新下发配置的基本带宽，从而总带宽达到下限。然后，带宽再逐渐增加到带宽上限，再重复下发规则。这种方法的主要问题：带宽抖动较大、不够精确、总带宽利用率较低。而</span><span style="line-height: normal; ">H3C ER</span><span style="line-height: normal; font-family: 楷体_GB2312; ">系列路由器使用一种独特的基于包精度的智能弹性技术，具有带宽抖动小、总带宽利用率高、配置简单、智能分配弹性带宽等优点</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: Wingdings; font-size: 6.5pt; ">l<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 楷体_GB2312; ">仅当满足用户带宽需求后还有空闲带宽时，带宽才发生借用。比如：在线用户逐渐增多时，被借用的带宽会归还给增加的新用户，通俗的讲：有借有还</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; ">&nbsp;</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">注意：</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 楷体_GB2312; ">如果启用了弹性带宽功能，则配置每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 楷体_GB2312; ">限速值后需要在接口带宽设置页面正确设置</span><span style="line-height: normal; ">WAN1</span><span style="line-height: normal; font-family: 楷体_GB2312; ">或者</span><span style="line-height: normal; ">WAN2</span><span style="line-height: normal; font-family: 楷体_GB2312; ">对应的实际带宽值，以保证智能弹性带宽功能的正确运行</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">企业</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">建议您开启&ldquo;固定带宽&rdquo;特性（选中&ldquo;每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">通道只能使用预设的带宽&rdquo;单选框），即在线用户的实际流量不会超过限速值。设置前，最好能对不同用户区域的带宽使用进行一个合理的规划</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">带宽推荐值：</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">以出口带宽</span><span style="line-height: normal; ">10M</span><span style="line-height: normal; font-family: 宋体; ">，且统一限速为例，建议将&ldquo;每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">上行流量上限&rdquo;设置为</span><span style="line-height: normal; ">400Kbps</span><span style="line-height: normal; font-family: 宋体; ">，&ldquo;每</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">下行流量上限&rdquo;设置为</span><span style="line-height: normal; ">600Kbps</span><span style="line-height: normal; font-family: 宋体; ">。如果上网人数不多，可以适当放大。详细的带宽计算方法参考本文&ldquo;</span><u style="line-height: normal; "><span style="line-height: normal; color: blue; "><a href="http://www.h3c.com.cn/Service/Document_Center/IP_Network_Product/Routers/ER/ER5200/Maintenance/Maintenance_Manual/H3C_ER_%28V1.01%29/#_Ref289867784" style="color: blue; font-size: 12px; text-decoration: none; line-height: 20px; font-family: Tahoma; ">2.8&nbsp;<span style="line-height: normal; ">&nbsp;</span></a><a href="http://www.h3c.com.cn/Service/Document_Center/IP_Network_Product/Routers/ER/ER5200/Maintenance/Maintenance_Manual/H3C_ER_%28V1.01%29/#_Ref289867788" style="color: blue; font-size: 12px; text-decoration: none; line-height: 20px; font-family: Tahoma; "><span style="line-height: normal; font-family: 宋体; "><span style="line-height: normal; ">如何选择较适合自己网络的</span></span>QoS<span style="line-height: normal; font-family: 宋体; "><span style="line-height: normal; ">和网络连接数设置？</span></span></a></span></u><span style="line-height: normal; font-family: 宋体; ">&rdquo;</span>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">&nbsp;</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">3.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 黑体; ">异常流量太大或者中毒，被路由器加入到黑名单中导致</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  &nbsp;
+</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="line-height: normal; table-layout: auto; border-bottom-style: none; border-right-style: none; width: 448.4pt; border-collapse: collapse; border-top-style: none; margin-left: 36.85pt; border-left-style: none; " width="598">
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">步骤</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: gray; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; background-color: rgb(217, 217, 217); padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; height: 14.1pt; border-left-style: none; border-top-color: windowtext; border-top-width: 1pt; border-top-style: solid; padding-top: 0cm; background-origin: initial; background-clip: initial; " width="383">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 黑体; ">图示</span>
+      </p>
+    </td>
+  </tr>
+  
+  <tr style="line-height: normal; ">
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; padding-left: 5.4pt; width: 163.15pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; border-right-color: gray; border-right-width: 1pt; border-right-style: solid; padding-top: 0cm; " width="218">
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">通过管理计算机</span><span style="line-height: normal; ">Web</span><span style="line-height: normal; font-family: 宋体; ">登录路由器</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">页面向导：安全专区&rarr;防攻击&rarr;异常流量防护</span></b>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">查看黑名单列表中是否存在掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">，如果存在，选中它并将其删除或等待生效时间之后再观察是否恢复正常</span>
+      </p>
+      
+      <p style="line-height: normal; ">
+        <span style="line-height: normal; font-family: 宋体; ">或者可以选择安全等级为中，即将主机的上行流量控制在</span><span style="line-height: normal; ">10Mbps</span><span style="line-height: normal; font-family: 宋体; ">范围内</span>
+      </p>
+    </td>
+    
+    <td style="font-family: Arial; word-wrap: break-word; word-break: break-all; visibility: visible !important; zoom: 1 !important; filter: none; font-size: 12px; line-height: normal; border-bottom-color: windowtext; border-bottom-width: 1pt; border-bottom-style: solid; padding-bottom: 0cm; border-right-style: none; padding-left: 5.4pt; width: 287.2pt; padding-right: 5.4pt; border-top-style: none; height: 14.1pt; border-left-style: none; padding-top: 0cm; " width="383">
+      <p style="line-height: normal; ">
+        &nbsp;
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">&nbsp;</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">4.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">路由器下挂交换机的问题导致</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">现象：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">掉线</span><span style="line-height: normal; ">PC ping</span><span style="line-height: normal; font-family: 宋体; ">网关不通，</span><span style="line-height: normal; ">Ping</span><span style="line-height: normal; font-family: 宋体; ">主交换机下的其他</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">或者服务器也不通。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(1)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">长</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">网关时，请观察与掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">相连的各级交换机各端口指示灯的状态，如果交换机端口依然常亮，代表交换机或者相连网线存在问题。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(2)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">如果是全网掉线，需要特别注意主交换机的各个端口指示灯情况（特别是连接路由器的端口指示灯）是否正常闪烁。必要时可以重启主交换机观察是否能够恢复。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(3)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">长</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">网关时，请观察路由器与主交换机级联的路由器</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">端口指示灯是否正常闪烁，如果指示灯常亮，可以尝试更换一个</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">观察，如果还是常亮，掉线</span><span style="line-height: normal; ">PC ping</span><span style="line-height: normal; font-family: 宋体; ">不通网关，请直接将一台</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">接在路由器</span><span style="line-height: normal; ">LAN</span><span style="line-height: normal; font-family: 宋体; ">口，拔掉路由器与交换机级联的端口，</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">尝试</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">网关地址，如果此时能</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通，说明非路由器问题。如果此时还是依然</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">不通网关，并确认</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">的</span><span style="line-height: normal; ">IP</span><span style="line-height: normal; font-family: 宋体; ">地址配置与路由器管理地址在同一网段，那可能就是路由器异常了，必要时可以重启路由器观察是否能够恢复。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">(4)<span style="line-height: normal; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: normal; ">&nbsp;</span></span></span><span style="line-height: normal; font-family: 宋体; ">另外如果是全网掉线，可以尝试在某台掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">上长</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">网关地址，然后逐一插拔主交换机上连接分交换机的各个端口网线，观察掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">能否</span><span style="line-height: normal; ">ping</span><span style="line-height: normal; font-family: 宋体; ">通网关，以此来判断是局域网内哪台交换机底下的</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">出现异常导致。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">5.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">运营商网络问题导致</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">现象：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">能</span><b style="line-height: normal; "><span style="line-height: normal; ">Ping</span></b><span style="line-height: normal; font-family: 宋体; ">通同一交换机下的其他</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">、主交换机下的服务器地址和路由器地址，但</span><b style="line-height: normal; "><span style="line-height: normal; ">Ping</span></b><span style="line-height: normal; font-family: 宋体; ">不通路由器的上层运营商网关或者</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 宋体; ">地址，通过路由器中的诊断工具</span><span style="line-height: normal; ">ping DNS</span><span style="line-height: normal; font-family: 宋体; ">和外网地址也不通。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">运营商侧网络可能出现了问题，需要联系运营商进行确认解决。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; ">6.<span style="line-height: normal; ">&nbsp;</span></span><span style="line-height: normal; font-family: 黑体; ">域名解析服务器（</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 黑体; ">）异常导致</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">现象：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">能</span><b style="line-height: normal; "><span style="line-height: normal; ">Ping</span></b><span style="line-height: normal; font-family: 宋体; ">通</span><span style="line-height: normal; font-family: 宋体; ">网关地址，</span><span style="line-height: normal; ">QQ</span><span style="line-height: normal; font-family: 宋体; ">也能上，或者下载正常，但是所有网页打不开。</span>
+</p>
+
+<p style="line-height: normal; ">
+  <b style="line-height: normal; "><span style="line-height: normal; font-family: 宋体; ">处理方法：</span></b>
+</p>
+
+<p style="line-height: normal; ">
+  <span style="line-height: normal; font-family: 宋体; ">可能是</span><span style="line-height: normal; font-family: 宋体; ">域名解析服务器（</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 宋体; ">）异常导致，可以将掉线</span><span style="line-height: normal; ">PC</span><span style="line-height: normal; font-family: 宋体; ">的</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 宋体; ">地址静态设置为运营商提供的</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 宋体; ">地址观察，或者可以更换一个新的</span><span style="line-height: normal; ">DNS</span><span style="line-height: normal; font-family: 宋体; ">地址观察能否恢复。</span>
+</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html>http://fightx.github.io/post/supernatural-events-off-network-router-arp-virus-b.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/">
+                    #交换机</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/">
+                    #路由器</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/win7-xp-how-to-build-a-wireless-ap.html" class="prev" rel="prev" title="WIN7、XP下如何搭建无线AP"><i class="iconfont icon-left"></i>&nbsp;WIN7、XP下如何搭建无线AP</a>
+         
+        
+        <a href="http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html" class="next" rel="next" title="活动窗口自动切换为非活动窗口">活动窗口自动切换为非活动窗口&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

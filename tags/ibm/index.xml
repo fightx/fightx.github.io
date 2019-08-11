@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IBM on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/ibm/</link>
+    <description>Recent content in IBM on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Jan 2011 14:10:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/ibm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IBM服务器X3650M3无光驱安装Server2003方法</title>
+      <link>http://fightx.github.io/post/ibm-sys-non-cdrom-setup.html</link>
+      <pubDate>Mon, 03 Jan 2011 14:10:04 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/ibm-sys-non-cdrom-setup.html</guid>
+      <description>原本服务器系统装好了，也做了备份，可是用友公司装完用友软件后，注册时，读取数据源出现未知错误：Remoting 信道异常，按照网上的说话操作了</description>
+    </item>
+    
+  </channel>
+</rss>

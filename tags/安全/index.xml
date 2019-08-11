@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安全 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 安全 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 06 Oct 2011 07:48:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>重要资料&amp;ldquo;藏&amp;rdquo;起来之软件篇</title>
+      <link>http://fightx.github.io/post/important-information-hiding-its-software-articles.html</link>
+      <pubDate>Thu, 06 Oct 2011 07:48:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/important-information-hiding-its-software-articles.html</guid>
+      <description>现在是信息化普及的时代，自从网络上面流传的艳照门开始，人们对信息化安全的意识也越来越高，如何保护自己的隐私，隐藏重要文件，将机密文件藏好，加</description>
+    </item>
+    
+    <item>
+      <title>我的电脑你别动，电脑锁定几法</title>
+      <link>http://fightx.github.io/post/the-computer-locks-several-law.html</link>
+      <pubDate>Mon, 19 Sep 2011 14:52:05 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/the-computer-locks-several-law.html</guid>
+      <description>在上班的时候秦天SEO经常会离开电脑一会，为了保护隐私我会把电脑锁定，那么如何锁定？有时候走的匆忙，那么如何自动锁定？ 快速锁定电脑 两个办法可</description>
+    </item>
+    
+    <item>
+      <title>重要资料”藏”起来之系统篇</title>
+      <link>http://fightx.github.io/post/important-data-hidden-up-the-system-articles.html</link>
+      <pubDate>Sun, 04 Sep 2011 13:09:45 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/important-data-hidden-up-the-system-articles.html</guid>
+      <description>和秦天SEO一样，大家都会有重要的资料，而个人电脑往往可能会被其他人使用，甚至是黑客，那么如何保护自己的重要资料，不让陌生人偷窥，更加不要出</description>
+    </item>
+    
+    <item>
+      <title>安全行业的趋势：杀毒软件永久免费</title>
+      <link>http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html</link>
+      <pubDate>Sat, 19 Mar 2011 12:10:51 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html</guid>
+      <description>瑞星免费是在自己预料之中，对于瑞星自己从未真正用过，感觉很垃圾，如果你还没有考虑到合适的杀毒软件，不妨去试试小红伞、ESET NOD32、金山</description>
+    </item>
+    
+    <item>
+      <title>卢松松博客被‘黑“？中国电信“在线防杀毒墙”阻止有图有真相</title>
+      <link>http://fightx.github.io/post/lu-songsong-blog-is-black-china-telecom-online-anti-virus-wall-to-prevent-a-graph-has-the-truth.html</link>
+      <pubDate>Sun, 13 Mar 2011 15:02:49 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/lu-songsong-blog-is-black-china-telecom-online-anti-virus-wall-to-prevent-a-graph-has-the-truth.html</guid>
+      <description>&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;人气很旺的卢松松博客，在这里可以学到很多东西，就算很困，睡觉之前也要看下，熟知！出现了卢松松博客危险提示。 URL地址是：h</description>
+    </item>
+    
+  </channel>
+</rss>

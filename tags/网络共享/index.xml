@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络共享 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E7%BD%91%E7%BB%9C%E5%85%B1%E4%BA%AB/</link>
+    <description>Recent content in 网络共享 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Jan 2012 11:13:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E7%BD%91%E7%BB%9C%E5%85%B1%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网络打印机无法打印提示已达到计算机连接数最大值</title>
+      <link>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</link>
+      <pubDate>Thu, 12 Jan 2012 11:13:08 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/network-printer-not-print-for-maximum-number-of-computers-connected.html</guid>
+      <description>上篇秦天SEO介绍了，由于网络访问需要密码，而导致的网络打印机无法打印的问题。今天秦天SEO再给大家带来一种会导致网络打印机无法打印的问题：</description>
+    </item>
+    
+    <item>
+      <title>网络访问需要密码导致网络打印机无法打印</title>
+      <link>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</link>
+      <pubDate>Mon, 09 Jan 2012 09:35:41 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/network-printer-can-not-print-for-require-password.html</guid>
+      <description>新年刚到，最近秦天SEO比较忙，前几天忙着ERP年结和年会的事宜。今天就抽空更新下博客，这次遇到的也是网络打印机无法打印的问题，问题应该说比</description>
+    </item>
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:进阶篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</link>
+      <pubDate>Thu, 08 Dec 2011 01:59:42 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</guid>
+      <description>一口气发布了企业局域网如何设置共享文件夹、企业局域网如何设置共享文件夹:访问篇，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶</description>
+    </item>
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:访问管理篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</link>
+      <pubDate>Thu, 08 Dec 2011 01:20:59 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</guid>
+      <description>上篇企业局域网如何设置共享文件夹里面讲解了设置共享文件夹的几种方法,这次秦天SEO接着上篇，这次给大家带来访问共享资源的几种方法，如何管理共</description>
+    </item>
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:设置篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</link>
+      <pubDate>Wed, 07 Dec 2011 09:12:27 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</guid>
+      <description>企业共享文件夹和共享网络打印机案例：一中小企业办公区域有22台办公计算机，由于企业需求提高办公效率，要求能在自己的办公局域网内共享文件、共享</description>
+    </item>
+    
+    <item>
+      <title>最近会发几篇文件共享和打印机共享的文章</title>
+      <link>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</link>
+      <pubDate>Tue, 06 Dec 2011 14:45:28 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/file-sharing-and-printer-sharing-articles.html</guid>
+      <description>最近有点忙，抽空把自己的一些资料整理了下，发现在大学时候写了一些文章（值得怀念啊），有几篇还是不错（^_^自我满足）。其中有一长篇通过一小型</description>
+    </item>
+    
+    <item>
+      <title>Win7网络共享设置及登录失败：禁用当前用户解决方法</title>
+      <link>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</link>
+      <pubDate>Thu, 10 Nov 2011 12:37:11 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</guid>
+      <description>今天秦天SEO发现一台安装Win7的电脑，无法查找和添加网络打印机，手动输入打印机服务器的主机名和IP地址，提示登录失败：禁用当前的用户。而</description>
+    </item>
+    
+  </channel>
+</rss>

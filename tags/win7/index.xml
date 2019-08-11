@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win7 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/win7/</link>
+    <description>Recent content in win7 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 14 Dec 2011 07:05:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/win7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>win7升级谷歌浏览器后出现0xc00000a5的解决方法</title>
+      <link>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</link>
+      <pubDate>Wed, 14 Dec 2011 07:05:01 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html</guid>
+      <description>今天秦天SEO打开谷歌浏览器（GOOGLE CHROME），提示有最新的稳定版Stable16.0.912.63下载，于是就更新了浏览器，等更</description>
+    </item>
+    
+    <item>
+      <title>Win7驱动兼容问题导致网络打印机无法打印</title>
+      <link>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</link>
+      <pubDate>Wed, 30 Nov 2011 15:03:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</guid>
+      <description>关于网络打印机无法打印的问题，秦天SEO已经介绍了几篇，其中有权限问题、主机名解析问题、打印服务问题、ip地址冲突问题，这些问题隐藏性比较强</description>
+    </item>
+    
+    <item>
+      <title>Win7网络共享设置及登录失败：禁用当前用户解决方法</title>
+      <link>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</link>
+      <pubDate>Thu, 10 Nov 2011 12:37:11 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</guid>
+      <description>今天秦天SEO发现一台安装Win7的电脑，无法查找和添加网络打印机，手动输入打印机服务器的主机名和IP地址，提示登录失败：禁用当前的用户。而</description>
+    </item>
+    
+    <item>
+      <title>HP1020plus网络打印机WIN7下不能打印解决方法</title>
+      <link>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</link>
+      <pubDate>Thu, 20 Oct 2011 12:52:10 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</guid>
+      <description>今天秦天SEO在使用HP LaserJet 1020 Plus进行网络打印时，打印机没有任何反应，连任何错误提示都没有。检查打印线连接没有问题，重启了网络打印机问题依</description>
+    </item>
+    
+    <item>
+      <title>Ghost win7开启硬盘AHCI模式方法</title>
+      <link>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</link>
+      <pubDate>Tue, 18 Oct 2011 11:14:41 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</guid>
+      <description>关于win7下如何开启硬盘AHCI，网上教程很多，有Intel主板如何开启硬盘AHCI方法，也有AMD主板如何开启硬盘AHCI方法，这些方法</description>
+    </item>
+    
+    <item>
+      <title>WIN7访问共享:0x80070035 找不到网络路径解决方法</title>
+      <link>http://fightx.github.io/post/win7-0x80070035-network-path-not-found.html</link>
+      <pubDate>Tue, 18 Oct 2011 03:22:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-0x80070035-network-path-not-found.html</guid>
+      <description>昨天秦天SEO刚装好WIN7系统，今天早上准备访问服务器安装些软件，结果出现网络错误，提示Windows无法访问共享文件夹，错误代码是0x8</description>
+    </item>
+    
+    <item>
+      <title>Windows7开机黑屏，是盗版系统原因？还是？</title>
+      <link>http://fightx.github.io/post/windows7-boot-black.html</link>
+      <pubDate>Mon, 10 Jan 2011 11:18:27 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/windows7-boot-black.html</guid>
+      <description>今天朋友电脑出现问题，开机后电脑出现黑屏，桌面没有任何图标，进程explorer在，百度，google一下，大多数是因为安装了微软的黑屏补丁</description>
+    </item>
+    
+    <item>
+      <title>游戏无法全屏解决方法集合</title>
+      <link>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</link>
+      <pubDate>Thu, 25 Nov 2010 01:32:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</guid>
+      <description>很多朋友使用戴尔笔记本的朋友，在XP下使用ATI显卡玩游戏时不能全屏显示。而改为Windows 7系统，就一切正常。 这是为什么呢？难道显卡歧视</description>
+    </item>
+    
+  </channel>
+</rss>

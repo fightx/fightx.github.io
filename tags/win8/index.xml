@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win8 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/win8/</link>
+    <description>Recent content in win8 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 03 Mar 2012 11:11:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/win8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows8快捷键汇总</title>
+      <link>http://fightx.github.io/post/windows-8-winkey.html</link>
+      <pubDate>Sat, 03 Mar 2012 11:11:28 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/windows-8-winkey.html</guid>
+      <description>Windows 8消费者预览版出来很久了，秦天SEO一直到周末才有空把它安装上，安装win8方法和安装win7几乎一样，用的是PE里面的win$man安装</description>
+    </item>
+    
+  </channel>
+</rss>

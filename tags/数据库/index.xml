@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据库 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+    <description>Recent content in 数据库 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Mar 2011 08:29:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用友,ERP,数据库,数据库表名参照表</title>
+      <link>http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</link>
+      <pubDate>Wed, 30 Mar 2011 08:29:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</guid>
+      <description>1 Accessaries 成套件表 2 AccInformation 帐套参数表3 AdjustPVouch&amp;nbsp;4 AdjustPVouchs&amp;nbsp;5 Ap_AlarmSet 单位报警分类设置表6 Ap_BillAge 帐龄区间表7 Ap_Cancel 核销情况表8 Ap_CancelNo 生成自动序号9 Ap_CloseBill 收付款结算表10 Ap_CtrlCode 控制科目设置表11 Ap_Detail 应</description>
+    </item>
+    
+  </channel>
+</rss>

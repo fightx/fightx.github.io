@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>组装电脑 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E7%BB%84%E8%A3%85%E7%94%B5%E8%84%91/</link>
+    <description>Recent content in 组装电脑 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 21 Nov 2011 08:52:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E7%BB%84%E8%A3%85%E7%94%B5%E8%84%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>周末换新电脑了，顺便推荐下3000元组装电脑配置单</title>
+      <link>http://fightx.github.io/post/diy-new-pc-for-3000.html</link>
+      <pubDate>Mon, 21 Nov 2011 08:52:39 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/diy-new-pc-for-3000.html</guid>
+      <description>哈哈，这个周末秦天SEO把自己珍藏版的I5-2300盒装的CPU给换了，用换下来的钱组装了一台2000多的主机,回家安装好win7后，开机神</description>
+    </item>
+    
+  </channel>
+</rss>

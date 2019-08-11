@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AP on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/ap/</link>
+    <description>Recent content in AP on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Apr 2011 22:04:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/ap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WIN7、XP下如何搭建无线AP</title>
+      <link>http://fightx.github.io/post/win7-xp-how-to-build-a-wireless-ap.html</link>
+      <pubDate>Thu, 28 Apr 2011 22:04:34 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-xp-how-to-build-a-wireless-ap.html</guid>
+      <description>Win7系统下默认是支持虚拟无线路由器功能的，设置方法如下： win7无线AP命令 1.启用并设定虚拟WiFi网卡： &amp;nbsp; 运行命令：netsh wlan set hostednetwork</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html" />
+  <link rel="next" href="http://fightx.github.io/post/hp3020-can-not-print.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           快速创建任意大小文件的方法 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="快速创建任意大小文件的方法 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "快速创建任意大小文件的方法",
+    "headline" : "快速创建任意大小文件的方法",
+    "description" : "有的时候秦天SEO要测试U盘速度，手头又没有什么大文件，如何凭空的创建出4G的、6G、10G、100G、1TB的文件？难道在记事本里面打字、",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2011",
+    "datePublished": "2011-10-19 12:47:00 \x2b0000 \x2b0000",
+    "dateModified" : "2011-10-19 12:47:00 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/fsutil-rapid-creating-any-size-file.html",
+    "wordCount" : "558",
+    "keywords" : [ "cmd","fsutil", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">快速创建任意大小文件的方法</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2011-10-19 itemprop="datePublished">2011-10-19</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"> 操作系统 </a>
+                        
+                </span>
+                <span class="post-word-count">, 558 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p>有的时候秦天SEO要测试U盘速度，手头又没有什么大文件，如何凭空的创建出4G的、6G、10G、100G、1TB的文件？难道在记事本里面打字、复制、粘贴？那有没有什么方法，快速的创建指定大小的文件呢？答案是肯定的。</p>
+
+<h2 id="dos命令之fsutil">DOS命令之fsutil</h2>
+
+<p>这里要用到的就是DOS命令里面的一个命令：fsutil ，通过这个命令可以快速的创建任意大小的文本文件，使用方法如下：</p>
+
+<blockquote>
+<p>E:&gt;fsutil file createnew 1.txt <span style="color: #ff0000;">10485760</span> //这里的<span style="color: #f79646;">10485760</span><span style="color: #000000;">为10G<br /> </span>已创建文件 E:\1.txt</p>
+</blockquote>
+
+<p><span style="text-decoration: line-through;">ps:1G=1024*1024*1024=1048576</span></p>
+
+<h2 id="fsutil的功能简介">fsutil的功能简介</h2>
+
+<blockquote>
+<p>E:&gt;fsutil</p>
+
+<p>&#8212;- 支持的命令 &#8212;-</p>
+
+<p>8dot3name       8dot3name 管理</p>
+
+<p>behavior        控制文件系统行为</p>
+
+<p>dirty           管理卷的已损坏位数</p>
+
+<p>file            文件特定命令</p>
+
+<p>fsinfo          文件系统信息</p>
+
+<p>hardlink        硬链接管理</p>
+
+<p>objectid        对象 ID 管理</p>
+
+<p>quota           配额管理</p>
+
+<p>repair          自疗管理</p>
+
+<p>reparsepoint    重分析点管理</p>
+
+<p>resource        事务资源管理器管理</p>
+
+<p>sparse          稀疏文件控制</p>
+
+<p>transaction     事务管理</p>
+
+<p>usn             USN 管理</p>
+
+<p>volume          卷管理</p>
+
+<p>E:&gt;fsutil file createnew</p>
+
+<p>用法 : fsutil file createnew <filename> <length></p>
+
+<p>例如 : fsutil file createnew C:\testfile.txt 1000</p>
+
+<p>E:&gt;fsutil file createnew 1.txt 10485760</p>
+
+<p>已创建文件 E:\1.txt</p>
+</blockquote>
+
+<h2 id="fsutil的妙用">fsutil的妙用</h2>
+
+<p>有U盘或者移动硬盘的朋友,喜欢把重要资料放在里面,当有人向你借U盘或者移动硬盘去网吧拷电影,而这里面有很多重要资料,一旦中毒,后果不堪设想.而你不借又不近人情,这个时候就可以创建一个和硬盘剩余空间同样大的文件，就可以了。</p>
+
+<p>还有，孩子放假了，希望下载游戏玩，结合<a href="http://tsky.cc/post/important-data-hidden-up-the-system-articles.html" rel="nofollow noreferrer" target="_blank">重要资料&#8221;藏&#8221;起来之系统篇</a>,创建删除不掉的文件夹，并用fsutil创建大的文本文件放入其中，就可以实现硬盘的“写保护”。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html>http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/cmd/">
+                    #cmd</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/fsutil/">
+                    #fsutil</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html" class="prev" rel="prev" title="Ghost win7开启硬盘AHCI模式方法"><i class="iconfont icon-left"></i>&nbsp;Ghost win7开启硬盘AHCI模式方法</a>
+         
+        
+        <a href="http://fightx.github.io/post/hp3020-can-not-print.html" class="next" rel="next" title="HP3020网络打印机不能打印解决方法">HP3020网络打印机不能打印解决方法&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

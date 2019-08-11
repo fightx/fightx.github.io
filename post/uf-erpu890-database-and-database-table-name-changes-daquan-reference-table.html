@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html" />
+  <link rel="next" href="http://fightx.github.io/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           用友,ERP,数据库,数据库表名参照表 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="用友,ERP,数据库,数据库表名参照表 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "用友,ERP,数据库,数据库表名参照表",
+    "headline" : "用友,ERP,数据库,数据库表名参照表",
+    "description" : "1 Accessaries 成套件表 2 AccInformation 帐套参数表3 AdjustPVouch\x26nbsp;4 AdjustPVouchs\x26nbsp;5 Ap_AlarmSet 单位报警分类设置表6 Ap_BillAge 帐龄区间表7 Ap_Cancel 核销情况表8 Ap_CancelNo 生成自动序号9 Ap_CloseBill 收付款结算表10 Ap_CtrlCode 控制科目设置表11 Ap_Detail 应",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2011",
+    "datePublished": "2011-03-30 08:29:22 \x2b0000 \x2b0000",
+    "dateModified" : "2011-03-30 08:29:22 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html",
+    "wordCount" : "3746",
+    "keywords" : [ "erp","数据库","用友", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">用友,ERP,数据库,数据库表名参照表</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2011-03-30 itemprop="datePublished">2011-03-30</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/"> 网络维护 </a>
+                        
+                </span>
+                <span class="post-word-count">, 3746 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p><span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: medium; border-collapse: collapse; ">1 Accessaries 成套件表</span></p>
+
+<div class="t_msgfont" id="postmessage_285918" style="word-wrap: break-word; line-height: 1.6em; font-size: 14px; ">
+  <span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: Arial, sans-serif; border-collapse: collapse; "><font size="3" style="word-wrap: break-word; line-height: normal; ">2 AccInformation 帐套参数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 3 AdjustPVouch&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 4 AdjustPVouchs&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 5 Ap_AlarmSet 单位报警分类设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 6 Ap_BillAge 帐龄区间表<br style="word-wrap: break-word; line-height: normal; " /><br /> 7 Ap_Cancel 核销情况表<br style="word-wrap: break-word; line-height: normal; " /><br /> 8 Ap_CancelNo 生成自动序号<br style="word-wrap: break-word; line-height: normal; " /><br /> 9 Ap_CloseBill 收付款结算表<br style="word-wrap: break-word; line-height: normal; " /><br /> 10 Ap_CtrlCode 控制科目设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 11 Ap_Detail 应收/付明细帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 12 Ap_DigSet&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 13 AP_DispSet 查询显示列设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 14 Ap_InputCode 入帐科目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 15 Ap_InvCode 存货科目设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 16 Ap_Lock 操作互斥表<br style="word-wrap: break-word; line-height: normal; " /><br /> 17 Ap_MidExch&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 18 Ap_MyTableSet 查询条件存储表<br style="word-wrap: break-word; line-height: normal; " /><br /> 19 Ap_Note 票据登记簿<br style="word-wrap: break-word; line-height: normal; " /><br /> 20 Ap_Note_Sub 票据登记簿结算表<br style="word-wrap: break-word; line-height: normal; " /><br /> 21 Ap_SstyleCode 结算方式科目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 22 Ap_Sum 应收/付总帐表<br style="word-wrap: break-word; line-height: normal; " /><br /> 23 Ap_Vouch 应付/收单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 24 Ap_Vouchs 应付/收单主表的关联表<br style="word-wrap: break-word; line-height: normal; " /><br /> 25 Ap_VouchType 单据类型表<br style="word-wrap: break-word; line-height: normal; " /><br /> 26 Ar_BadAge 坏帐计提帐龄期间表<br style="word-wrap: break-word; line-height: normal; " /><br /> 27 Ar_BadPara 坏帐计提参数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 28 ArrivalVouch 到货单、质检单主表***<br style="word-wrap: break-word; line-height: normal; " /><br /> 29 ArrivalVouchs 到货单、质检单子表***<br style="word-wrap: break-word; line-height: normal; " /><br /> 30 AssemVouch 组装、拆卸、形态转换单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 31 AssemVouchs 组装、拆卸、形态转换单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 32 Bank 本企业开户银行及帐号<br style="word-wrap: break-word; line-height: normal; " /><br /> 33 CA_ACR 按产品产量约当分配率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 34 CA_AllMt 分配率分配方法表<br style="word-wrap: break-word; line-height: normal; " /><br /> 35 CA_AmoCt 各项费用成本表<br style="word-wrap: break-word; line-height: normal; " /><br /> 36 CA_AsDIF 辅助部门内部固定分配率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 37 CA_AssCW 辅助费用耗用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 38 CA_AssMP 辅助部门计划单价表<br style="word-wrap: break-word; line-height: normal; " /><br /> 39 CA_AWPC 各项费用耗用计划表<br style="word-wrap: break-word; line-height: normal; " /><br /> 40 CA_Batchmx_temp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 41 CA_Batchmxhy_tmp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 42 CA_Batchmxhy_tmp1&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 43 CA_bmmx_tmp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 44 CA_CBSys 系统设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 45 CA_ClassDef 产品类别定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 46 CA_ComPD 完工产品处理表<br style="word-wrap: break-word; line-height: normal; " /><br /> 47 CA_ComPS 完工产品统计表<br style="word-wrap: break-word; line-height: normal; " /><br /> 48 CA_Control CA_Control<br style="word-wrap: break-word; line-height: normal; " /><br /> 49 CA_CostCD 费用明细定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 50 CA_DaCPS 完工产品产量日报表<br style="word-wrap: break-word; line-height: normal; " /><br /> 51 CA_DaMBW 材料及外购半成品耗用日报表<br style="word-wrap: break-word; line-height: normal; " /><br /> 52 CA_DayTiS 工时日报表<br style="word-wrap: break-word; line-height: normal; " /><br /> 53 CA_Depcf 部门预测录入表<br style="word-wrap: break-word; line-height: normal; " /><br /> 54 CA_DepCs 折旧费用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 55 CA_DepDf 部门属性表<br style="word-wrap: break-word; line-height: normal; " /><br /> 56 CA_DepFR 部门预测结果表<br style="word-wrap: break-word; line-height: normal; " /><br /> 57 CA_DepHC 部门历史成本表<br style="word-wrap: break-word; line-height: normal; " /><br /> 58 CA_DepPMA 部门计划人工费用率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 59 CA_DirMA 直接人工费用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 60 CA_DistrInput&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 61 CA_DistrItem&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 62 CA_EnMMC 月末部门共用材料盘点表<br style="word-wrap: break-word; line-height: normal; " /><br /> 63 CA_EnMOM 月末在产品原材料盘点表<br style="word-wrap: break-word; line-height: normal; " /><br /> 64 CA_EnMOP 月末在产品盘点表<br style="word-wrap: break-word; line-height: normal; " /><br /> 65 CA_IDMAC 记入直接材料费用的出库类别表<br style="word-wrap: break-word; line-height: normal; " /><br /> 66 CA_MaBSW 材料及外购半成品耗用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 67 CA_ManCt 制造费用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 68 CA_MAPC 人工费用人员类别表<br style="word-wrap: break-word; line-height: normal; " /><br /> 69 CA_MatDf 材料定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 70 CA_MenuDef&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 71 CA_OnlIA 其它费用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 72 CA_OnpB 在产品年初数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 73 CA_OnPCE 在产品每月变动约当系数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 74 CA_OnPQu 在产品约当系数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 75 CA_OnpQuo 在产品定额表<br style="word-wrap: break-word; line-height: normal; " /><br /> 76 CA_PlanC 计划成本表<br style="word-wrap: break-word; line-height: normal; " /><br /> 77 CA_PPUDR 工序产品领用日报表<br style="word-wrap: break-word; line-height: normal; " /><br /> 78 CA_PreDf 工序定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 79 CA_ProCF 产品成本预测表<br style="word-wrap: break-word; line-height: normal; " /><br /> 80 CA_ProNb 产品批号表<br style="word-wrap: break-word; line-height: normal; " /><br /> 81 CA_ProPMA 工序计划人工费用率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 82 CA_ProPt 工序产品属性表<br style="word-wrap: break-word; line-height: normal; " /><br /> 83 CA_ProPU 工序产品领用表<br style="word-wrap: break-word; line-height: normal; " /><br /> 84 CA_Quo 定额表<br style="word-wrap: break-word; line-height: normal; " /><br /> 85 CA_RptAdd 成本报表自定义加项<br style="word-wrap: break-word; line-height: normal; " /><br /> 86 CA_RptFld 成本报表自定义栏目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 87 CA_RptHZBTmp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 88 CA_RptSub 成本报表自定义减项<br style="word-wrap: break-word; line-height: normal; " /><br /> 89 CA_RptSum 成本汇总表<br style="word-wrap: break-word; line-height: normal; " /><br /> 90 CA_RptSys 成本汇总报表系统备份<br style="word-wrap: break-word; line-height: normal; " /><br /> 91 CA_SAmoCt 服务项目费用成本表<br style="word-wrap: break-word; line-height: normal; " /><br /> 92 CA_SerPri 服务价格表<br style="word-wrap: break-word; line-height: normal; " /><br /> 93 CA_SPDf 结转凭证定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 94 CA_TimSt 工时统计表<br style="word-wrap: break-word; line-height: normal; " /><br /> 95 CA_UserProperty 操作员权限表<br style="word-wrap: break-word; line-height: normal; " /><br /> 96 CA_WasPR 废品回收表<br style="word-wrap: break-word; line-height: normal; " /><br /> 97 CheckVouch 盘点单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 98 CheckVouchs 盘点单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 99 Code 科目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 100 ColumnSet&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 101 CostJustVouch 计划价/售价调整主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 102 CostJustVouchs 计划价/售价调整子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 103 CostObj 成本对象表<br style="word-wrap: break-word; line-height: normal; " /><br /> 104 CurrentStock 现存量表<br style="word-wrap: break-word; line-height: normal; " /><br /> 105 Customer 客户档案<br style="word-wrap: break-word; line-height: normal; " /><br /> 106 CustomerClass 客户分类体系<br style="word-wrap: break-word; line-height: normal; " /><br /> 107 CW_CodePlan 科目计划初始(code plan)<br style="word-wrap: break-word; line-height: normal; " /><br /> 108 CW_CodePlus 科目追加计划(code plus)<br style="word-wrap: break-word; line-height: normal; " /><br /> 109 CW_DeptPlan 部门计划初始(department plan)<br style="word-wrap: break-word; line-height: normal; " /><br /> 110 CW_DeptPlus 部门追加计划(department plus)<br style="word-wrap: break-word; line-height: normal; " /><br /> 111 CW_ProfPlan 利润计划初始(profit plan)<br style="word-wrap: break-word; line-height: normal; " /><br /> 112 CW_ProfPlus 利润追加计划(profit plus)<br style="word-wrap: break-word; line-height: normal; " /><br /> 113 CW_ProjPlan 项目计划初始(project plan)<br style="word-wrap: break-word; line-height: normal; " /><br /> 114 CW_ProjPlus 项目追加计划(project plus)<br style="word-wrap: break-word; line-height: normal; " /><br /> 115 CW_WideDeptCode 粗放部门计划控制科目(wide department code)<br style="word-wrap: break-word; line-height: normal; " /><br /> 116 CW_WideProjCode 粗放项目计划控制科目(wide project code)<br style="word-wrap: break-word; line-height: normal; " /><br /> 117 Dep_Auth&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 118 Department 部门档案<br style="word-wrap: break-word; line-height: normal; " /><br /> 119 DispatchList 发货单、委托代销结算单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 120 DispatchLists 发货单、委托代销结算单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 121 DistrictClass 地区分类体系<br style="word-wrap: break-word; line-height: normal; " /><br /> 122 Dsign 凭证类别表<br style="word-wrap: break-word; line-height: normal; " /><br /> 123 Dsigns 凭证类别子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 124 dtproperties&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 125 DynTemplet 打印版面临时表模版<br style="word-wrap: break-word; line-height: normal; " /><br /> 126 EnDispatch 委托代销发货单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 127 EnDispatchs 委托代销发货单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 128 Exch 汇率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 129 ExpenseItem 销售费用项目<br style="word-wrap: break-word; line-height: normal; " /><br /> 130 ExpenseVouch 代垫费用主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 131 ExpenseVouchs 代垫费用子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 132 fa_AssetAttached 17_附属设备<br style="word-wrap: break-word; line-height: normal; " /><br /> 133 fa_AssetTypes 06_资产类别<br style="word-wrap: break-word; line-height: normal; " /><br /> 134 fa_Cards 16_卡片<br style="word-wrap: break-word; line-height: normal; " /><br /> 135 fa_CardsSheets 34_卡片Sheets表<br style="word-wrap: break-word; line-height: normal; " /><br /> 136 fa_Control 30_记录互斥<br style="word-wrap: break-word; line-height: normal; " /><br /> 137 fa_Departments 07_部门<br style="word-wrap: break-word; line-height: normal; " /><br /> 138 fa_Depreciations 11_折旧方法<br style="word-wrap: break-word; line-height: normal; " /><br /> 139 fa_DeprList 34_折旧日志<br style="word-wrap: break-word; line-height: normal; " /><br /> 140 fa_DeprTransactions 19_折旧<br style="word-wrap: break-word; line-height: normal; " /><br /> 141 fa_DeprVoucherMain 23_折旧分配凭证主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 142 fa_DeprVouchers 24_折旧分配凭证<br style="word-wrap: break-word; line-height: normal; " /><br /> 143 fa_DeprVouchers_pre 24_折旧分配凭证_准备<br style="word-wrap: break-word; line-height: normal; " /><br /> 144 fa_Dictionary 12_常用参照字典<br style="word-wrap: break-word; line-height: normal; " /><br /> 145 fa_EvaluateMain 21_评估单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 146 fa_EvaluateVouchers 22_评估单<br style="word-wrap: break-word; line-height: normal; " /><br /> 147 fa_Items 12_项目<br style="word-wrap: break-word; line-height: normal; " /><br /> 148 fa_ItemsManual 32_自定义项目<br style="word-wrap: break-word; line-height: normal; " /><br /> 149 fa_ItemsOfModel 14_对应各样式的项目<br style="word-wrap: break-word; line-height: normal; " /><br /> 150 fa_ItemsOfQuery 35_查询项目<br style="word-wrap: break-word; line-height: normal; " /><br /> 151 fa_JKItemSet 数据接口设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 152 fa_JKSet 数据接口文件格式表<br style="word-wrap: break-word; line-height: normal; " /><br /> 153 fa_Log 33_日志<br style="word-wrap: break-word; line-height: normal; " /><br /> 154 fa_Models 13_样式<br style="word-wrap: break-word; line-height: normal; " /><br /> 155 fa_Msg 29_信息<br style="word-wrap: break-word; line-height: normal; " /><br /> 156 fa_Objects 03_对象表<br style="word-wrap: break-word; line-height: normal; " /><br /> 157 fa_Operators 02_操作员<br style="word-wrap: break-word; line-height: normal; " /><br /> 158 fa_Origins 09_增减方式<br style="word-wrap: break-word; line-height: normal; " /><br /> 159 fa_QueryFilters 05_查询条件<br style="word-wrap: break-word; line-height: normal; " /><br /> 160 fa_Querys 04_查询<br style="word-wrap: break-word; line-height: normal; " /><br /> 161 fa_ReportTemp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 162 fa_Status 10_使用状况<br style="word-wrap: break-word; line-height: normal; " /><br /> 163 fa_Total 31_汇总表<br style="word-wrap: break-word; line-height: normal; " /><br /> 164 fa_Vouchers 20_变动单<br style="word-wrap: break-word; line-height: normal; " /><br /> 165 fa_WorkLoad 18_工作量<br style="word-wrap: break-word; line-height: normal; " /><br /> 166 fa_ZWVouchers 外部凭证临时表<br style="word-wrap: break-word; line-height: normal; " /><br /> 167 FD_AccDef 帐户定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 168 FD_AccSet 帐户设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 169 FD_AccSum 累积类帐户总帐表<br style="word-wrap: break-word; line-height: normal; " /><br /> 170 FD_AccUnit 开户单位定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 171 FD_CadAcr 结息日结转利息单据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 172 FD_CadSet 结息日设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 173 FD_CadSets 结息日设置子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 174 FD_Class 单据类别表<br style="word-wrap: break-word; line-height: normal; " /><br /> 175 FD_CreAcrRcp 贷款利息还款单据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 176 FD_Cred 贷款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 177 FD_Dzd 对帐单<br style="word-wrap: break-word; line-height: normal; " /><br /> 178 FD_DzdUnit 对帐单单位<br style="word-wrap: break-word; line-height: normal; " /><br /> 179 FD_Fetch 取款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 180 FD_Hasten 催款单<br style="word-wrap: break-word; line-height: normal; " /><br /> 181 FD_Intra 利率设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 182 FD_Intras 利率设置子表<a href="http://bbs.xuekuaiji.com/" style="word-wrap: break-word; color: rgb(0, 102, 153); text-decoration: none; line-height: normal; " target="_blank"><font color="white" style="word-wrap: break-word; line-height: normal; ">bbs.xuekuaiji.com</font></a><br style="word-wrap: break-word; line-height: normal; " /><br /> 183 FD_Item 项目大类定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 184 FD_Items 项目定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 185 FD_Itemss 项目科目、项目帐户表<br style="word-wrap: break-word; line-height: normal; " /><br /> 186 FD_Option 选项<br style="word-wrap: break-word; line-height: normal; " /><br /> 187 FD_Return 还款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 188 FD_Sav 存款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 189 FD_SettAcc 结算表<br style="word-wrap: break-word; line-height: normal; " /><br /> 190 FD_UnwAcrRcp 拆借利息还款单据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 191 FD_UnwDeb 内部拆借表<br style="word-wrap: break-word; line-height: normal; " /><br /> 192 FD_UnwRet 内部拆借还款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 193 FD_Vouch 凭证借贷方科目定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 194 Fitem 项目大类<br style="word-wrap: break-word; line-height: normal; " /><br /> 195 fitemgrademode 项目分类定义模版<br style="word-wrap: break-word; line-height: normal; " /><br /> 196 fitemstructure 项目结构定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 197 fitemstrumode 项目目录定义模版<br style="word-wrap: break-word; line-height: normal; " /><br /> 198 foreigncurrency 币种表<br style="word-wrap: break-word; line-height: normal; " /><br /> 199 GL_accass 辅助总帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 200 GL_accsum 科目总帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 201 GL_accvouch 凭证及明细帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 202 GL_bage 往来帐龄区间定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 203 GL_bautotran 自动转帐定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 204 GL_bdigest 常用摘要表<br style="word-wrap: break-word; line-height: normal; " /><br /> 205 GL_bfreq 常用凭证<br style="word-wrap: break-word; line-height: normal; " /><br /> 206 GL_bmulti 多栏定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 207 GL_bmultiGroup&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 208 GL_btext 往来函证信息<br style="word-wrap: break-word; line-height: normal; " /><br /> 209 GL_CashTable&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 210 GL_DigestDisp&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 211 GL_mccontrol 科目并发控制表<br style="word-wrap: break-word; line-height: normal; " /><br /> 212 GL_mcodeauth 科目权限表<br style="word-wrap: break-word; line-height: normal; " /><br /> 213 GL_mcodeused 科目常用项<br style="word-wrap: break-word; line-height: normal; " /><br /> 214 GL_mend 帐套结帐状态表<br style="word-wrap: break-word; line-height: normal; " /><br /> 215 GL_merror 对帐出错信息<br style="word-wrap: break-word; line-height: normal; " /><br /> 216 GL_mitemused 项目常用项<br style="word-wrap: break-word; line-height: normal; " /><br /> 217 GL_mpostcond 最近一次记帐凭证<br style="word-wrap: break-word; line-height: normal; " /><br /> 218 GL_mpostcond1&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 219 GL_msysname 系统名称对照表<br style="word-wrap: break-word; line-height: normal; " /><br /> 220 GL_mvcontrol 凭证并发控制表<br style="word-wrap: break-word; line-height: normal; " /><br /> 221 GL_mvocontrol 外部凭证并发控制表<br style="word-wrap: break-word; line-height: normal; " /><br /> 222 GL_myaccount 我的帐簿<br style="word-wrap: break-word; line-height: normal; " /><br /> 223 GL_mybooktype 帐簿套打格式<br style="word-wrap: break-word; line-height: normal; " /><br /> 224 GL_myoutput 输出栏目<br style="word-wrap: break-word; line-height: normal; " /><br /> 225 GL_ViewItem&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 226 GL_VouchSync&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 227 GL_XmZcDetail&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 228 GradeDef 编码规则表<br style="word-wrap: break-word; line-height: normal; " /><br /> 229 IA_DifRateDef&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 230 IA_HeadSet 存货科目设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 231 IA_Individual&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 232 IA_InvTData 存货临时表<br style="word-wrap: break-word; line-height: normal; " /><br /> 233 IA_MoneyPlan 存货核算资金占用规划表<br style="word-wrap: break-word; line-height: normal; " /><br /> 234 IA_OppHead&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 235 IA_QueCondition 查询条件<br style="word-wrap: break-word; line-height: normal; " /><br /> 236 IA_Subsidiary 存货核算存货明细帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 237 IA_Summary 存货核算存货总帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 238 IA_tblRCsetM&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 239 IA_ValuationAss 存货核算计价辅助数据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 240 Inventory 存货目录<br style="word-wrap: break-word; line-height: normal; " /><br /> 241 InventoryClass 存货分类体系<br style="word-wrap: break-word; line-height: normal; " /><br /> 242 InvoiceItem 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 243 InvoiceItem_ 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 244 InvoiceItem_Ap 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 245 InvoiceItem_PRN 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 246 InvoiceItem_sal 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 247 Invoiceitem_salPRN 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 248 InvoiceItema 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 249 InvoiceItemaPRN 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 250 InvPosition&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 251 ItemDef 用户可选择项目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 252 JustInVouch 出入库调整单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 253 JustInVouchs 出入库调整单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 254 KCHSItem 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 255 KCHSItemPRN 单据项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 256 LockVouch 单据锁定表<br style="word-wrap: break-word; line-height: normal; " /><br /> 257 MainBatch 批次主文件<br style="word-wrap: break-word; line-height: normal; " /><br /> 258 MatchVouch&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 259 MatchVouchs&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 260 MaxVouch 最大单号表<br style="word-wrap: break-word; line-height: normal; " /><br /> 261 NowReceipt 现收款表<br style="word-wrap: break-word; line-height: normal; " /><br /> 262 OverStockVouch 呆滞积压处理单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 263 OverStockVouchs 呆滞积压处理单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 264 PayCondition 付款条件<br style="word-wrap: break-word; line-height: normal; " /><br /> 265 Person 职员档案<br style="word-wrap: break-word; line-height: normal; " /><br /> 266 Po 采购定单定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 267 PO_Podetails 采购定单（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 268 PO_Pomain 采购定单（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 269 PO_Quodetails 询／报价单（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 270 PO_Quomain 询／报价单（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 271 PO_VendorProcucts 供应商产品<br style="word-wrap: break-word; line-height: normal; " /><br /> 272 Position&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 273 PP_IMRPdetails 独立需求计划（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 274 PP_IMRPmain 独立需求计划（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 275 PP_Lock&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 276 PP_MPSdetails 生产计划（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 277 PP_MPSmain 生产计划（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 278 PP_period 计划周期<br style="word-wrap: break-word; line-height: normal; " /><br /> 279 PP_PeriodTo&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 280 PP_PPCDetails 采购计划（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 281 PP_PPCmain 采购计划（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 282 PP_PU 采购计划-采购入库对照表<br style="word-wrap: break-word; line-height: normal; " /><br /> 283 PP_RelateXS&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 284 PP_RMRPdetails 相关需求计划（明细）<br style="word-wrap: break-word; line-height: normal; " /><br /> 285 PP_RMRPmain 相关需求计划（主表）<br style="word-wrap: break-word; line-height: normal; " /><br /> 286 PriceJustify 调价记录表<br style="word-wrap: break-word; line-height: normal; " /><br /> 287 PrintDef 表格头尾项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 288 PrintEx&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 289 ProductStructure 产品结构主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 290 ProductStructures 产品结构子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 291 PS 采购结算单显示定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 292 PU_LeftSum 采购余额一览表<br style="word-wrap: break-word; line-height: normal; " /><br /> 293 PurBillVouch 采购发票主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 294 PurBillVouchs 采购发票子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 295 PurchaseType 采购类型<br style="word-wrap: break-word; line-height: normal; " /><br /> 296 PurSettleVouch 采购结算单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 297 PurSettleVouchs 采购结算单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 298 QuotedPriceVouch 报价单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 299 QuotedPriceVouchs 报价单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 300 Rd_Style 收发类别<br style="word-wrap: break-word; line-height: normal; " /><br /> 301 RdRecord 收发记录主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 302 RdRecords 收发记录子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 303 RP_bankrecp 银行对帐单(银行日记帐)<br style="word-wrap: break-word; line-height: normal; " /><br /> 304 RP_cheque 支票登记簿<br style="word-wrap: break-word; line-height: normal; " /><br /> 305 Rpt_FldDEF 报表查询项目定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 306 Rpt_FltDEF 筛选条件定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 307 Rpt_Folder 帐夹管理<br style="word-wrap: break-word; line-height: normal; " /><br /> 308 Rpt_GlbDEF 报表查询定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 309 RPT_GRPDEF 分组定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 310 RPT_ItmDEF 报表单元选项<br style="word-wrap: break-word; line-height: normal; " /><br /> 311 Rpt_RelDEF 关系定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 312 SA_Account 销售总帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 313 SA_INIMain&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 314 SA_INISub&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 315 SA_SalePlan 销售计划表<br style="word-wrap: break-word; line-height: normal; " /><br /> 316 SA_WrapLease 包装物租借表<br style="word-wrap: break-word; line-height: normal; " /><br /> 317 SaleBillVouch 销售发票主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 318 SaleBillVouchs 销售发票子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 319 SalePayVouch 销售支出单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 320 SalePayVouchs 销售支出单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 321 SalePrice 销售价目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 322 SaleRelation 销售关联表<br style="word-wrap: break-word; line-height: normal; " /><br /> 323 SaleRelation_Bak&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 324 Sales_Control 销售菜单表<br style="word-wrap: break-word; line-height: normal; " /><br /> 325 SaleType 销售类型<br style="word-wrap: break-word; line-height: normal; " /><br /> 326 ScrapVouch 报废单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 327 ScrapVouchs 报废单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 328 SettleStyle 结算方式<br style="word-wrap: break-word; line-height: normal; " /><br /> 329 ShippingChoice 发运方式表<br style="word-wrap: break-word; line-height: normal; " /><br /> 330 Sindexs&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 331 SO_SODetails 销售订单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 332 SO_SOMain 销售订单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 333 SO_SOText 销售订单合同文本<br style="word-wrap: break-word; line-height: normal; " /><br /> 334 Srelations&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 335 ST_TotalAccount 库存总帐<br style="word-wrap: break-word; line-height: normal; " /><br /> 336 TableName&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 337 TableRelation 表间关联描述<br style="word-wrap: break-word; line-height: normal; " /><br /> 338 TransVouch 转库单主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 339 TransVouchs 转库单子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 340 Ua_account&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 341 Ua_account_sub&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 342 Ua_auth&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 343 Ua_control&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 344 Ua_holdauth&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 345 Ua_period&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 346 Ua_subsys&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 347 Ua_user&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 348 UFFA_Model_AccInfomation_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 349 UFFA_Model_fa_AssetAttached_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 350 UFFA_Model_fa_AssetTypes_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 351 UFFA_Model_fa_Cards_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 352 UFFA_Model_fa_CardsSheets_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 353 UFFA_Model_fa_Control_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 354 UFFA_Model_fa_Departments_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 355 UFFA_Model_fa_Depreciations_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 356 UFFA_Model_fa_DeprList_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 357 UFFA_Model_fa_DeprTransactions_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 358 UFFA_Model_fa_DeprVoucherMain_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 359 UFFA_Model_fa_DeprVouchers_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 360 UFFA_Model_fa_DeprVouchers_per_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 361 UFFA_Model_fa_Dictionary_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 362 UFFA_Model_fa_EvaluateMain_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 363 UFFA_Model_fa_EvaluateVouchers_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 364 UFFA_Model_fa_Items_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 365 UFFA_Model_fa_ItemsManual_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 366 UFFA_Model_fa_ItemsOfModel_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 367 UFFA_Model_fa_ItemsOfQuery_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 368 UFFA_Model_fa_Log_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 369 UFFA_Model_fa_Models_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 370 UFFA_Model_fa_Msg_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 371 UFFA_Model_fa_Objects_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 372 UFFA_Model_fa_Operators_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 373 UFFA_Model_fa_Origins_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 374 UFFA_Model_fa_QueryFilters_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 375 UFFA_Model_fa_Querys_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 376 UFFA_Model_fa_ReportTemp_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 377 UFFA_Model_fa_Status_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 378 UFFA_Model_fa_Total_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 379 UFFA_Model_fa_Vouchers_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 380 UFFA_Model_fa_WorkLoad_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 381 UFFA_Model_fa_ZWVouchers_Init&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 382 UserDef 自定义项定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 383 UserDefine 自定义项数值表<br style="word-wrap: break-word; line-height: normal; " /><br /> 384 Vendor 供应商档案<br style="word-wrap: break-word; line-height: normal; " /><br /> 385 VendorClass 供应商分类体系<br style="word-wrap: break-word; line-height: normal; " /><br /> 386 Vouchers 单据定义<br style="word-wrap: break-word; line-height: normal; " /><br /> 387 VouchFormat 单据格式主表<br style="word-wrap: break-word; line-height: normal; " /><br /> 388 VouchFormats 单据格式子表<br style="word-wrap: break-word; line-height: normal; " /><br /> 389 VouchList 单据列表定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 390 VouchType 单据类型表<br style="word-wrap: break-word; line-height: normal; " /><br /> 391 WA_account 工资类别管理表<br style="word-wrap: break-word; line-height: normal; " /><br /> 392 WA_Auth&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 393 WA_Authority&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 394 WA_Bank 银行设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 395 WA_Bank_Set 银行格式设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 396 WA_BankName 银行名称设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 397 WA_BankPar 银行代发参数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 398 WA_BankTop 银行代发首末行定义表<br style="word-wrap: break-word; line-height: normal; " /><br /> 399 WA_Currency 工资汇率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 400 WA_dept 各工资类别的部门表<br style="word-wrap: break-word; line-height: normal; " /><br /> 401 WA_FilterExpList 过滤项目表<br style="word-wrap: break-word; line-height: normal; " /><br /> 402 WA_FilterName 过滤器名称表<br style="word-wrap: break-word; line-height: normal; " /><br /> 403 WA_formula 计算公式设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 404 WA_FT_KM 工资分摊科目比例表<br style="word-wrap: break-word; line-height: normal; " /><br /> 405 WA_FT_Sum 工资分摊总额参数表<br style="word-wrap: break-word; line-height: normal; " /><br /> 406 WA_FTDept 工资分摊部门表<br style="word-wrap: break-word; line-height: normal; " /><br /> 407 WA_FTInfo&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 408 WA_FTName 分摊计提名称表<br style="word-wrap: break-word; line-height: normal; " /><br /> 409 WA_grade 人员类别表<br style="word-wrap: break-word; line-height: normal; " /><br /> 410 WA_GZBItemDept 表项目组成表（部门）<br style="word-wrap: break-word; line-height: normal; " /><br /> 411 WA_GZBItemGrd 表项目组成表（类别）<br style="word-wrap: break-word; line-height: normal; " /><br /> 412 WA_GZBItemTitle 表项目组成表（栏目）<br style="word-wrap: break-word; line-height: normal; " /><br /> 413 WA_GZBName 表名称表<br style="word-wrap: break-word; line-height: normal; " /><br /> 414 WA_GZData 工资数据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 415 WA_GZFT 工资分摊表<br style="word-wrap: break-word; line-height: normal; " /><br /> 416 WA_GZHZB 工资汇总表<br style="word-wrap: break-word; line-height: normal; " /><br /> 417 WA_GZItem 各工资类别工资项目设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 418 WA_GZNameList 工资项目参照表<br style="word-wrap: break-word; line-height: normal; " /><br /> 419 WA_GzsumComCfg&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 420 WA_Gztblset 工资项目设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 421 WA_JKItemSet 数据接口设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 422 WA_JKSet 数据接口文件格式表<br style="word-wrap: break-word; line-height: normal; " /><br /> 423 WA_psn 人员表<br style="word-wrap: break-word; line-height: normal; " /><br /> 424 WA_PsnMsg 人员附加信息表<br style="word-wrap: break-word; line-height: normal; " /><br /> 425 WA_SDS 所得税数据表<br style="word-wrap: break-word; line-height: normal; " /><br /> 426 WA_SDS_p 所得税设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 427 WA_SDS_SL 所得税税率表<br style="word-wrap: break-word; line-height: normal; " /><br /> 428 WA_SelectMoney 票面额设置表<br style="word-wrap: break-word; line-height: normal; " /><br /> 429 WA_State 数据处理状态表<br style="word-wrap: break-word; line-height: normal; " /><br /> 430 WA_tblRCsetM&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 431 WA_tblRCsetP&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 432 WarehAuth&nbsp;<br style="word-wrap: break-word; line-height: normal; " /><br /> 433 Warehouse 仓库档案<br style="word-wrap: break-word; line-height: normal; " /><br /> 434 Wastage</font></span>
+</div>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html>http://fightx.github.io/post/uf-erpu890-database-and-database-table-name-changes-daquan-reference-table.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/erp/">
+                    #erp</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                    #数据库</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E7%94%A8%E5%8F%8B/">
+                    #用友</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/security-industry-trends-the-permanent-free-antivirus-software.html" class="prev" rel="prev" title="安全行业的趋势：杀毒软件永久免费"><i class="iconfont icon-left"></i>&nbsp;安全行业的趋势：杀毒软件永久免费</a>
+         
+        
+        <a href="http://fightx.github.io/post/sql-queries-and-wildcards-to-use-fuzzy-collection.html" class="next" rel="next" title="SQL模糊查询及通配符使用方法合集">SQL模糊查询及通配符使用方法合集&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

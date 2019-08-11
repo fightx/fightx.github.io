@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/important-data-hidden-up-the-system-articles.html" />
+  <link rel="next" href="http://fightx.github.io/post/change-xiaohan-theme-for-seo.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           远程访问导致远程主机的串口不能使用 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="远程访问导致远程主机的串口不能使用 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "远程访问导致远程主机的串口不能使用",
+    "headline" : "远程访问导致远程主机的串口不能使用",
+    "description" : "关于服务器的问题比较多，大多数百度一下，google知道。可有些比较特殊的问题，例如今天秦天SEO给大家带来的案例，就是百度，google，",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2011",
+    "datePublished": "2011-09-07 03:44:00 \x2b0000 \x2b0000",
+    "dateModified" : "2011-09-07 03:44:00 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html",
+    "wordCount" : "2050",
+    "keywords" : [ "串口","交换机", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">远程访问导致远程主机的串口不能使用</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2011-09-07 itemprop="datePublished">2011-09-07</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/"> 网络维护 </a>
+                        
+                </span>
+                <span class="post-word-count">, 2050 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p>关于服务器的问题比较多，大多数百度一下，google知道。可有些比较特殊的问题，例如今天秦天SEO给大家带来的案例，就是百度，google，N下，都不知道的问题。</p>
+
+<h2 id="问题的起因">问题的起因</h2>
+
+<p>一般企业的机房，电话程控交换机和服务器会放在一起，有时候有人员调动，要使用原来的分机号，就要设置下程控交换机。通过电脑的串口和程控交换机连接，可以轻松的解决。</p>
+
+<p>可是现如今很多笔记本都没有串口了，而台式机一般都是具备的。由于串口连接线的原因，如果要连接必须搬一台台式机过来，那样就比较麻烦，想到机房里面有服务器，而且服务器上面是有串口的，于是想通过远程服务器来设置程控交换机（服务器上面没有显示器）</p>
+
+<h2 id="问题的现象描述">问题的现象描述</h2>
+
+<p>在一台客户端上面连接了远程服务器，打开设置软件。可是总是提示端口打开失败，重新设置了端口和波特率，还是不行。</p>
+
+<p>莫非是连接线的问题，用台式机试了下，没有问题。</p>
+
+<p>莫非是服务器的串口驱动的问题，重新安装了也没用。</p>
+
+<p>莫非是服务器串口的硬件损坏，按道理说IBM的服务器质量还是挺不错的。</p>
+
+<p>首先，秦天SEO先从软件问题着手，采用了最小化检查方法，在服务器上面调试，结果发现服务器可以正常打开并使用设置软件。</p>
+
+<h2 id="专业知识补充">专业知识补充</h2>
+
+<p>那么，问题就出现在了远程这上面，首先了解下远程登录终端mstsc的使用方法：</p>
+
+<blockquote>
+<p>Mstsc 命令参数说明</p>
+
+<p>mstsc.exe {ConnectionFile | /v:ServerName[:Port]} [/console] [/f] [/w:Width/h:Height]</p>
+
+<p>mstsc.exe/edit&#8221;ConnectionFile&#8221;</p>
+
+<p>mstsc.exe/migrate</p>
+
+<p>参数</p>
+
+<p>ConnectionFile</p>
+
+<p>指定用于连接的 .rdp 文件的名称。</p>
+
+<p>/v: ServerName[ :Port]</p>
+
+<p>指定要连接的远程计算机和（可选）端口号。</p>
+
+<p>/console</p>
+
+<p>连接到指定的 Windows Server 2003 家族操作系统的控制台会话。</p>
+
+<p>/f</p>
+
+<p>在全屏模式下启动“远程桌面”连接。</p>
+
+<p>/w:Width /h:Height</p>
+
+<p>指定“远程桌面”屏幕的尺寸。</p>
+
+<p>/edit &#8221; ConnectionFile &#8221;</p>
+
+<p>打开指定的 .rdp 文件进行编辑。</p>
+
+<p>/migrate</p>
+
+<p>将使用“客户端连接管理器”创建的旧的连接文件迁移到新的 .rdp 连接文件中。</p>
+
+<p>注释</p>
+
+<p>-必须是要连接的服务器上的管理员才能创建远程控制台连接。</p>
+
+<p>-对于每个用户来说，默认的 .rdp 都作为隐藏文件存储在“我的文档”中。默认情况下，用户创建的 .rdp 文件存储在“我的文档”中，但可移至任何位置。</p>
+
+<p>示例</p>
+
+<p>要连接到服务器的控制台会话，请键入：</p>
+
+<p>mstsc /console</p>
+
+<p>要打开名为 filename.rdp 的文件进行编辑，请键入：</p>
+
+<p>mstsc /edit filename.rdp</p>
+</blockquote>
+
+<p>注意：</p>
+
+<p>windows xp升级到sp3后，命令换成mstsc /admin即可实现Xp2中MSTSC /console的功能mstsc /console /v:IP:终端端口</p>
+
+<p>mstsc /admin /v:IP:终端端口</p>
+
+<p>在windows xp/2003下，不管是从网络上访问其他机器，还是使用远程桌面功能登录系统，常常遇到类似“由于帐户限制你无法登录”的提示。</p>
+
+<p>这是由于你所使用的登录帐号的密码为空，并且所要登录的远程计算机中的“组策略”禁止空密码用户通过网络登录引起的。只要修改该配置即可。</p>
+
+<p>方法是：在远程计算机上启动“组策略编辑器”(开始-运行-GPEDIT.MSC)，在“WINDOWS设置-安全设置-本地策略-安全选项”中找到“使用空白密码的本地帐户只允许进行控制台登录”，将其设置为“已停用”就可以了，另一种方法则是把你所使用的登录账号设置为非空密码。</p>
+
+<p>使用 /console 和不使用/console (即/admin和不使用/admin)</p>
+
+<p>/console 模式等同于本地终端显示器登录，/console不会去占用非/console远程桌面。</p>
+
+<p>默认情况下一台服务器同时可以打开3个远程桌面，两个“虚桌面（mstsc命令打开）”和一个“实桌面（mstsc /console带参数打开）”，并且打开的窗口相互都看不见。如果想看到别的桌面连接情况可以打开任务管理器，查看用户连接，选中要查看的连接右键选择连接即可。</p>
+
+<p>远程桌面mstsc /console连接的是session 0，而mstsc是另外打开一个虚拟的session，这样的话就是相当与另外登陆计算机。也就是说带console参数连接的是显示器显示的“实桌面”。</p>
+
+<p>1.使用2个正常连接远程服务器，再使用一个/console方式连接，一台服务器打开3个远程桌面，并且打开的窗口相互都看不见。</p>
+
+<p>2.当使用/console打开远程桌面以后，自动锁定本地终端连接，本地终端登录以后会自动断开远程/console方式，相互冲突，并且开启的窗口可以相互看得见</p>
+
+<p>3.当已经有一个/console远程连接以后，再使用一个/console方式就会自动断开已经的连接，并占有他的桌面。</p>
+
+<p>4.正常连接和/console连接除了后台服务一样以外，桌面窗口不会有任何相互干扰。</p>
+
+<p>目前支持/admin的系统有xp sp3，vista，win7，windows2008,</p>
+
+<p>小提示：不管您使用的是微软哪个版本的操作系统，如果您忘记了mstsc 的详细参数，您可以在CMD下使用mstsc -help来查看具体的用法。</p>
+
+<h2 id="解决方法">解决方法</h2>
+
+<p>看了这些以后还是没有什么头绪，不过也让秦天SEO增长了很多专业知识啊。</p>
+
+<p>看来问题还是要靠自己来解决啊，通过自己的摸索发现在远程桌面选项里面——本地资源——详细信息——端口，前面的钩得去掉，要不默认会使用本地的串口。</p>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="http://img2081.poco.cn/mypoco/myphoto/20110907/11/2821827720110907113109044.gif" alt="" class="lazyload"><figcaption class="image-caption"></figcaption></figure></p>
+
+<h2 id="总结">总结</h2>
+
+<p>至此，问题已经解决了，写这篇文章的目的一是记录解决问题的方法，更重要的是解决问题的思路。对于远程桌面文中参考了很多文章,对于新手以及老手都有学习地方。</p>
+
+<p>参考资料：<a href="http://www.360doc.com/content/10/0324/10/61497_20031899.shtml" title="http://www.360doc.com/content/10/0324/10/61497_20031899.shtml" rel="nofollow noreferrer" target="_blank">远程桌面(mstsc) /console(/admin) 的运用经验</a></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html>http://fightx.github.io/post/remote-access-to-serial-port-leading-to-the-remote-host-can-not-be-used.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E4%B8%B2%E5%8F%A3/">
+                    #串口</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/">
+                    #交换机</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/important-data-hidden-up-the-system-articles.html" class="prev" rel="prev" title="重要资料”藏”起来之系统篇"><i class="iconfont icon-left"></i>&nbsp;重要资料”藏”起来之系统篇</a>
+         
+        
+        <a href="http://fightx.github.io/post/change-xiaohan-theme-for-seo.html" class="next" rel="next" title="XiaoHan主题修改,符合SEO规则的HTML">XiaoHan主题修改,符合SEO规则的HTML&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="https://cdn.bootcss.com/lightgallery/1.6.11/css/lg-fb-comment-box.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

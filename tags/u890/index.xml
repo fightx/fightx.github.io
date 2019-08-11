@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>u890 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/u890/</link>
+    <description>Recent content in u890 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 23 Sep 2011 12:16:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/u890/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用友U890、金蝶K3打印凭证格式设置</title>
+      <link>http://fightx.github.io/post/uf-u890-kingdee-k3-print-certificate-format.html</link>
+      <pubDate>Fri, 23 Sep 2011 12:16:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/uf-u890-kingdee-k3-print-certificate-format.html</guid>
+      <description>公司财务一直都是用金蝶K3的财务模块，最近公司全面启用了用友ERPU890，财务的金蝶K3也正在朝用友U890过渡，于是接到要求：让用友现有</description>
+    </item>
+    
+    <item>
+      <title>化工行业用友ERPU890操作流程及详细的操作步骤</title>
+      <link>http://fightx.github.io/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</link>
+      <pubDate>Sat, 16 Apr 2011 02:10:01 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/uf-erpu890-chemical-industry-operating-procedures-and-detailed-steps.html</guid>
+      <description>化工行业用友ERPU890操作流程及详细的操作步骤： &amp;nbsp; 模块 系统名称 系统步骤 工作任务 操作部门 操作员 测试结果 测试员 备注 基础设置 存货档案 增加、修改</description>
+    </item>
+    
+    <item>
+      <title>用友客户端局域网超简单安装教程</title>
+      <link>http://fightx.github.io/post/erp-setup-lite.html</link>
+      <pubDate>Tue, 11 Jan 2011 14:51:30 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/erp-setup-lite.html</guid>
+      <description>上篇发表的用友ERP客户端局域网安装教程详解，感觉很复杂，有的细节说的不是很清楚，没有太多电脑操作经验的人看了都会有很多问题，于是重新整理改</description>
+    </item>
+    
+    <item>
+      <title>用友客户端局域网安装教程详解</title>
+      <link>http://fightx.github.io/post/erp-client-setup.html</link>
+      <pubDate>Mon, 10 Jan 2011 13:21:50 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/erp-client-setup.html</guid>
+      <description>Word中，很多路径已经做好超链接，直接Ctrl+鼠标左键，就可以快速打开，快速安装。 1.在地址栏中输入\ibmdb 回车，如图1 注意：安装软</description>
+    </item>
+    
+    <item>
+      <title>用友ERP U890&#43;SQL Server 2005安装全过程及注意事项</title>
+      <link>http://fightx.github.io/post/ufida-erp-u890-setup.html</link>
+      <pubDate>Wed, 22 Dec 2010 13:49:35 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/ufida-erp-u890-setup.html</guid>
+      <description>安装步骤很简单： 1.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;修改计算机名称，最好是英文和数字的组成，不含有&amp;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>用户体验 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/</link>
+    <description>Recent content in 用户体验 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Oct 2011 12:05:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站搜索引擎优化(SEO)入门教程大全</title>
+      <link>http://fightx.github.io/post/website-search-engine-optimization-seo-tutorial-daquan.html</link>
+      <pubDate>Wed, 12 Oct 2011 12:05:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/website-search-engine-optimization-seo-tutorial-daquan.html</guid>
+      <description>SEO为SearchEngineOptimization的英文缩写，中文翻译为搜索引擎优化，主要含义为：通过改善网站页面优化、网站关键字分析</description>
+    </item>
+    
+    <item>
+      <title>纪念新博一个月：如何优化网站</title>
+      <link>http://fightx.github.io/post/how-to-optimize-web-for-month.html</link>
+      <pubDate>Thu, 29 Sep 2011 11:18:54 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/how-to-optimize-web-for-month.html</guid>
+      <description>秦天SEO的tsky.cc域名于2011年8月29日正式注册，截止到今天刚好一个月，通过本文纪念下。关注秦天SEO的朋友，应该发现秦天SEO</description>
+    </item>
+    
+  </channel>
+</rss>

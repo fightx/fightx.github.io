@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/h3c-er3100-fast-router.html" />
+  <link rel="next" href="http://fightx.github.io/post/f4-bsod.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/ufida-erp-u890-setup.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           用友ERP U890&#43;SQL Server 2005安装全过程及注意事项 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="用友ERP U890&#43;SQL Server 2005安装全过程及注意事项 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "用友ERP U890\x2bSQL Server 2005安装全过程及注意事项",
+    "headline" : "用友ERP U890\x2bSQL Server 2005安装全过程及注意事项",
+    "description" : "安装步骤很简单： 1.\x26nbsp;\x26nbsp;\x26nbsp;\x26nbsp;\x26nbsp;\x26nbsp;修改计算机名称，最好是英文和数字的组成，不含有\x26",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2010",
+    "datePublished": "2010-12-22 13:49:35 \x2b0000 \x2b0000",
+    "dateModified" : "2010-12-22 13:49:35 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/ufida-erp-u890-setup.html",
+    "wordCount" : "879",
+    "keywords" : [ "erp","server","sql","u890","用友", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">用友ERP U890&#43;SQL Server 2005安装全过程及注意事项</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2010-12-22 itemprop="datePublished">2010-12-22</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/"> 网络维护 </a>
+                        
+                </span>
+                <span class="post-word-count">, 879 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p><span class="Apple-style-span" style="font-size: 15px; ">安装步骤很简单：</span></p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">1.</span><span lang="EN-US" style="font-size:7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">修改计算机名称，最好是英文和数字的组成，不含有</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">&ldquo;-&rdquo;<o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">2.</span><span lang="EN-US" style="font-size:7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">先安装</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">SQL Server 2005</span><span style="font-size:
+11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">，</span><span class="apple-style-span"><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#4B4C4A">SQLServer2005SP2</span></span><span class="apple-style-span"><span style="font-size:11.5pt;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4B4C4A">简体中文企业完整版（</span></span><st1:chmetcnv hasspace="False" negative="False" numbertype="1" sourcevalue="1.2" tcsc="0" unitname="g" w:st="on"><span class="apple-style-span"><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#4B4C4A">1.2G</span></span></st1:chmetcnv><span class="apple-style-span"><span style="font-size:11.5pt;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#4B4C4A">）</span></span><span style="font-size:11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222">下载地址：</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><a href="http://www.onegreen.net/Soft/HTML/20460.html">http://www.onegreen.net/Soft/HTML/20460.html</a><o:p></o:p></span>
+</p>
+
+<p style="background:white">
+  <span style="font-size:11.5pt;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#222222">安装过程中，记得指定</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">sa</span><span style="font-size:11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222">账户，设置密码</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">3.</span><span lang="EN-US" style="font-size:7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">安装</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">iis5.1</span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">，下载地址：</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">http://www.orsoon.com/soft/7748.html<o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span class="apple-style-span"><span lang="EN-US" style="font-size:11.5pt;font-family:
+Verdana;mso-bidi-font-family:Arial;color:#222222">4.</span></span><span class="apple-style-span"><span lang="EN-US" style="font-size:7.0pt;font-family:
+&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;</span></span><span class="apple-converted-space"><span lang="EN-US" style="font-size:7.0pt;font-family:
+&quot;Times New Roman&quot;;color:#222222">&nbsp;</span></span><span class="apple-style-span"><span style="font-size:11.5pt;mso-ascii-font-family:
+Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#222222">如何手动重新生成性能计数器库：</span></span><span class="apple-style-span"><span lang="EN-US" style="font-size:11.5pt;font-family:
+Verdana;mso-bidi-font-family:Arial;color:#222222"><a href="http://support.microsoft.com/kb/300956">http://support.microsoft.com/kb/300956</a></span></span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+<ol start="1" type="1">
+  <li class="MsoNormal" style="color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:left;line-height:15.9pt;mso-pagination:widow-orphan;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt;background:white">
+    <span class="apple-converted-space"><span style="font-family:宋体;mso-ascii-font-family:
+     &quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+     Arial;color:#222222">文中，我只是将</span></span><span style="font-family:宋体;
+     mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&quot;Times New Roman&quot;;
+     mso-bidi-font-family:Arial">启动注册表编辑器，然后在注册表中查找以下项：</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial"><o:p></o:p></span>
+  </li>
+</ol>
+
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:36.0pt;line-height:15.9pt;background:white">
+  <span lang="EN-US" style="font-family:Verdana;color:black">HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Perflib</span><span lang="EN-US" style="font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#222222"><o:p></o:p></span>
+</p>
+
+<ol start="2" type="1">
+  <li class="MsoNormal" style="color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;text-align:left;line-height:15.9pt;mso-pagination:widow-orphan;
+     mso-list:l1 level1 lfo2;tab-stops:list 36.0pt;background:white">
+    <span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">在注册表中，将</span><span lang="EN-US" style="font-family:Verdana;mso-bidi-font-family:Arial">&ldquo;LastCounter&rdquo;</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">值更改为</span><span lang="EN-US" style="font-family:Verdana;mso-bidi-font-family:Arial">&nbsp;1846</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">（十进制），并将</span><span lang="EN-US" style="font-family:Verdana;mso-bidi-font-family:Arial">&ldquo;LastHelp&rdquo;</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">值更改为</span><span lang="EN-US" style="font-family:Verdana;mso-bidi-font-family:Arial">1847</span><span style="font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+     &quot;Times New Roman&quot;;mso-bidi-font-family:Arial">（十进制）。</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial"><o:p></o:p></span>
+  </li>
+</ol>
+
+<p style="background:white">
+  <span class="apple-style-span"><span style="font-size:11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222">修改后就可以了，如果不行，请参考文中其他方法</span></span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+<p style="background:white">
+  <span class="apple-style-span"><span lang="EN-US" style="font-size:11.5pt;font-family:Verdana;mso-bidi-font-family:Arial;
+color:#222222">&nbsp;</span></span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">5.</span><span lang="EN-US" style="font-size:
+7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">升级</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">SQL Server 2005</span><span style="font-size:
+11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">到</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">sp3</span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">，下载地址：</span><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=zh-cn&FamilyID=ae7387c3-348c-4faa-8ae5-949fdfbe59c4"><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222"><span style="color:#222222">http://www.microsoft.com/downloads/details.aspx?displaylang=zh-cn&FamilyID=ae</span>7387c3-348c-4faa-8ae5-949fdfbe59c4</span></a><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">6.</span><span lang="EN-US" style="font-size:7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">安装</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">ERP U890</span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">。</span><span lang="EN-US" style="font-size:11.5pt;
+font-family:Arial;color:#222222">.</span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">根据提示缺少的文件：点击提示处，打开到安装目录</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">/\3rdProgram</span><span style="font-size:11.5pt;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
+mso-bidi-font-family:Arial;color:#222222">，然后安装相应组件就可以了</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:331.5pt;
+ height:351.75pt'>
+ <v:imagedata src="file:///D:\TEMP\FileTemp\msohtml1\01\clip_image001.jpg"
+  o:title="2821827720101222213553048"/>
+</v:shape>< ![endif]-->
+  
+  <!--[if !vml]-->
+  
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><img border="0" height="469" src="http://img208.poco.cn/mypoco/myphoto/20101222/21/2821827720101222213553048_640.jpg" v:shapes="_x0000_i1025" width="442" /><!--[endif]--><o:p></o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p>&nbsp;</o:p></span>
+</p>
+
+<p style="margin-left:18.0pt;text-indent:-18.0pt;background:white">
+  <span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222">7.</span><span lang="EN-US" style="font-size:7.0pt;font-family:&quot;Times New Roman&quot;;color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="apple-converted-space">&nbsp;</span></span><span style="font-size:11.5pt;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
+Arial;color:#222222">至此安装基本完成，如果还有什么问题，本人随时更新！</span><span lang="EN-US" style="font-size:11.5pt;font-family:Arial;color:#222222"><o:p></o:p></span>
+</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/ufida-erp-u890-setup.html>http://fightx.github.io/post/ufida-erp-u890-setup.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/erp/">
+                    #erp</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/server/">
+                    #server</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/sql/">
+                    #sql</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/u890/">
+                    #u890</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E7%94%A8%E5%8F%8B/">
+                    #用友</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/h3c-er3100-fast-router.html" class="prev" rel="prev" title="H3C ER3100路由器由于FAST路由器的ARP欺骗导致的断网的处理方法"><i class="iconfont icon-left"></i>&nbsp;H3C ER3100路由器由于FAST路由器的ARP欺骗导致的断网的处理方法</a>
+         
+        
+        <a href="http://fightx.github.io/post/f4-bsod.html" class="next" rel="next" title="OX000000F4蓝屏代码及硬盘ghost速度慢的解决思路及出现的误区">OX000000F4蓝屏代码及硬盘ghost速度慢的解决思路及出现的误区&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

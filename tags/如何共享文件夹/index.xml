@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>如何共享文件夹 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E5%A6%82%E4%BD%95%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9/</link>
+    <description>Recent content in 如何共享文件夹 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 08 Dec 2011 01:59:42 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E5%A6%82%E4%BD%95%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:进阶篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</link>
+      <pubDate>Thu, 08 Dec 2011 01:59:42 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</guid>
+      <description>一口气发布了企业局域网如何设置共享文件夹、企业局域网如何设置共享文件夹:访问篇，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶</description>
+    </item>
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:访问管理篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</link>
+      <pubDate>Thu, 08 Dec 2011 01:20:59 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html</guid>
+      <description>上篇企业局域网如何设置共享文件夹里面讲解了设置共享文件夹的几种方法,这次秦天SEO接着上篇，这次给大家带来访问共享资源的几种方法，如何管理共</description>
+    </item>
+    
+    <item>
+      <title>企业局域网如何设置共享文件夹:设置篇</title>
+      <link>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</link>
+      <pubDate>Wed, 07 Dec 2011 09:12:27 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/shared-folder-for-enterprise-lan.html</guid>
+      <description>企业共享文件夹和共享网络打印机案例：一中小企业办公区域有22台办公计算机，由于企业需求提高办公效率，要求能在自己的办公局域网内共享文件、共享</description>
+    </item>
+    
+  </channel>
+</rss>

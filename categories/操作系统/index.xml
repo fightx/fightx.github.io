@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>操作系统 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Jun 2012 06:15:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware服务启用和停止批处理</title>
+      <link>http://fightx.github.io/post/vmware-services-bat-disabled-and-stop.html</link>
+      <pubDate>Thu, 14 Jun 2012 06:15:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/vmware-services-bat-disabled-and-stop.html</guid>
+      <description>最近秦天SEO一直忙着工作，同时一些心得都是记录在有道云笔记里面，所以一段时间都没有更新博客。今天抽空写些东西，算做分享吧。最近更新了虚拟机</description>
+    </item>
+    
+    <item>
+      <title>Windows8快捷键汇总</title>
+      <link>http://fightx.github.io/post/windows-8-winkey.html</link>
+      <pubDate>Sat, 03 Mar 2012 11:11:28 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/windows-8-winkey.html</guid>
+      <description>Windows 8消费者预览版出来很久了，秦天SEO一直到周末才有空把它安装上，安装win8方法和安装win7几乎一样，用的是PE里面的win$man安装</description>
+    </item>
+    
+    <item>
+      <title>快速创建任意大小文件的方法</title>
+      <link>http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html</link>
+      <pubDate>Wed, 19 Oct 2011 12:47:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/fsutil-rapid-creating-any-size-file.html</guid>
+      <description>有的时候秦天SEO要测试U盘速度，手头又没有什么大文件，如何凭空的创建出4G的、6G、10G、100G、1TB的文件？难道在记事本里面打字、</description>
+    </item>
+    
+    <item>
+      <title>Ghost win7开启硬盘AHCI模式方法</title>
+      <link>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</link>
+      <pubDate>Tue, 18 Oct 2011 11:14:41 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</guid>
+      <description>关于win7下如何开启硬盘AHCI，网上教程很多，有Intel主板如何开启硬盘AHCI方法，也有AMD主板如何开启硬盘AHCI方法，这些方法</description>
+    </item>
+    
+    <item>
+      <title>重要资料&amp;ldquo;藏&amp;rdquo;起来之软件篇</title>
+      <link>http://fightx.github.io/post/important-information-hiding-its-software-articles.html</link>
+      <pubDate>Thu, 06 Oct 2011 07:48:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/important-information-hiding-its-software-articles.html</guid>
+      <description>现在是信息化普及的时代，自从网络上面流传的艳照门开始，人们对信息化安全的意识也越来越高，如何保护自己的隐私，隐藏重要文件，将机密文件藏好，加</description>
+    </item>
+    
+    <item>
+      <title>加速开机，程序延迟启动几法</title>
+      <link>http://fightx.github.io/post/the-program-delayed-start.html</link>
+      <pubDate>Thu, 22 Sep 2011 06:41:01 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/the-program-delayed-start.html</guid>
+      <description>每天电脑开机，秦天SEO很是头疼，很多启动项，如：QQ、淘宝旺旺、飞信、foxmail、金山快盘。电脑启动了很久才能真正进入桌面。而这些程序</description>
+    </item>
+    
+    <item>
+      <title>开机自动拨号小技巧合集</title>
+      <link>http://fightx.github.io/post/power-tips-collection-automatically-dial.html</link>
+      <pubDate>Wed, 21 Sep 2011 02:38:32 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/power-tips-collection-automatically-dial.html</guid>
+      <description>如今虽说家家都有路由器或者路由猫，但是由于电信的限制，很多用户还处于开机手动拨号的阶段，如何摆脱手动拨号的束缚，实现自动拨号，今天秦天SEO</description>
+    </item>
+    
+    <item>
+      <title>我的电脑你别动，电脑锁定几法</title>
+      <link>http://fightx.github.io/post/the-computer-locks-several-law.html</link>
+      <pubDate>Mon, 19 Sep 2011 14:52:05 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/the-computer-locks-several-law.html</guid>
+      <description>在上班的时候秦天SEO经常会离开电脑一会，为了保护隐私我会把电脑锁定，那么如何锁定？有时候走的匆忙，那么如何自动锁定？ 快速锁定电脑 两个办法可</description>
+    </item>
+    
+    <item>
+      <title>Windows7开机黑屏，是盗版系统原因？还是？</title>
+      <link>http://fightx.github.io/post/windows7-boot-black.html</link>
+      <pubDate>Mon, 10 Jan 2011 11:18:27 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/windows7-boot-black.html</guid>
+      <description>今天朋友电脑出现问题，开机后电脑出现黑屏，桌面没有任何图标，进程explorer在，百度，google一下，大多数是因为安装了微软的黑屏补丁</description>
+    </item>
+    
+    <item>
+      <title>DLL动态链接库下载大全</title>
+      <link>http://fightx.github.io/post/dll-download.html</link>
+      <pubDate>Fri, 10 Dec 2010 13:57:39 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/dll-download.html</guid>
+      <description>&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;关于DLL动态链接库应该知道吧，不知道的可以看这里：http://support.microsoft.com/kb/815</description>
+    </item>
+    
+    <item>
+      <title>游戏无法全屏解决方法集合</title>
+      <link>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</link>
+      <pubDate>Thu, 25 Nov 2010 01:32:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</guid>
+      <description>很多朋友使用戴尔笔记本的朋友，在XP下使用ATI显卡玩游戏时不能全屏显示。而改为Windows 7系统，就一切正常。 这是为什么呢？难道显卡歧视</description>
+    </item>
+    
+    <item>
+      <title>如何查看BIOS中SLIC信息</title>
+      <link>http://fightx.github.io/post/how-to-view-the-bios-slic-information.html</link>
+      <pubDate>Wed, 24 Nov 2010 10:51:56 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/how-to-view-the-bios-slic-information.html</guid>
+      <description>查看BIOS中SLIC信息 开始菜单，输入: cmd 会自动搜到“cmd.exe” 管理员身份运行（如果不行，UAC的线拉底一些。因为平常我用的管理员权</description>
+    </item>
+    
+  </channel>
+</rss>

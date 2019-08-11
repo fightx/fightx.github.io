@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wampserver on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/wampserver/</link>
+    <description>Recent content in wampserver on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Nov 2011 12:41:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/wampserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xampp缺少Zend Optimizer(Zend Guard Loader)解决方法</title>
+      <link>http://fightx.github.io/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</link>
+      <pubDate>Wed, 16 Nov 2011 12:41:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/xampp-no-zend-optimizer-and-guard-loader-solution.html</guid>
+      <description>最近秦天SEO准备搞个类似远程监控的视频服务器，以便于出差在外，随时查看视频服务器上面拍摄的视频。在尝试了几个视频点播系统后，好不容易找到一</description>
+    </item>
+    
+  </channel>
+</rss>

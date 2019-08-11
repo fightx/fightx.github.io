@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>新站如何优化 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E6%96%B0%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96/</link>
+    <description>Recent content in 新站如何优化 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 13 Oct 2011 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E6%96%B0%E7%AB%99%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>血的教训之新站SEO优化注意项</title>
+      <link>http://fightx.github.io/post/bloody-lessons-of-the-new-station-seo-optimization-note-items.html</link>
+      <pubDate>Thu, 13 Oct 2011 16:00:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/bloody-lessons-of-the-new-station-seo-optimization-note-items.html</guid>
+      <description>新的域名，新的开始，的确百度和谷歌收录刚开始都很正常，过了一段时间发现百度不收录秦天SEO博客里面的原创文章了，莫非被百度K了？可是之前的收</description>
+    </item>
+    
+  </channel>
+</rss>

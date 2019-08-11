@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技巧 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in 技巧 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Nov 2011 12:37:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win7网络共享设置及登录失败：禁用当前用户解决方法</title>
+      <link>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</link>
+      <pubDate>Thu, 10 Nov 2011 12:37:11 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-network-share-disable-user-logon.html</guid>
+      <description>今天秦天SEO发现一台安装Win7的电脑，无法查找和添加网络打印机，手动输入打印机服务器的主机名和IP地址，提示登录失败：禁用当前的用户。而</description>
+    </item>
+    
+    <item>
+      <title>HP1020plus网络打印机WIN7下不能打印解决方法</title>
+      <link>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</link>
+      <pubDate>Thu, 20 Oct 2011 12:52:10 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/win7-hp1020plus-can-not-print.html</guid>
+      <description>今天秦天SEO在使用HP LaserJet 1020 Plus进行网络打印时，打印机没有任何反应，连任何错误提示都没有。检查打印线连接没有问题，重启了网络打印机问题依</description>
+    </item>
+    
+    <item>
+      <title>HP3020网络打印机不能打印解决方法</title>
+      <link>http://fightx.github.io/post/hp3020-can-not-print.html</link>
+      <pubDate>Thu, 20 Oct 2011 07:36:13 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/hp3020-can-not-print.html</guid>
+      <description>上篇HP1020plus网络打印机WIN7下不能打印解决方法，秦天SEO介绍了由于Print Spooler打印服务导致的无法打印，今天秦天S</description>
+    </item>
+    
+    <item>
+      <title>开机自动拨号小技巧合集</title>
+      <link>http://fightx.github.io/post/power-tips-collection-automatically-dial.html</link>
+      <pubDate>Wed, 21 Sep 2011 02:38:32 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/power-tips-collection-automatically-dial.html</guid>
+      <description>如今虽说家家都有路由器或者路由猫，但是由于电信的限制，很多用户还处于开机手动拨号的阶段，如何摆脱手动拨号的束缚，实现自动拨号，今天秦天SEO</description>
+    </item>
+    
+    <item>
+      <title>轻松转帖之突破网页复制限制</title>
+      <link>http://fightx.github.io/post/the-page-break-easily-zhuantie-copy-restrictions.html</link>
+      <pubDate>Mon, 12 Sep 2011 00:24:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/the-page-break-easily-zhuantie-copy-restrictions.html</guid>
+      <description>本文介绍了如何突破网页复制限制、解除右键限制方法、解除网页右键限制方法、解除网页右击锁定、恢复右键菜单、恢复右键功能、解除禁止右键、恢复鼠标</description>
+    </item>
+    
+    <item>
+      <title>禁止特定QQ号码登录小技巧合集</title>
+      <link>http://fightx.github.io/post/qq-number-of-log-ban.html</link>
+      <pubDate>Sun, 11 Sep 2011 05:54:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/qq-number-of-log-ban.html</guid>
+      <description>最近好友小王向秦天SEO求救.说他们单位有的同事老是喜欢在他办公室的打印服务器上登录QQ和MM聊天，既妨碍了他的正常办公.而且有时候还让电脑</description>
+    </item>
+    
+    <item>
+      <title>活动窗口自动切换为非活动窗口</title>
+      <link>http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html</link>
+      <pubDate>Tue, 30 Aug 2011 06:27:55 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html</guid>
+      <description>最近秦天SEO电脑出现了问题，就是打字打得好好的，就突然失去焦点，即&amp;rdquo;活动窗口自动切换为非活动窗口了&amp;rdquo;，怎么回事？莫</description>
+    </item>
+    
+    <item>
+      <title>桌面图标出现了异常解决方法合集</title>
+      <link>http://fightx.github.io/post/desktop-icon-collection-appeared-abnormal-solutions.html</link>
+      <pubDate>Wed, 09 Feb 2011 03:47:20 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/desktop-icon-collection-appeared-abnormal-solutions.html</guid>
+      <description>就比方说宽带连接的图标变成了上面一半是原来的样子下面一半是QQ的图标，其他图标也如同这样子 解决方法如下： 桌面空白处，右键——属性——设置，在</description>
+    </item>
+    
+    <item>
+      <title>游戏无法全屏解决方法集合</title>
+      <link>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</link>
+      <pubDate>Thu, 25 Nov 2010 01:32:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/solution-can-not-be-full-screen-game-collection.html</guid>
+      <description>很多朋友使用戴尔笔记本的朋友，在XP下使用ATI显卡玩游戏时不能全屏显示。而改为Windows 7系统，就一切正常。 这是为什么呢？难道显卡歧视</description>
+    </item>
+    
+  </channel>
+</rss>

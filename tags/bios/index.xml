@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bios on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/bios/</link>
+    <description>Recent content in Bios on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Oct 2011 11:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/bios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>电脑开机卡在BIOS界面解决方法合集</title>
+      <link>http://fightx.github.io/post/pc-boot-at-the-bios.html</link>
+      <pubDate>Fri, 28 Oct 2011 11:04:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/pc-boot-at-the-bios.html</guid>
+      <description>今天秦天SEO又遇到一台戴尔笔记本电脑，开机启动的时卡在BIOS界面的Case，经检测发现导致开机无法启动卡在BIOS界面，是由于主板电池没</description>
+    </item>
+    
+    <item>
+      <title>如何查看BIOS中SLIC信息</title>
+      <link>http://fightx.github.io/post/how-to-view-the-bios-slic-information.html</link>
+      <pubDate>Wed, 24 Nov 2010 10:51:56 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/how-to-view-the-bios-slic-information.html</guid>
+      <description>查看BIOS中SLIC信息 开始菜单，输入: cmd 会自动搜到“cmd.exe” 管理员身份运行（如果不行，UAC的线拉底一些。因为平常我用的管理员权</description>
+    </item>
+    
+  </channel>
+</rss>

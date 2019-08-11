@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ghost on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/ghost/</link>
+    <description>Recent content in ghost on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Oct 2011 11:14:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost win7开启硬盘AHCI模式方法</title>
+      <link>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</link>
+      <pubDate>Tue, 18 Oct 2011 11:14:41 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/ghost-win7-open-disk-ahci-method.html</guid>
+      <description>关于win7下如何开启硬盘AHCI，网上教程很多，有Intel主板如何开启硬盘AHCI方法，也有AMD主板如何开启硬盘AHCI方法，这些方法</description>
+    </item>
+    
+    <item>
+      <title>OX000000F4蓝屏代码及硬盘ghost速度慢的解决思路及出现的误区</title>
+      <link>http://fightx.github.io/post/f4-bsod.html</link>
+      <pubDate>Fri, 24 Dec 2010 10:32:21 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/f4-bsod.html</guid>
+      <description>STOP:OX000000F4 蓝屏代码提示：内存存取错误 其他网友解决方法： 那个数字是内存地址,你可以尝试一下,把内存抽下来再安上去,我的电脑以前也出现过此问题,后来换了</description>
+    </item>
+    
+  </channel>
+</rss>

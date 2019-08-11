@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>病毒 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E7%97%85%E6%AF%92/</link>
+    <description>Recent content in 病毒 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 30 Aug 2011 06:27:55 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E7%97%85%E6%AF%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>活动窗口自动切换为非活动窗口</title>
+      <link>http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html</link>
+      <pubDate>Tue, 30 Aug 2011 06:27:55 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/automatically-switch-the-active-window-inactive-window.html</guid>
+      <description>最近秦天SEO电脑出现了问题，就是打字打得好好的，就突然失去焦点，即&amp;rdquo;活动窗口自动切换为非活动窗口了&amp;rdquo;，怎么回事？莫</description>
+    </item>
+    
+    <item>
+      <title>Windows7开机黑屏，是盗版系统原因？还是？</title>
+      <link>http://fightx.github.io/post/windows7-boot-black.html</link>
+      <pubDate>Mon, 10 Jan 2011 11:18:27 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/windows7-boot-black.html</guid>
+      <description>今天朋友电脑出现问题，开机后电脑出现黑屏，桌面没有任何图标，进程explorer在，百度，google一下，大多数是因为安装了微软的黑屏补丁</description>
+    </item>
+    
+    <item>
+      <title>电脑经常性出现死机，不是病毒，那是啥？</title>
+      <link>http://fightx.github.io/post/pc-death-is-virus.html</link>
+      <pubDate>Wed, 05 Jan 2011 13:25:32 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/pc-death-is-virus.html</guid>
+      <description>&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; 昨天遇到台电脑，开机进入桌面就死机，有时候坚持的比较久，可是最近现象比较频繁。问了下，以前都好好的，莫非内存，硬盘问题? &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp</description>
+    </item>
+    
+  </channel>
+</rss>

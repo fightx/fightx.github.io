@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HP3020 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/hp3020/</link>
+    <description>Recent content in HP3020 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Oct 2011 07:36:13 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/hp3020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HP3020网络打印机不能打印解决方法</title>
+      <link>http://fightx.github.io/post/hp3020-can-not-print.html</link>
+      <pubDate>Thu, 20 Oct 2011 07:36:13 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/hp3020-can-not-print.html</guid>
+      <description>上篇HP1020plus网络打印机WIN7下不能打印解决方法，秦天SEO介绍了由于Print Spooler打印服务导致的无法打印，今天秦天S</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIR-615 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/dir-615/</link>
+    <description>Recent content in DIR-615 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Nov 2011 01:10:59 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/dir-615/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D-link的DIR-615路由器经常掉线解决方法合集</title>
+      <link>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</link>
+      <pubDate>Tue, 01 Nov 2011 01:10:59 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/d-link-dir-615-router-the-solution-often-dropped-collection.html</guid>
+      <description>D-link的DIR-615路由器性价比比较高的，而且一直以来都比较看好dlink，没想到这次买的D-link的DIR-615总是无故的掉线</description>
+    </item>
+    
+  </channel>
+</rss>

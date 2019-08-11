@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html" />
+  <link rel="next" href="http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           企业局域网如何设置共享文件夹:进阶篇 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="企业局域网如何设置共享文件夹:进阶篇 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "企业局域网如何设置共享文件夹:进阶篇",
+    "headline" : "企业局域网如何设置共享文件夹:进阶篇",
+    "description" : "一口气发布了企业局域网如何设置共享文件夹、企业局域网如何设置共享文件夹:访问篇，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2011",
+    "datePublished": "2011-12-08 01:59:42 \x2b0000 \x2b0000",
+    "dateModified" : "2011-12-08 01:59:42 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/shared-folder-for-enterprise-lan-3.html",
+    "wordCount" : "3431",
+    "keywords" : [ "如何共享文件夹","网络共享", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">企业局域网如何设置共享文件夹:进阶篇</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2011-12-08 itemprop="datePublished">2011-12-08</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%BB%9C%E7%BB%B4%E6%8A%A4/"> 网络维护 </a>
+                        
+                </span>
+                <span class="post-word-count">, 3431 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p>一口气发布了<a href="http://tsky.cc/post/shared-folder-for-enterprise-lan.html" rel="nofollow noreferrer" target="_blank">企业局域网如何设置共享文件夹</a>、<a href="http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html" rel="nofollow noreferrer" target="_blank">企业局域网如何设置共享文件夹:访问篇</a>，这是关于如何设置共享文件夹的最后一篇，本文算是网络共享的进阶篇吧，涉及到共享权限、NTFS权限、磁盘配额等专业知识，最后也以图文形式给大家展示了常见共享问题的处理方法。写完这篇，接下来会给大家带来企业局域网如何共享打印机，尽请期待。</p>
+
+<h2 id="6-160-160-共享安全">6.&#160;&#160; 共享安全</h2>
+
+<p>为了保证Windows系统的安全稳定，很多用户都是使用NTFS文件系统，因此共享文件夹的访问权限不但受到“共享权限”限制，还受到NTFS文件系统的ACL(访问控制列表)包含的访问权限的制约。下面就以“gx”共享文件夹为例，介绍如何合理设置“saler”用户对“gx”共享文件夹的访问权限，以此来增强共享文件夹的安全。</p>
+
+<h3 id="6-1-共享权限设置">6.1 共享权限设置</h3>
+
+<p><img title="共享权限设置" alt="共享权限设置" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_035.jpg" width="257" height="316" /></p>
+
+<p>图6- 1</p>
+
+<p>在资源管理器中，右键点击“gx”共享文件夹，选择“属性”，切换到“共享”标签页，点击“权限”按钮，弹出“gx的权限”设置对话框（图6-1），点击“添加”按钮，将“saler ”账号添加到“组或用户名称”列表框内，这里“saler”账号对“gx”共享文件夹要有读取和写入权限，赋予“完全控制”权限，最后点击“确定”按钮，完成共享权限设置。&#160;<br />
+&#160;</p>
+
+<h3 id="6-2-ntfs访问权限设置">6.2 NTFS访问权限设置</h3>
+
+<p>&#160;  <img title="NTFS访问权限设置" alt="NTFS访问权限设置" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_034.jpg" width="256" height="307" /></p>
+
+<p>图6- 2</p>
+
+<p>以上只是设置了“gx”共享文件夹的共享访问权限，毕竟“gx”共享文件夹是受“共享访问权限”和“NTFS访问权限”双重制约的，如果NTFS文件系统不允许“saler”用户访问共享，也是不行的，并且还要给该账号设置合理的NTFS访问权限。</p>
+
+<p>在“gx”共享文件属性对话框中切换到“安全”标签页（图6-2）后，首先将“saler”账号添加到“组或用户名称”列表框中，接下来还要为该账号设置访问权限。选中“saler”账号后，在“saler的权限”列表框中选中“读取和运行、列出文件夹目录、读取、修改和写入”项目，最后点击“确定”按钮。</p>
+
+<p>经过以上操作后，就完成了“gx”共享文件夹的“saler”用户的访问权限设置，其它用户的共享文件夹访问权限设置方法是相同的，就不再赘述。</p>
+
+<h3 id="6-3-磁盘管理-合理配制">6.3 磁盘管理 合理配制</h3>
+
+<p>由于共享文件夹中存在着大量的共享资源，因此它要占用一定的硬盘空间。某些有写入权限的用户，任意上传大量与工作无关的文件，不但浪费磁盘资源，而且还容易被感染病毒，因此共享文件夹毫无节制的占用硬盘空间资源，也会带来意想不到的安全隐患，必须进行限制。</p>
+
+<h4 id="6-3-1-磁盘配额-限制用户">6.3.1 磁盘配额，限制用户</h4>
+
+<p>Windows系统提供的“磁盘配额”功能，可以对每位Windows用户使用的硬盘空间资源进行限制，这样就可以间接的起到控制共享文件夹容量大小的作用。</p>
+
+<p>还是以“gx”共享文件夹和“saler”用户为例，这里“gx”共享文件夹位于D盘中，下面就要启用D盘中的“磁盘配额”功能，指定“saler”用户可以使用的硬盘空间数。</p>
+
+<p>在资源管理器中，右键点击D盘盘符，选择“属性”选项，切换到“配额”标签页，选中“启用配额管理”项后，激活“磁盘配额”功能。确保选中“拒绝将磁盘空间给超过配额限制的用户”项。另外建议选中“用户超出配额限制时记录事件”和“用户超过警告等级时记录事件”这两项，以便将配额告警记录到日志中，最后点击“应用”。</p>
+
+<p>下面点击“配额项”按钮，弹出磁盘配额项目窗口，接下来就为“saler”用户进行配额限制了。点击“配额→新建配额项”，在选择用户对话框，选中“saler”用户，点击“确定”，然后在“添加新配额项”中为该用户设置配额限制，选中“将磁盘空间限制为”项目，在空白栏中输入“500”，接着在“将警告等级设置为”栏中输入“490”，磁盘容量单位选择“MB”，最后点击“确定”，完成“saler”用户的磁盘配额设置，这样该用户就只能使用500 MB的共享文件夹硬盘空间了。其他用户的配额设置方法是相同，按照上面的步骤配置即可。</p>
+
+<h4 id="6-3-2-备份恢复-磁盘配额">6.3.2 备份恢复“磁盘配额”</h4>
+
+<p>备份磁盘配额项目非常简单，由于“gx”共享文件夹位于D盘，这里秦天SEO以备份Windows 系统的D盘的磁盘配额项目为例，右键点击“D盘”盘符，在弹出的菜单中选择“属性”，切换到“配额”标签页，点击下方的“配额项”按钮，弹出“配额项目”管理对话框，点击“配额→导出”，在“文件名”栏中为备份文件起个名字，最后点击“保存”按钮，完成磁盘配额项目的备份。其它盘符的磁盘配额项目备份和以上相同，不再赘述。</p>
+
+<p>恢复磁盘配额项目同样简单，在配额项目管理对话框中，点击“配额→导入”，然后找到备份文件，点击“打开”按钮后，接着在磁盘配额提示框中点击“是”按钮，完成磁盘配额项目的恢复。</p>
+
+<p>提示：磁盘配额项目的备份和恢复都是以磁盘盘符为单位的，要注意，在进行备份和恢复时，只有NTFS文件系统的磁盘分区才能进行以上操作。</p>
+
+<h4 id="6-3-3-移动共享-注意权限">6.3.3 移动共享，注意权限</h4>
+
+<p>由于某些需要，有时要把共享文件夹移动位置，拷贝到别的目录下。复制操作虽然很简单，但要将共享文件夹所包含的用户访问权限信息和具体共享文件一起复制过去，这是一般的复制操作做不到的。利用“XCOPY”命令就能很好的解决这个问题。</p>
+
+<p>以秦天SEO电脑D盘的gx共享文件夹为例，将共享文件及其所包含的用户访问权限信息，复制到D盘的gxB共享文件夹下。在“命令提示符”窗口中的“D:&gt;”提示符下，运行“xcopy gx gxB /O /S”命令后，就可以将gx共享文件夹和所包含的用户访问权限信息，都复制到gxB共享文件夹下了。其中“/O”参数表示“复制文件的所有权和 ACL 信息”，“/S”表示“复制目录和子目录”。</p>
+
+<h4 id="6-3-4-有备无患-备份acl">6.3.4 有备无患，备份ACL</h4>
+
+<p>如果共享文件夹所包含的ACL信息(用户访问权限)意外丢失，单凭记忆是很难恢复，还有可能造成遗漏，给共享文件夹留下安全隐患。这时用户就可以使用CACLS命令，做好这些共享文件夹的ACL信息备份。</p>
+
+<p>以D盘的共享文件夹gx为例，该共享文件夹中包含着大量的ACL信息，下面就使用CACLS命令对此共享文件夹中的所有ACL信息进行备份。在“命令提示符”窗口中切换到“D:&gt;”提示符下，运行“cacls d:\ gx /t &gt; d:\aclsgx.txt”命令后，就将共享文件夹gx中所包含的ACL信息都备份到D盘的“aclsgx.txt”文件中了。当ACL信息意外丢失时，就可以按照备份文件“aclsgx.txt”中ACL信息，对gx共享文件夹的访问权限进行重新设置，避免了部分ACL信息的遗漏，保证了共享文件夹的安全性。</p>
+
+<p>如图2-2，在这里面可以指定不同用户的访问权限</p>
+
+<h2 id="7-160-160-注意事项">7.&#160;&#160; 注意事项</h2>
+
+<h3 id="7-1-无法共享">7.1 无法共享</h3>
+
+<p>当图1-4变成图7-1中的情况不要着急，请往后面看</p>
+
+<p>遇到这样的问题，一般都是server服务没有启动，开始——运行，输入services.msc后回车，找到server服务（图7-2），启动即可</p>
+
+<p>&#160; <img title="网络共享和安全成灰色" alt="网络共享和安全成灰色" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_033.jpg" width="257" height="309" />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;  <img title="server服务已停止" alt="server服务已停止" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_032.jpg" width="282" height="305" /></p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 图7- 1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 图7- 2</p>
+
+<h3 id="7-2-无法访问">7.2 无法访问</h3>
+
+<p>7.2.1 简单共享下，来宾账户已禁用</p>
+
+<p><figure><img src="/images/ring.svg" data-src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_031.jpg" data-sizes="auto" alt="无法访问共享" title="来宾账户被禁用，无法访问共享" class="lazyload"><figcaption class="image-caption">无法访问共享</figcaption></figure></p>
+
+<p>图7- 3</p>
+
+<p>秦天SEO同事访问秦天SEO电脑的时候无法访问，出现了图7-3的画面，怎么解决了，秦天SEO通过下面的方法轻松解决：</p>
+
+<p>方法一：开启来宾账户</p>
+
+<p>打开控制面板——帐户用户——启用guest用户即可</p>
+
+<p>方法二：使用经典的访问方式，关闭仅来宾访问</p>
+
+<p><img title="网络访问：本地账户的共享和安全模式" alt="网络访问：本地账户的共享和安全模式" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_030.jpg" width="523" height="385" /></p>
+
+<p>图7- 4</p>
+
+<p>7.2.2 空密码，无法访问</p>
+
+<p>如果访问共享资源的账号密码为空，xp默认是无法访问的</p>
+
+<p>解决方法：</p>
+
+<p>开始运行gpedit.msc，打开图7-5，按照图中所示进行设置就可以了</p>
+
+<p>&#160;<img title="禁用账户：使用空密码的本地账户只允许进行控制台登录" alt="账户：使用空密码的本地账户只允许进行控制台登录" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_029.jpg" width="515" height="383" /></p>
+
+<p>图7- 5</p>
+
+<p>7.2.3 没有权限访问共享资源</p>
+
+<p>这种问题比较多样，给出几个典型的</p>
+
+<p>假定销售部门的其他同事用saler帐户无法访问共享资源，提示权限不足，出现了什么问题呢？</p>
+
+<p>a)&#160;&#160; 共享权限的限制</p>
+
+<p>检查秦天SEO电脑里gx文件夹是否给予saler访问权限</p>
+
+<p>b)&#160;&#160; NTFS权限的限制</p>
+
+<p>在gx文件夹的NTFS权限里面看（图7-6），saler用户有没有读取权限</p>
+
+<p><figure><img src="/images/ring.svg" data-src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_028.jpg" data-sizes="auto" alt="NTFS权限的限制 " title="NTFS权限的限制 修改" class="lazyload"><figcaption class="image-caption">NTFS权限的限制 </figcaption></figure></p>
+
+<p>图7- 6</p>
+
+<p>c)&#160;&#160; 本地安全设置限制</p>
+
+<p>如下图7-7中，拒绝了网络访问这台机器，解决方法如图7-8，删除里面的相应帐户即可&#160; <img title="拒绝从网络访问这台计算机" alt="拒绝从网络访问这台计算机" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_027.jpg" width="336" height="265" />&#160;&#160;&#160;  <img title="从拒绝从网络访问这台计算机删除guest账户" alt="从拒绝从网络访问这台计算机删除guest" src="http://img165.poco.cn/mypoco/myphoto/20111207/16/28218277201112071604573868872222270_025.jpg" width="259" height="274" /></p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 图7- 7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 图7- 8</p>
+
+<h2 id="局域网络共享知识大全">局域网络共享知识大全：</h2>
+
+<blockquote>
+<p><a href="http://tsky.cc/post/shared-folder-for-enterprise-lan.html" rel="nofollow" target="_blank">企业局域网如何设置共享文件夹:设置篇</a></p>
+
+<p><a href="http://tsky.cc/post/shared-folder-for-enterprise-lan-2.html" rel="nofollow" target="_blank">企业局域网如何设置共享文件夹:访问管理篇</a></p>
+
+<p><a href="http://tsky.cc/post/shared-folder-for-enterprise-lan-3.html" rel="nofollow" target="_blank">企业局域网如何设置共享文件夹:进阶篇</a>&gt;&gt;&gt;正在阅读</p>
+
+<p><a href="http://tsky.cc/post/hp1522mfp-shared-printer-can-not-print-solutions.html" rel="nofollow" target="_blank">HP1522MFP网络打印机无法打印解决方法</a></p>
+
+<p><a href="http://tsky.cc/post/win7-hp1020plus-can-not-print.html" rel="nofollow" target="_blank">HP1020plus网络打印机WIN7下不能打印解决方法</a></p>
+
+<p><a href="http://tsky.cc/post/hp3020-can-not-print.html" rel="nofollow" target="_blank">HP3020网络打印机不能打印解决方法</a></p>
+
+<p><a href="http://tsky.cc/post/network-printer-not-print-for-win7-driver-compatibility.html" rel="nofollow" target="_blank">Win7驱动兼容问题导致网络打印机无法打印</a></p>
+
+<p><a href="http://tsky.cc/post/win7-network-share-disable-user-logon.html" rel="nofollow" target="_blank">Win7网络共享设置及登录失败：禁用当前用户解决方法</a></p>
+
+<p><a href="http://tsky.cc/post/error-code-2250-unable-to-open-workstation-service.html" rel="nofollow" target="_blank">Workstation服务无法启动错误代码2250导致的网络打印机无法打印</a></p>
+
+<p><a href="http://tsky.cc/post/opc-function-printing-problems.html" rel="nofollow" target="_blank">打印机硒鼓组成及作用&amp;常见打印问题汇总（图文教程）</a></p>
+</blockquote>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html>http://fightx.github.io/post/shared-folder-for-enterprise-lan-3.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E5%A6%82%E4%BD%95%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9/">
+                    #如何共享文件夹</a></span>
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/%E7%BD%91%E7%BB%9C%E5%85%B1%E4%BA%AB/">
+                    #网络共享</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/shared-folder-for-enterprise-lan-2.html" class="prev" rel="prev" title="企业局域网如何设置共享文件夹:访问管理篇"><i class="iconfont icon-left"></i>&nbsp;企业局域网如何设置共享文件夹:访问管理篇</a>
+         
+        
+        <a href="http://fightx.github.io/post/win7-google-chrome-0xc00000a5.html" class="next" rel="next" title="win7升级谷歌浏览器后出现0xc00000a5的解决方法">win7升级谷歌浏览器后出现0xc00000a5的解决方法&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="https://cdn.bootcss.com/lightgallery/1.6.11/css/lg-fb-comment-box.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

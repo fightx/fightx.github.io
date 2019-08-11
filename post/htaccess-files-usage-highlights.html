@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="tsky">
+  <meta name="description" content=" 秦天博客(TSKY.CC)专注企业数字化（ERP、PLM等），个人信息化（工具效率、知识管理）">
+  <meta name="keywords" content="[tsky blog 秦天博客 秦天seo]">
+  
+  <link rel="prev" href="http://fightx.github.io/post/14-can-save-you-time-css-tools.html" />
+  <link rel="next" href="http://fightx.github.io/post/dll-download.html" />
+  <link rel="canonical" href="http://fightx.github.io/post/htaccess-files-usage-highlights.html" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Htaccess文件用法集锦 | Tsky`s Blog
+       
+  </title>
+  <meta name="title" content="Htaccess文件用法集锦 | Tsky`s Blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/fightx.github.io\/"
+    },
+    "articleSection" : "post",
+    "name" : "Htaccess文件用法集锦",
+    "headline" : "Htaccess文件用法集锦",
+    "description" : "1.时区设置 有些时候，当你在PHP里使用date或mktime函数时，由于时区的不同，它会显示出一些很奇怪的信息。下面是解决这个问题的方法之",
+    "inLanguage" : "zh-cn",
+    "author" : "秦天SEO",
+    "creator" : "秦天SEO",
+    "publisher": "秦天SEO",
+    "accountablePerson" : "秦天SEO",
+    "copyrightHolder" : "秦天SEO",
+    "copyrightYear" : "2010",
+    "datePublished": "2010-12-05 05:30:50 \x2b0000 \x2b0000",
+    "dateModified" : "2010-12-05 05:30:50 \x2b0000 \x2b0000",
+    "url" : "http:\/\/fightx.github.io\/post\/htaccess-files-usage-highlights.html",
+    "wordCount" : "1363",
+    "keywords" : [ "htaccess", "Tsky`s Blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="http://fightx.github.io/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="http://fightx.github.io/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="About">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Htaccess文件用法集锦</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://fightx.github.io/" rel="author">秦天SEO</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2010-12-05 itemprop="datePublished">2010-12-05</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://fightx.github.io/categories/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8/"> 网站应用 </a>
+                        
+                </span>
+                <span class="post-word-count">, 1363 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<h3 id="1-时区设置">1.时区设置</h3>
+
+<p>有些时候，当你在PHP里使用date或mktime函数时，由于时区的不同，它会显示出一些很奇怪的信息。下面是解决这个问题的方法之一。就是设置你的服务器的时区。你可以</p>
+
+<p><strong><a href="http://www.php.net/manual/en/timezones.php" rel="nofollow noreferrer" target="_blank">在这里</a></strong>找到所有支持的时区的清单。</p>
+
+<p>SetEnv TZ Australia/Melbourne</p>
+
+<h3 id="2-搜索引擎友好的301永久转向方法">2. 搜索引擎友好的301永久转向方法</h3>
+
+<p>为什么这是搜索引擎友好的呢？因为现在很多现代的搜索引擎都有能根据检查301永久转向来更新它现有的记录的功能。</p>
+
+<ol>
+<li>Redirect 301 <a href="http://www.aqee.net/home" rel="nofollow noreferrer" target="_blank">http://www.aqee.net/home</a> <a href="http://www.aqee.net/" rel="nofollow noreferrer" target="_blank">http://www.aqee.net/</a></li>
+</ol>
+
+<h3 id="3-屏蔽下载对话框">3. 屏蔽下载对话框</h3>
+
+<p>通常，当你下载东西的时候，你会看到一个对话框询问你是保持这个文件还是直接打开它。如果你不想看到这个东西，你可以把下面的一段代码放到你的.htaccess文件里。</p>
+
+<ol>
+<li>AddType application/octet-stream .pdf</li>
+<li>AddType application/octet-stream .zip</li>
+<li>AddType application/octet-stream .mov</li>
+</ol>
+
+<h3 id="4-省去www前缀">4. 省去www前缀</h3>
+
+<p>SEO的一个原则是，确保你的网站只有一个URL。因此，你需要把所有的通过www的访问转向的非www，或者反这来。</p>
+
+<ol>
+<li>RewriteEngine On</li>
+<li>RewriteBase /</li>
+<li>RewriteCond %{HTTP_HOST} ^www.aqee.net [NC]</li>
+<li>RewriteRule ^(.*)$ <a href="http://aqee.net/$1" rel="nofollow noreferrer" target="_blank">http://aqee.net/$1</a> [L,R=301]</li>
+</ol>
+
+<h3 id="5-个性化error页面">5. 个性化Error页面</h3>
+
+<p>对每个错误代码定制自己个性化的错误页面。</p>
+
+<ol>
+<li>ErrorDocument 401 /error/401.php</li>
+<li>ErrorDocument 403 /error/403.php</li>
+<li>ErrorDocument 404 /error/404.php</li>
+<li>ErrorDocument 500 /error/500.php</li>
+</ol>
+
+<h3 id="6-压缩文件">6. 压缩文件</h3>
+
+<p>通过压缩你的文件体积来优化网站的访问速度。</p>
+
+<ol>
+<li># 压缩 text, html, javascript, css, xml:</li>
+<li>AddOutputFilterByType DEFLATE text/plain</li>
+<li>AddOutputFilterByType DEFLATE text/html</li>
+<li>AddOutputFilterByType DEFLATE text/xml</li>
+<li>AddOutputFilterByType DEFLATE text/css</li>
+<li>AddOutputFilterByType DEFLATE application/xml</li>
+<li>AddOutputFilterByType DEFLATE application/xhtml+xml</li>
+<li>AddOutputFilterByType DEFLATE application/rss+xml</li>
+<li>AddOutputFilterByType DEFLATE application/javascript</li>
+<li>AddOutputFilterByType DEFLATE application/x-javascript</li>
+</ol>
+
+<h3 id="7-缓存文件">7. 缓存文件</h3>
+
+<p>缓存文件是另外一个提高你的网站访问速度的好方法。</p>
+
+<ol>
+<li><FilesMatch “.(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$”></li>
+<li>Header set Cache-Control “max-age=2592000″</li>
+<li></FilesMatch></li>
+</ol>
+
+<h3 id="8-对某些文件类型禁止使用缓存">8. 对某些文件类型禁止使用缓存</h3>
+
+<p>而另一方面，你也可以定制对某些文件类型禁止使用缓存。</p>
+
+<ol>
+<li># 显式的规定对脚本和其它动态文件禁止使用缓存</li>
+<li><FilesMatch “.(pl|php|cgi|spl|scgi|fcgi)$”></li>
+<li>Header unset Cache-Control</li>
+<li></FilesMatch></li>
+</ol>
+
+<h3 id="安全问题">安全问题</h3>
+
+<p>下面的htaccess代码能够提高你的web服务器的安全水平。图片链接盗用保护非常有用，它能防止其他人偷盗使用你的服务器上的图片资源。</p>
+
+<h3 id="1-通过-htaccess放盗链">1. 通过.htaccess放盗链</h3>
+
+<p>痛恨那些偷盗链接你的web服务器上的图片资源而耗尽了你的带宽的行为吗？试试这个，你可以防止这种事情的发生。</p>
+
+<ol>
+<li>RewriteBase /</li>
+<li>RewriteCond %{HTTP_REFERER} !^$</li>
+<li>RewriteCond %{HTTP_REFERER} !^http://(www.)?aqee.net/.*$ [NC]</li>
+<li>RewriteRule .(gif|jpg|swf|flv|png)$ /feed/ [R=302,L]</li>
+</ol>
+
+<h3 id="2-防黑客">2. 防黑客</h3>
+
+<p>如果你想提高网站的安全等级，你可以去掉下面的几行代码，这样可以防止一些常见恶意URL匹配的黑客攻击技术。</p>
+
+<ol>
+<li>RewriteEngine On</li>
+<li># proc/self/environ? 没门！</li>
+<li>RewriteCond %{QUERY_STRING} proc/self/environ [OR]</li>
+<li># 阻止脚本企图通过URL修改mosConfig值</li>
+<li>RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]</li>
+<li># 阻止脚本通过URL传递的base64_encode垃圾信息</li>
+<li>RewriteCond %{QUERY_STRING} base64_encode.*(.*) [OR]</li>
+<li># 阻止在URL含有<script>标记的脚本</li>
+<li>RewriteCond %{QUERY_STRING} (&lt;|%3C).*script.*(&gt;|%3E) [NC,OR]</li>
+<li># 阻止企图通过URL设置PHP的GLOBALS变量的脚本</li>
+<li>RewriteCond %{QUERY_STRING} GLOBALS(=|[|\%[0-9A-Z]{0,2}) [OR]</li>
+<li># 阻止企图通过URL设置PHP的_REQUEST变量的脚本</li>
+<li>RewriteCond %{QUERY_STRING} _REQUEST(=|[|\%[0-9A-Z]{0,2})</li>
+<li># 把所有被阻止的请求转向到403禁止提示页面！</li>
+<li>RewriteRule ^(.*)$ index.php [F,L]</li>
+</ol>
+
+<h3 id="3-阻止访问你的-htaccess-文件">3. 阻止访问你的 .htaccess 文件</h3>
+
+<p>下面的代码可以阻止别人访问你的.htaccess文件。同样，你也可以设定阻止多种文件类型。</p>
+
+<ol>
+<li># 保护你的 htaccess 文件</li>
+<li><Files .htaccess></li>
+<li>order allow,deny</li>
+<li>deny from all</li>
+<li></Files></li>
+<li># 阻止查看指定的文件</li>
+<li><Files secretfile.jpg></li>
+<li>order allow,deny</li>
+<li>deny from all</li>
+<li></Files></li>
+<li># 多种文件类型</li>
+<li><FilesMatch “.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$”></li>
+<li>Order Allow,Deny</li>
+<li>Deny from all</li>
+<li></FilesMatch></li>
+</ol>
+
+<h3 id="4-重命名-htaccess-文件">4. 重命名 htaccess 文件</h3>
+
+<p>你可以通过重命名htaccess文件来对其进行保护。</p>
+
+<ol>
+<li>AccessFileName htacc.ess</li>
+</ol>
+
+<h3 id="5-禁止目录浏览">5. 禁止目录浏览</h3>
+
+<p>禁止服务器对外显示目录结构，反之亦然。</p>
+
+<ol>
+<li># 禁止目录浏览</li>
+<li>Options All -Indexes</li>
+<li># 开放目录浏览</li>
+<li>Options All +Indexes</li>
+</ol>
+
+<h3 id="6-改变缺省的index页面">6. 改变缺省的Index页面</h3>
+
+<p>你可以把缺省的 index.html, index.php 或 index.htm 改成其它页面。</p>
+
+<ol>
+<li>DirectoryIndex business.html</li>
+</ol>
+
+<h3 id="7-通过引用信息来阻止某些不欢迎的浏览者">7. 通过引用信息来阻止某些不欢迎的浏览者</h3>
+
+<ol>
+<li># 阻止来自某网站的用户</li>
+<li><IfModule mod_rewrite.c></li>
+<li>RewriteEngine on</li>
+<li>RewriteCond %{HTTP_REFERER} scumbag.com [NC,OR]</li>
+<li>RewriteCond %{HTTP_REFERER} wormhole.com [NC,OR]</li>
+<li>RewriteRule .* &#8211; [F]</li>
+<li></ifModule></li>
+</ol>
+
+<h3 id="8-通过判断浏览器头信息来阻止某些请求">8. 通过判断浏览器头信息来阻止某些请求</h3>
+
+<p>这个方法可以通过阻止某些机器人或蜘蛛爬虫抓取你的网站来节省你的带宽流量。</p>
+
+<ol>
+<li># 阻止来自某些特定网站的用户</li>
+<li><IfModule mod_rewrite.c></li>
+<li>SetEnvIfNoCase ^User-Agent$ .*(craftbot|download|extract|stripper|sucker|ninja|clshttp|webspider|leacher|collector|grabber|webpictures) HTTP_SAFE_BADBOT</li>
+<li>SetEnvIfNoCase ^User-Agent$ .*(libwww-perl|aesop_com_spiderman) HTTP_SAFE_BADBOT</li>
+<li>Deny from env=HTTP_SAFE_BADBOT</li>
+<li></ifModule></li>
+</ol>
+
+<h3 id="9-禁止脚本执行-加强你的目录安全">9. 禁止脚本执行，加强你的目录安全</h3>
+
+<ol>
+<li># 禁止某些目录里的脚本执行权限</li>
+<li>AddHandler cgi-script .php .pl .py .jsp .asp .htm .shtml .sh .cgi</li>
+<li>Options -ExecCGI</li>
+</ol>
+
+<p>[英文出处]：<a href="http://www.aqee.net/2010/11/28/htaccess-usage/" rel="nofollow" target="_blank">Link</a> [译文来源]：<a href="http://www.aqee.net/2010/12/02/htaccess-usage/" rel="nofollow" target="_blank">外刊IT评论</a></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>tsky </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://fightx.github.io/post/htaccess-files-usage-highlights.html>http://fightx.github.io/post/htaccess-files-usage-highlights.html</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://fightx.github.io/tags/htaccess/">
+                    #htaccess</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://fightx.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://fightx.github.io/post/14-can-save-you-time-css-tools.html" class="prev" rel="prev" title="14个可以节省你时间的CSS工具"><i class="iconfont icon-left"></i>&nbsp;14个可以节省你时间的CSS工具</a>
+         
+        
+        <a href="http://fightx.github.io/post/dll-download.html" class="next" rel="next" title="DLL动态链接库下载大全">DLL动态链接库下载大全&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: 'c014ec8c1c8e3c39f5f1',
+        clientSecret: 'e65724d66f9441f6305b7a0d6009668ab8cf9b97',
+        repo: 'fightx.github.io',
+        owner: 'fightx',
+        admin: ['fightx'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://fightx.github.io/">tsky</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

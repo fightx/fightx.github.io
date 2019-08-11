@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>惠普 on Tsky`s Blog</title>
+    <link>http://fightx.github.io/tags/%E6%83%A0%E6%99%AE/</link>
+    <description>Recent content in 惠普 on Tsky`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 Nov 2011 15:03:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://fightx.github.io/tags/%E6%83%A0%E6%99%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Win7驱动兼容问题导致网络打印机无法打印</title>
+      <link>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</link>
+      <pubDate>Wed, 30 Nov 2011 15:03:22 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/network-printer-not-print-for-win7-driver-compatibility.html</guid>
+      <description>关于网络打印机无法打印的问题，秦天SEO已经介绍了几篇，其中有权限问题、主机名解析问题、打印服务问题、ip地址冲突问题，这些问题隐藏性比较强</description>
+    </item>
+    
+    <item>
+      <title>HP1522MFP网络打印机无法打印解决方法</title>
+      <link>http://fightx.github.io/post/hp1522mfp-shared-printer-can-not-print-solutions.html</link>
+      <pubDate>Mon, 24 Oct 2011 03:36:00 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/hp1522mfp-shared-printer-can-not-print-solutions.html</guid>
+      <description>秦天SEO写了几篇关于打印机无法打印的问题，HP3020网络打印机无法打印解决方法、HP1020plus网络打印机WIN7下无法打印解决方法</description>
+    </item>
+    
+    <item>
+      <title>打印机硒鼓组成及作用&amp;常见打印问题汇总（图文教程）</title>
+      <link>http://fightx.github.io/post/opc-function-printing-problems.html</link>
+      <pubDate>Fri, 21 Oct 2011 08:45:10 +0000</pubDate>
+      
+      <guid>http://fightx.github.io/post/opc-function-printing-problems.html</guid>
+      <description>如今打印机的硒鼓主要分为两种：一种是鼓粉分离式，另一种一种是鼓粉一体式。而惠普打印机的硒鼓，大都是采用用鼓粉一体式的结构，例如Q2612A硒</description>
+    </item>
+    
+  </channel>
+</rss>
